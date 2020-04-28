@@ -150,7 +150,7 @@ ol {
   min-width: 186px;
   padding: 23px 47px;
   text-transform: uppercase;
-  background: #65cfc5;
+  background: #3fbcac;
   color: #fff;
   line-height: normal;
   cursor: pointer;
@@ -189,7 +189,7 @@ ol {
 
 .site-btn.sb-dark:hover {
   /* color: #fff;
-  background: #65cfc5; */
+  background: #3fbcac; */
   background-color: transparent;
   color: #e9d028;
 }
@@ -217,7 +217,7 @@ ol {
 
 .site-btn.sb-white:hover {
   color: #fff;
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 /* Preloder */
@@ -305,7 +305,7 @@ ol {
 }
 
 .accordion-area .panel-header.active .panel-link {
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 .accordion-area .panel-header.active .panel-link.collapsed {
@@ -386,7 +386,7 @@ ol {
 }
 
 .tab-element .nav-tabs .nav-link.active {
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 .tab-element .tab-pane p {
@@ -418,7 +418,7 @@ ol {
   margin-top: -20px;
   font-size: 30px;
   font-weight: 300;
-  color: #65cfc5;
+  color: #3fbcac;
 }
 
 .search-model {
@@ -524,7 +524,7 @@ ol {
   color: #fff;
   font-size: 25px;
   border: none;
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 .search-switch-warp {
@@ -571,7 +571,7 @@ ol {
   height: 7px;
   left: 0;
   bottom: 0;
-  background: #65cfc5;
+  background: #3fbcac;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -604,7 +604,7 @@ ol {
 }
 
 .site-nav-menu ul li .sub-menu li a:hover {
-  color: #65cfc5;
+  color: #3fbcac;
 }
 
 .site-nav-menu ul li .sub-menu li a:after {
@@ -652,7 +652,7 @@ ol {
 .hero-slider .owl-nav button.owl-prev:hover,
 .hero-slider .owl-nav button.owl-next:hover {
   color: #fff;
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 .hero-slider .owl-nav button.owl-next {
@@ -684,7 +684,7 @@ ol {
   padding-left: 25px;
   padding-bottom: 15px;
   display: inline-block;
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 .hero-item h2 span:nth-child(1) {
@@ -747,7 +747,7 @@ ol {
  .hero-slider .owl-nav button.owl-prev:hover,
  .hero-slider .owl-nav button.owl-next:hover {
    color: #fff;
-   background: #65cfc5;
+   background: #3fbcac;
  }
  
  .hero-slider .owl-nav button.owl-next {
@@ -779,7 +779,7 @@ ol {
    padding-left: 25px;
    padding-bottom: 15px;
    display: inline-block;
-   background: #65cfc5;
+   background: #3fbcac;
  }
  
  .hero-item h2 span:nth-child(1) {
@@ -857,7 +857,7 @@ ol {
   top: -4px;
   -webkit-box-shadow: 0 0 0 #000;
   box-shadow: 0 0 0 #000;
-  border-top: 4px solid #65cfc5;
+  border-top: 4px solid #3fbcac;
   z-index: -1;
 }
 
@@ -878,7 +878,8 @@ ol {
 
 .service-item h5 {
   overflow: hidden;
-  padding-top: 12px;
+  padding-top: 14px;
+  color:#333;
 }
 
 .service-item p {
@@ -916,17 +917,17 @@ ol {
 
 .feature-box .fb-more-btn {
   display: inline-block;
-  color: #65cfc5;
+  color: #3fbcac;
   font-size: 12px;
   text-transform: uppercase;
-  border: 2px solid #65cfc5;
+  border: 2px solid #3fbcac;
   padding: 15px;
   min-width: 128px;
   text-align: center;
 }
 
 .feature-box .fb-more-btn:hover {
-  background: #65cfc5;
+  background: #3fbcac;
   color: #fff;
 }
 
@@ -1013,7 +1014,7 @@ ol {
 }
 
 .testimonial-slider .owl-dots .owl-dot.active {
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 .testimonial {
@@ -1052,7 +1053,7 @@ ol {
 
 .cta-section {
   padding: 33px 0;
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 .cta-section h2 {
@@ -1150,8 +1151,8 @@ ol {
   margin-bottom: 15px;
 }
 
-.footer-widget ul li a :hover {
- color: #ffffff;
+.footer-widget ul li a:hover {
+ color: #e9d028;
 
 }
 .footer-widget .footer-search {
@@ -1176,7 +1177,7 @@ ol {
   height: 100%;
   right: 0;
   top: 0;
-  color: #65cfc5;
+  color: #3fbcac;
   font-size: 12px;
   border: none;
   background: transparent;
@@ -1204,7 +1205,7 @@ ol {
 }
 
 .footer-social a:hover {
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 .footer-info-box {
@@ -1242,7 +1243,7 @@ ol {
 }
 
 .copyright a:hover {
-  color: #65cfc5;
+  color: #3fbcac;
 }
 
 .footer-menu {
@@ -1270,7 +1271,7 @@ ol {
   height: 1px;
   left: 0;
   bottom: 0;
-  background: #65cfc5;
+  background: #3fbcac;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -1336,7 +1337,7 @@ ol {
 
 .about-text .sign-info span {
   font-size: 14px;
-  color: #65cfc5;
+  color: #3fbcac;
 }
 
 .milestones-section {
@@ -1381,7 +1382,7 @@ ol {
   font-weight: 300;
   line-height: 0.9;
   margin-bottom: 5px;
-  color: #65cfc5;
+  color: #3fbcac;
 }
 
 .milestone-text p {
@@ -1503,7 +1504,7 @@ ol {
 }
 
 .reserch-tab-menu li.nav-item a.nav-link.active {
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 .reserch-tab {
@@ -1561,7 +1562,7 @@ ol {
 
 .info-box a {
   font-size: 14px;
-  color: #65cfc5;
+  color: #3fbcac;
   text-decoration: underline;
 }
 
@@ -1596,7 +1597,7 @@ ol {
   height: 100%;
   left: 0;
   top: 0;
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 .progress-bar-style .bar-inner span {
@@ -1635,7 +1636,7 @@ ol {
   height: 6px;
   left: 0;
   top: 0;
-  background: #65cfc5;
+  background: #3fbcac;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -1655,8 +1656,8 @@ ol {
 }
 
 .sb-widget ul li a:hover {
-  color: #65cfc5;
-  border-bottom: 1px solid #65cfc5;
+  color: #3fbcac;
+  border-bottom: 1px solid #3fbcac;
 }
 
 .sb-widget .sb-search {
@@ -1681,7 +1682,7 @@ ol {
   height: 100%;
   right: 0;
   top: 0;
-  color: #65cfc5;
+  color: #3fbcac;
   font-size: 12px;
   border: none;
   background: transparent;
@@ -1714,7 +1715,7 @@ ol {
   color: #fff;
   padding: 4px 13px;
   line-height: 1.3;
-  background: #65cfc5;
+  background: #3fbcac;
 }
 
 .blog-post {
@@ -1824,7 +1825,7 @@ ol {
 
 .site-pagination a.current {
   color: #fff;
-  background: #65cfc5;
+  background: #3fbcac;
   padding: 13px 15px;
 }
 
@@ -1849,7 +1850,7 @@ ol {
 .map-info {
   max-width: 293px;
   padding: 79px 25px 75px;
-  background: #65cfc5;
+  background: #3fbcac;
   position: relative;
 }
 
@@ -1858,7 +1859,7 @@ ol {
   content: "";
   left: 0;
   bottom: -17px;
-  border-left: 27px solid #65cfc5;
+  border-left: 27px solid #3fbcac;
   border-top: 0px solid transparent;
   border-bottom: 17px solid transparent;
 }
@@ -1923,7 +1924,7 @@ ol {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-bottom: 3px solid #65cfc5;
+  border-bottom: 3px solid #3fbcac;
 }
 
 .contact-form textarea {
