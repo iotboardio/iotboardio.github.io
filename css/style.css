@@ -597,6 +597,7 @@
    width: 84px;
    height: 84px;
    top: calc( 50% - 42px);
+   display: none;
    left: 0;
    font-size: 30px;
    color: #081624;
@@ -627,7 +628,7 @@
  }
  
  .hero-item h2 {
-   font-size: 90px;
+   font-size: 70px;
    font-weight: 300;
    color: #fff;
    margin-bottom: 34px;
