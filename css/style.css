@@ -633,6 +633,7 @@ ol {
 /* ----------------
   Hero Section
   ---------------------*/
+<<<<<<< HEAD
 
 .hero-slider .owl-nav button.owl-prev,
 .hero-slider .owl-nav button.owl-next {
@@ -726,6 +727,102 @@ ol {
 }
 
 /* ----------------
+=======
+ 
+ .hero-slider .owl-nav button.owl-prev,
+ .hero-slider .owl-nav button.owl-next {
+   position: absolute;
+   width: 84px;
+   height: 84px;
+   top: calc( 50% - 42px);
+   display: none;
+   left: 0;
+   font-size: 30px;
+   color: #081624;
+   background: #fff;
+   -webkit-transition: all 0.4s;
+   transition: all 0.4s;
+ }
+ 
+ .hero-slider .owl-nav button.owl-prev:hover,
+ .hero-slider .owl-nav button.owl-next:hover {
+   color: #fff;
+   background: #65cfc5;
+ }
+ 
+ .hero-slider .owl-nav button.owl-next {
+   left: auto;
+   right: 0;
+ }
+ 
+ .hero-item {
+   height: 777px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+ }
+ 
+ .hero-item h2 {
+   font-size: 70px;
+   font-weight: 300;
+   color: #fff;
+   margin-bottom: 34px;
+   opacity: 0;
+   top: 50px;
+   position: relative;
+ }
+ 
+ .hero-item h2 span {
+   padding-left: 25px;
+   padding-bottom: 15px;
+   display: inline-block;
+   background: #65cfc5;
+ }
+ 
+ .hero-item h2 span:nth-child(1) {
+   color: #081624;
+ }
+ 
+ .hero-item h2 span:nth-child(2) {
+   padding-right: 14px;
+ }
+ 
+ .hero-item h2 span:last-child {
+   padding-right: 30px;
+ }
+ 
+ .hero-item .site-btn {
+   opacity: 0;
+   top: 50px;
+   position: relative;
+ }
+ 
+ .hero-slider .owl-item.active .hero-item h2,
+ .hero-slider .owl-item.active .hero-item .site-btn {
+   top: 0;
+   opacity: 1;
+ }
+ 
+ .hero-slider .owl-item.active .hero-item h2 {
+   -webkit-transition: all 0.5s ease 0.2s;
+   transition: all 0.5s ease 0.2s;
+ }
+ 
+ .hero-slider .owl-item.active .hero-item .site-btn {
+   -webkit-transition: all 0.5s ease 0.4s;
+   transition: all 0.5s ease 0.4s;
+ }
+ 
+ .hero-slider .owl-item.active .hero-item .site-btn:last-child {
+   -webkit-transition: all 0.5s ease 0.6s;
+   transition: all 0.5s ease 0.6s;
+ }
+ 
+ /* ----------------
+>>>>>>> 29ea7973879ef678ce9537b61b3d705f2ea503c9
  Service Section
   ---------------------*/
 
