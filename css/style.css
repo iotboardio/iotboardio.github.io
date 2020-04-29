@@ -105,8 +105,7 @@ ol {
 }
 
 .spad {
-  padding-top: 103px;
-  padding-bottom: 103px;
+  padding: 80px 0;
 }
 
 .text-white h1,
@@ -918,7 +917,8 @@ ol {
 .feature-box .fb-more-btn {
   display: inline-block;
   color: #3fbcac;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 500;
   text-transform: uppercase;
   border: 2px solid #3fbcac;
   padding: 15px;
@@ -1125,7 +1125,7 @@ ol {
 }
 
 .footer-widget.about-widget img {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .footer-widget.about-widget p {
@@ -1136,7 +1136,7 @@ ol {
   font-size: 22px;
   font-weight: 300;
   color: #fff;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .footer-widget ul {
@@ -1234,7 +1234,8 @@ ol {
 .copyright {
   color: #646470;
   font-size: 14px;
-  padding-top: 25px;
+  padding: 25px 0;
+  text-align: center;
 }
 
 .copyright a {
