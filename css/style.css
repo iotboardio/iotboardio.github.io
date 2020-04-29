@@ -168,22 +168,22 @@ ol {
     transition-duration: 0.2s, 0.2s;
     transition-timing-function: ease, ease;
     transition-delay: 0s, 0s; */
-    background-color: #e9d028;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    /* padding: 14px 120px 14px 40px; */
-    border: 2px solid #e9d028;
-    /* border-radius: 30px; */
-    text-decoration: none;
-    text-transform: uppercase;
-    position: relative;
-    -webkit-transition: all .2s,color .2s;
-    -moz-transition: all .2s,color .2s;
-    -o-transition: all .2s,color .2s;
-    transition: all .2s,color .2s;
-    display: inline-block;
-    /* max-width: 300px; */
+  background-color: #e9d028;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  /* padding: 14px 120px 14px 40px; */
+  border: 2px solid #e9d028;
+  /* border-radius: 30px; */
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  -webkit-transition: all .2s, color .2s;
+  -moz-transition: all .2s, color .2s;
+  -o-transition: all .2s, color .2s;
+  transition: all .2s, color .2s;
+  display: inline-block;
+  /* max-width: 300px; */
 }
 
 .site-btn.sb-dark:hover {
@@ -632,7 +632,7 @@ ol {
 /* ----------------
   Hero Section
   ---------------------*/
-<<<<<<< HEAD
+
 
 .hero-slider .owl-nav button.owl-prev,
 .hero-slider .owl-nav button.owl-next {
@@ -690,7 +690,7 @@ ol {
 
 .hero-item h2 span:nth-child(1) {
   /* color: #081624; */
-  color:#fff;
+  color: #fff;
 }
 
 .hero-item h2 span:nth-child(2) {
@@ -862,6 +862,20 @@ ol {
   z-index: -1;
 }
 
+.section__head {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.services-section h2 {
+  color: #1f2a44;
+  letter-spacing: .13em;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .service-item {
   margin-bottom: 55px;
   padding-right: 20px;
@@ -880,7 +894,7 @@ ol {
 .service-item h5 {
   overflow: hidden;
   padding-top: 14px;
-  color:#333;
+  color: #333;
 }
 
 .service-item p {
@@ -943,8 +957,14 @@ ol {
 }
 
 .client-text h2 {
-  font-weight: 300;
-  margin-bottom: 40px;
+  /* font-weight: 300;
+  margin-bottom: 40px; */
+  color: #1f2a44;
+  letter-spacing: .13em;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .client-text p {
@@ -1154,9 +1174,10 @@ ol {
 }
 
 .footer-widget ul li a:hover {
- color: #e9d028;
+  color: #e9d028;
 
 }
+
 .footer-widget .footer-search {
   position: relative;
 }
