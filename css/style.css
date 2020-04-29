@@ -670,9 +670,10 @@ ol {
 }
 
 .hero-item h2 {
-  font-size: 90px;
-  font-weight: 300;
+  font-size: 62px;
+  font-weight: 700;
   color: #fff;
+  text-transform: uppercase;
   margin-bottom: 34px;
   opacity: 0;
   top: 50px;
@@ -683,11 +684,13 @@ ol {
   padding-left: 25px;
   padding-bottom: 15px;
   display: inline-block;
-  background: #3fbcac;
+  color: #fff;
+  /* background: #3fbcac; */
 }
 
 .hero-item h2 span:nth-child(1) {
-  color: #081624;
+  /* color: #081624; */
+  color:#fff;
 }
 
 .hero-item h2 span:nth-child(2) {
@@ -821,7 +824,6 @@ ol {
  }
  
  /* ----------------
->>>>>>> 29ea7973879ef678ce9537b61b3d705f2ea503c9
  Service Section
   ---------------------*/
 
