@@ -669,14 +669,14 @@ ol {
   align-items: center;
 }
 
-.hero-item h2 {
+.hero-item h1 {
   font-size: 62px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 34px;
-  opacity: 0;
-  top: 50px;
+  /* opacity: 0; */
+  /* top: 50px; */
   position: relative;
 }
 
