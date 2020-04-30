@@ -469,8 +469,8 @@ ol {
   ---------------------*/
 
 .header-top {
-  padding: 14px 40px;
-  background: #081624;
+  padding: 12px 0;
+  background: #f2f2f2;
 }
 
 .header-top p {
@@ -479,13 +479,30 @@ ol {
   font-size: 12px;
   line-height: 1;
 }
-
-.site-logo {
+.header-top {
+  padding: 13px 0;
+}
+.header-info-left ul li {
+  color: #0b1a37;
+  display: inline-block;
+  margin-right: 33px;
+  padding-right: 33px;
+  border-right: 1px solid #0b1b3a;
+  font-family: roboto,sans-serif;
+  font-size: 14px;
+}
+/* .site-logo {
   display: inline-block;
   margin-right: 100px;
   padding-left: 63px;
-}
+} */
 
+.get-btn {
+  padding: 31px 30px;
+  background: #3fbcac;
+  color: #fff;
+  display: block;
+}
 .header-right {
   float: right;
   padding-right: 83px;
@@ -545,6 +562,7 @@ ol {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  float: right;
 }
 
 .site-nav-menu ul {
@@ -2422,5 +2440,5 @@ ol {
 }
 
 .iot-logo {
-  width: 50%;
+  width: 100%;
 }
