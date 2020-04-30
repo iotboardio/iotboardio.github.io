@@ -170,7 +170,7 @@
 				<div class="col-lg-8">
 					<div class="contact-widget">
 						<div class="contact-form-result"></div>
-						<form class="contact-form nobottommargin" action="" id="template-contactform" name="template-contactform"
+						<form class="contact-form nobottommargin" action="https://thinkitive.com/include/sendemail-1.php" id="template-contactform" name="template-contactform"
 							method="post" novalidate="novalidate">
 							<div class="form-process"></div>
 							<!-- <div class="col_full form__appearance" data-children-count="1">
@@ -419,25 +419,6 @@
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
-		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-	<script>
-		$('.hapus_krs').click(function () {
-			var formData = {
-				'id_mhs': $(this).attr('value')
-			};
-			$.ajax({
-					type: 'POST',
-					url: 'https://thinkitive.com/include/sendemail-1.php',
-					data: formData,
-					dataType: 'json',
-					encode: true
-				})
-				.done(function (data) {
-					console.log(data);
-				})
-		});
-	</script>
 	
 </body>
 
