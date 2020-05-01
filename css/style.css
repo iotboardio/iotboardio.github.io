@@ -161,13 +161,7 @@ ol {
 }
 
 .site-btn.sb-dark {
-  /* color: #fff;
-  background: #081624;
-  transition: all .2s,color .2s;
-    transition-property: all, color;
-    transition-duration: 0.2s, 0.2s;
-    transition-timing-function: ease, ease;
-    transition-delay: 0s, 0s; */
+
   background-color: #e9d028;
   color: #fff;
   font-size: 14px;
@@ -479,18 +473,21 @@ ol {
   font-size: 12px;
   line-height: 1;
 }
+
 .header-top {
   padding: 13px 0;
 }
+
 .header-info-left ul li {
   color: #0b1a37;
   display: inline-block;
   margin-right: 33px;
   padding-right: 33px;
   border-right: 1px solid #0b1b3a;
-  font-family: roboto,sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 14px;
 }
+
 /* .site-logo {
   display: inline-block;
   margin-right: 100px;
@@ -498,12 +495,11 @@ ol {
 } */
 .site-logo .iot-logo {
   text-align: left;
-    /* background-size: 207px auto; */
-    /* background-position: -16px -1454px; */
-    width: 207px;
-    /* height: 50px; */
-    top: 26px;
-    position: relative;
+  width: 207px;
+
+  float: left;
+  top: 26px;
+  position: relative;
 }
 
 .get-btn {
@@ -512,6 +508,7 @@ ol {
   color: #fff;
   display: block;
 }
+
 .header-right {
   float: right;
   padding-right: 83px;
@@ -857,9 +854,9 @@ ol {
  Service Section
   ---------------------*/
 
- .services-section {
-   padding: 80px 0;
- }
+.services-section {
+  padding: 80px 0;
+}
 
 /* .services-warp {
   padding-top: 56px;
@@ -939,19 +936,19 @@ ol {
   Idustry Section End
   ---------------------*/
 
-  .industry_sec .industry_heading {
-    text-align: center;
-    text-transform: uppercase;
-  }
+.industry_sec .industry_heading {
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  .industry_sec .industry_heading h2 {
-    color: #ffffff;
-    letter-spacing: .13em;
-    margin-top: 15px;
-    margin-bottom: 45px;
-    font-size: 32px;
-    font-weight: 700;
-  }
+.industry_sec .industry_heading h2 {
+  color: #ffffff;
+  letter-spacing: .13em;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  font-size: 32px;
+  font-weight: 700;
+}
 
 
 .industry_sec .imgb {
@@ -2296,6 +2293,12 @@ ol {
     text-align: center;
   }
 
+  .site-logo .iot-logo {
+
+    top: 0;
+
+  }
+
   .header-right {
     display: none;
   }
@@ -2323,10 +2326,15 @@ ol {
     background: transparent;
   }
 
+  .header-bottom {
+    height: 70px;
+  }
+
   .slicknav_btn {
-    margin: 0 auto 20px;
+    margin: -50px 20px 15px;
+    /* margin: 0 auto 20px; */
     background: #081624;
-    float: none;
+    /* float: none; */
     display: inline-block;
   }
 
