@@ -496,6 +496,15 @@ ol {
   margin-right: 100px;
   padding-left: 63px;
 } */
+.site-logo .iot-logo {
+  text-align: left;
+    /* background-size: 207px auto; */
+    /* background-position: -16px -1454px; */
+    width: 207px;
+    /* height: 50px; */
+    top: 26px;
+    position: relative;
+}
 
 .get-btn {
   padding: 31px 30px;
@@ -2439,6 +2448,6 @@ ol {
   }
 }
 
-.iot-logo {
+/* .iot-logo {
   width: 100%;
-}
+} */
