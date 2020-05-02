@@ -487,6 +487,69 @@ ol {
   font-family: roboto, sans-serif;
   font-size: 14px;
 }
+.header-info-right ul li {
+  color: #0b1a37;
+  display: inline-block;
+  /* margin-right: 33px; */
+  padding-right: 5px;
+  
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+}
+.header-info-right ul li a{
+  display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 41px;
+    height: 41px;
+    color: #c8c8c8;
+    /* margin-right: 14px; */
+    /* margin-bottom: 14px; */
+    /* border-radius: 13px; */
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* background: #39334f; */
+    transition: all .3s ease;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+ul.style-fall li a:hover:after {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+ul.social-icons .twitter a:hover {
+  background-color: #47c0d8 !important;
+  color: #fff;
+}
+ul.social-icons .facebook a:hover {
+  background-color: #49699f !important;
+  color: #fff;
+}
+
+ul.social-icons .linkedin a:hover {
+  background-color: #2c7cb7;
+  color: #fff;
+}
+ul.social-icons .instagram a:hover {
+  background-color: #c13584 !important;
+  color: #fff;
+}
+/* .style-fall .twitter a:hover {
+  background-color: #47c0d8;
+  color:#fff !important;
+} */
+
 
 /* .site-logo {
   display: inline-block;
@@ -2107,9 +2170,9 @@ ol {
     margin-right: 0;
   }
 
-  .site-nav-menu ul li a {
+  /* .site-nav-menu ul li a {
     margin-right: 0;
-  }
+  } */
 
   .search-switch {
     width: 50px;
@@ -2126,11 +2189,14 @@ ol {
 
   .site-logo {
     display: block;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-left: 0;
     margin-right: 0;
     margin-bottom: 20px;
     text-align: center;
+  }
+  .site-nav-menu ul li a {
+    margin-right: 0 !important;
   }
 
   .header-right {
@@ -2174,12 +2240,16 @@ ol {
     text-align: center;
   }
 
+  .site-nav-menu ul li a {
+    margin-right: 0 !important;
+  }
+
   .site-logo {
     display: block;
     padding-top: 20px;
     padding-left: 0;
     margin-right: 0;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-align: center;
   }
 
