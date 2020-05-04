@@ -32,7 +32,7 @@ $(window).on('load', function() {
 		allowParentLinks: true
 	});
 
-	$('.slicknav_nav').append('<li class="search-switch-warp"><button class="search-switch"><i class="fa fa-search"></i></button></li>');
+	$('.slicknav_nav').append('<li class="search-switch-warp"></li>');
 
 
 	/*------------------
