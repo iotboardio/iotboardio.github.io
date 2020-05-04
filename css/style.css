@@ -463,7 +463,7 @@ ol {
   ---------------------*/
 
 .header-top {
-  padding: 12px 0;
+  /* padding: 12px 0; */
   background: #f2f2f2;
 }
 
@@ -472,10 +472,6 @@ ol {
   color: #718090;
   font-size: 12px;
   line-height: 1;
-}
-
-.header-top {
-  padding: 13px 0;
 }
 
 .header-info-left ul li {
