@@ -45,62 +45,132 @@
 		})();
 	</script>
 	<!--End of Tawk.to Script-->
+
+	<style>
+		.sticky {
+			background: #fff;
+			/* left: 0;
+			margin: auto;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			-webkit-box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
+			box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
+			z-index: 9999;
+			-webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+			animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+			-webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, .1);
+			background: #fff; */
+
+		}
+
+		.fixed {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			-webkit-box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
+			box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
+			z-index: 9999;
+			-webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+			animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+			-webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, .1);
+			background: #fff;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- Page Preloder -->
-	<div id="preloder">
+	<!-- <div id="preloder">
 		<div class="loader"></div>
-	</div>
+	</div> -->
 
 	<!-- Header section  -->
 	<header class="header-section clearfix">
-		<div class="site-navbar">
-			<!-- Logo -->
-			<a href="index.html" class="site-logo">
-				<img class="iot-logo" src="img/IOT-350x180.png" alt="">
-			</a>
-			<div class="header-right">
-				<div class="header-info-box">
-					<div class="hib-icon">
-						<img src="img/icons/phone.png" alt="" class="">
-					</div>
-					<div class="hib-text">
-						<h6>+91 91727 53107</h6>
-						<p>sales@thinkitive.com</p>
-					</div>
-				</div>
-				<div class="header-info-box">
-					<div class="hib-icon">
-						<img src="img/icons/map-marker.png" alt="" class="">
-					</div>
-					<div class="hib-text">
-						<h6>Baner Road</h6>
-						<p>Pune – 411045</p>
-					</div>
-				</div>
-				
-			</div>
-			<!-- Menu -->
-			<nav class="site-nav-menu">
-				<ul>
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About us</a></li>
-					<li><a href="solutions.html">Industries</a>
-						<ul class="sub-menu">
-							<li><a href="natural-resources.html">Natural Resources</a></li>
-							<li><a href="gas-and-oil.html">Oil & Gas</a></li>
-							<li><a href="data-center.html">Data Center</a></li>
-							<li><a href="manufacturing .html">Manufacturing </a></li>
-							<li><a href="transportation.html">Transportation</a></li>
-							<li><a href="healthcare.html">Healthcare</a></li>
-						</ul>
-					</li>
-					<li><a href="https://blog.thinkitive.com/category/iot/" target="blank">Blog</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+		<div class="header-top top-bg d-none d-lg-block">
+			<div class="container">
+				<div class="col-xl-12">
+					<div class="row d-flex justify-content-between align-items-center">
+						<div class="header-info-left">
+							<ul>
+								<li>+91 91727 53107
+								</li>
+								<li>sales@thinkitive.com</li>
+							</ul>
+						</div>
+						<div class="header-info-right">
+							<ul class="social-icons style-fall">
+								<li class="facebook"><a href="https://www.facebook.com/thinkitivetech" target="blank"><i
+											class="fa fa-facebook"></i></a></li>
+								<li class="twitter"> <a href="https://twitter.com/thinkitivetech" target="blank"><i
+											class="fa fa-twitter"></i></a>
+								</li>
+								<li class="linkedin"><a href="https://www.linkedin.com/company/thinkitive"
+										target="blank"><i class="fa fa-linkedin"></i></a></li>
 
+								<li class="instagram"><a href="https://www.instagram.com/thinkitivetech/"
+										target="blank"><i class="fa fa-instagram"></i></a></li>
+
+							
+							</ul>
+						</div>
+					</div>
+				</div>
+<<<<<<< HEAD
+=======
+				<button class="search-switch"><i class="fa fa-search"></i></button>
+>>>>>>> parent of 3a06920... testing project section
+			</div>
+		</div>
+		<div class="header-bottom  header-sticky sticky fixed">
+			<div class="container">
+				<div class="site-navbar">
+					<!-- Logo -->
+					<a href="index.html" class="site-logo">
+						<img class="iot-logo" src="img/IOT-350x180.png" alt="">
+					</a>
+
+					<!-- Menu -->
+					<nav class="site-nav-menu">
+						<ul>
+							<li class=""><a href="index.html">Home</a></li>
+							<li><a href="">Services</a>
+								<ul class="sub-menu">
+									<li><a href="services/iot-aws.html">IoT on AWS</a></li>
+									<li><a href="services/open-source.html">Open Source</a></li>
+									<li><a href="services/custom-development.html">Custom Development</a></li>
+									<li><a href="services/tinyml.html">TinyML</a></li>
+
+								</ul>
+							</li>
+							<li><a href="">Industries</a>
+								<ul class="sub-menu">
+									<li><a href="natural-resources.html">Energy & Solar
+										</a></li>
+									<li><a href="gas-and-oil.html">Smart Buildings
+										</a></li>
+									<li><a href="data-center.html">Retail
+										</a></li>
+									<li><a href="manufacturing .html">Data Centers
+										</a></li>
+									<li><a href="transportation.html">Transportation</a></li>
+									<li><a href="healthcare.html">Telecom</a></li>
+									<li><a href="healthcare.html">Manufacturing
+										</a></li>
+									<li><a href="healthcare.html">Healthcare
+										</a></li>
+								</ul>
+							</li>
+							<li><a href="https://blog.thinkitive.com/category/iot/" target="blank">Blog</a></li>
+							<li><a href="about.html">About us</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+
+				</div>
+
+			</div>
 		</div>
 	</header>
 	<!-- Header section end  -->
@@ -108,7 +178,20 @@
 	<!-- Hero section  -->
 	<section class="hero-section">
 		<div class="hero-slider owl-carousel">
-			<div class="hero-item set-bg" data-setbg="img/hero-slider/main_iot.jpg">
+			<div class="hero-item set-bg" data-setbg="img/hero-slider/bg-iot-landing.jpg">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-8">
+							<h1>THE INTERNET OF THINGS</h1>
+							<!-- <h2><span>Internet</span><span>Of</span><span>Things</span></h2> -->
+							<a href="#" class="site-btn sb-white mr-4 mb-3">Read More</a>
+							<a href="#" class="site-btn sb-dark">our Services</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="hero-item set-bg" data-setbg="img/hero-slider/main_iot.jpg">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-8">
@@ -118,18 +201,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="hero-item set-bg" data-setbg="img/hero-slider/main_iot.jpg">
-				<div class="container">
-					<div class="row">
-						<div class="col-xl-8">
-							<h2><span>Internet</span><span>Of</span><span>Things</span></h2>
-							<a href="#" class="site-btn sb-white mr-4 mb-3">Read More</a>
-							<a href="#" class="site-btn sb-dark">our Services</a>
-						</div>
-					</div>
-				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 	<!-- Hero section end  -->
@@ -138,6 +210,13 @@
 	<section class="services-section">
 		<div class="services-warp">
 			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2 class="section__head">
+							KEY FEATURES
+						</h2>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-lg-4 col-md-6">
 						<div class="service-item">
@@ -218,10 +297,15 @@
 	<!-- Services section end  -->
 
 	<!-- Features section   -->
-	<section class="features-section spad set-bg" data-setbg="img/features-bg.jpg">
+	<section class="features-section spad set-bg  industry_sec" data-setbg="img/features-bg.jpg">
 		<div class="container">
+			<div class="industry_heading">
+				<h2>Industries we serve</h2>
+
+			</div>
 			<div class="row">
-				<div class="col-lg-4 col-md-6">
+
+				<!-- <div class="col-lg-4 col-md-6">
 					<div class="feature-box">
 						<img src="img/features/1.jpg" alt="">
 						<div class="fb-text">
@@ -253,7 +337,39 @@
 							<a href="" class="fb-more-btn">Read More</a>
 						</div>
 					</div>
+				</div> -->
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-30">
+					<div class="imgb"><a aria-label="IoT" href="#" tabindex="0"><img alt="IoT in Manufacturing"
+								src="img/features/3.jpg" title="IoT in Manufacturing"><span>Healthcare </span></a>
+					</div>
 				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-30">
+					<div class="imgb"><a aria-label="IoT" href="#" tabindex="0"><img alt="IoT in Manufacturing"
+								src="img/features/3.jpg" title="IoT in Manufacturing"><span>Manufacturing </span></a>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-30">
+					<div class="imgb"><a aria-label="IoT" href="#" tabindex="0"><img alt="IoT in Manufacturing"
+								src="img/features/3.jpg" title="IoT in Manufacturing"><span>Transportation</span></a>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-30">
+					<div class="imgb"><a aria-label="IoT" href="#" tabindex="0"><img alt="IoT in Manufacturing"
+								src="img/features/3.jpg" title="IoT in Manufacturing"><span>Oil And Gas </span></a>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-30">
+					<div class="imgb"><a aria-label="IoT" href="#" tabindex="0"><img alt="IoT in Manufacturing"
+								src="img/features/3.jpg" title="IoT in Manufacturing"><span>Smart building </span></a>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-30">
+					<div class="imgb"><a aria-label="IoT" href="#" tabindex="0"><img alt="IoT in Manufacturing"
+								src="img/features/3.jpg" title="IoT in Manufacturing"><span>Energy, Natural
+								resources</span></a>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
@@ -300,7 +416,101 @@
 		</div>
 	</section>
 	<!-- Clients section end  -->
+	<!-- Video section  -->
+	<section class="video-section offering-section spad  set-bg" data-setbg="img/pagebanner-gray.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="offer-text">
+						<h2>What We Offer?</h2>
+						<!-- <p>Our offering has three parts; data acquisition, platform and intelligent decision making.
+							Data acquisition part enables legacy machines to produce and record data, Platform is the
+							key to manage the data and Intelligent Decision Making is done by ML and DL enabled modules
+							which are custom built as per your needs.</p>
+						<a href="#" class="site-btn">contact us</a> -->
+					</div>
+				</div>
+				<!-- <div class="col-lg-6">
+					<div class="video-box set-bg" data-setbg="img/What-we-V2-1.png" style="width: 82%;">
+						<a href="img/milestones-bg.jpg" class="video-popup">
+							<i class="fa fa-play"></i>
+						</a>
+					</div>
+				</div> -->
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/device-integration.png" alt="">
+						</div>
+						<h3>Device integration and connectivity </h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/remote-monitoring.png" alt="">
 
+						</div>
+						<h3>Remote monitoring and Support</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/platform-integration.png" alt="">
+						</div>
+						<h3>Platform integration</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/application-development.png" alt="">
+						</div>
+						<h3>Application development </h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/advanced-analytics.png" alt="">
+						</div>
+						<h3>Advanced analytics</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/device-integration.png" alt="">
+						</div>
+						<h3>On Cloud development</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Video section end  -->
 
 	<!-- Testimonial section -->
 	<section class="testimonial-section">
@@ -363,31 +573,9 @@
 	</section>
 	<!-- Call to action section end  -->
 
-	<!-- Video section  -->
-	<section class="video-section spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="video-text">
-						<h2>What We Offer?</h2>
-						<p>Our offering has three parts; data acquisition, platform and intelligent decision making.
-							Data acquisition part enables legacy machines to produce and record data, Platform is the
-							key to manage the data and Intelligent Decision Making is done by ML and DL enabled modules
-							which are custom built as per your needs.</p>
-						<a href="#" class="site-btn">contact us</a>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="video-box set-bg" data-setbg="img/What-we-V2-1.png" style="width: 82%;">
-						<a href="img/milestones-bg.jpg" class="video-popup">
-							<i class="fa fa-play"></i>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Video section end  -->
+
+
+
 
 
 	<!-- Footer section -->
@@ -403,10 +591,14 @@
 							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et
 							commodo interdum. </p>
 						<div class="footer-social">
-							<a href="https://www.facebook.com/thinkitivetech" target="blank"><i class="fa fa-facebook"></i></a>
-							<a href="https://twitter.com/thinkitivetech" target="blank"><i class="fa fa-twitter"></i></a>
-							<a href="https://www.linkedin.com/company/thinkitive" target="blank"><i class="fa fa-linkedin"></i></a>
-							<a href="https://www.instagram.com/thinkitivetech/" target="blank"><i class="fa fa-instagram"></i></a>
+							<a href="https://www.facebook.com/thinkitivetech" target="blank"><i
+									class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com/thinkitivetech" target="blank"><i
+									class="fa fa-twitter"></i></a>
+							<a href="https://www.linkedin.com/company/thinkitive" target="blank"><i
+									class="fa fa-linkedin"></i></a>
+							<a href="https://www.instagram.com/thinkitivetech/" target="blank"><i
+									class="fa fa-instagram"></i></a>
 						</div>
 					</div>
 				</div>
@@ -444,7 +636,7 @@
 								<img src="img/icons/map-marker.png" alt="" class="">
 							</div>
 							<div class="fib-text">
-									<p>1st Floor Windsor Commerce Condominium,<br>Baner Road,Pune – 411045</p>
+								<p>1st Floor Windsor Commerce Condominium,<br>Baner Road,Pune – 411045</p>
 							</div>
 						</div>
 						<div class="footer-info-box">
@@ -455,7 +647,10 @@
 								<p>+91 91727 53107<br>contact@industryalinc.com</p>
 							</div>
 						</div>
-						
+						<form class="footer-search">
+							<input type="text" placeholder="Search">
+							<button><i class="fa fa-search"></i></button>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -468,7 +663,7 @@
 							<!-- Link back to Thinkitive can't be removed. Template is licensed under CC BY 3.0. -->
 							Copyright &copy;<script>
 								document.write(new Date().getFullYear());
-							</script> All rights reserved  by <a href="https://thinkitive.com/"
+							</script> All rights reserved by <a href="https://thinkitive.com/"
 								target="_blank">Thinkitive</a>
 							<!-- Link back to Thinkitive can't be removed. Template is licensed under CC BY 3.0. -->
 						</div>
@@ -508,6 +703,16 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
 
+
+	<script>
+		$(window).scroll(function () {
+			var sticky = $('.sticky'),
+				scroll = $(window).scrollTop();
+
+			if (scroll >= 100) sticky.addClass('fixed');
+			else sticky.removeClass('fixed');
+		});
+	</script>
 </body>
 
 </html>
