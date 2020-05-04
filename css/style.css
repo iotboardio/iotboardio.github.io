@@ -642,13 +642,16 @@ ul.social-icons .instagram a:hover {
 .site-nav-menu ul li a {
   display: block;
   padding: 32px 16px;
-  margin-right: 35px;
+  margin: 0 0 0 25px;
   font-size: 15px;
   font-weight: 600;
   color: #081624;
   position: relative;
 }
 
+.header-bottom>ul>li>:last-child {
+  margin-right: 0 !important;
+} 
 .site-nav-menu ul li a:after {
   position: absolute;
   content: "";
