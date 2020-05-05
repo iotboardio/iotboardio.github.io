@@ -1006,8 +1006,8 @@ ul.social-icons .instagram a:hover {
 .industry_sec .industry_heading h2 {
   color: #ffffff;
   letter-spacing: .13em;
-  margin-top: 15px;
-  margin-bottom: 45px;
+  /* margin-top: 15px; */
+  margin-bottom: 60px;
   font-size: 32px;
   font-weight: 700;
 }
