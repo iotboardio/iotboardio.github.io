@@ -45,6 +45,88 @@
 		})();
 	</script>
 	<!--End of Tawk.to Script-->
+
+	<style>
+		.top {
+			min-height: 605px;
+			height: calc(70vh - 89px);
+			text-align: center;
+			padding: 40px 20px 40px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.top .top_block_bg-image {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			min-width: 100%;
+			min-height: 100%;
+			z-index: 1;
+			max-width: 300%;
+			-o-object-fit: cover;
+			object-fit: cover;
+		}
+
+		.top .top_block_bg-image-overlay {
+			position: absolute;
+			z-index: 2;
+			width: 100%;
+			top: 0;
+			left: 0;
+			height: 100%;
+		}
+
+		.top .top_info {
+			flex: 1;
+			justify-content: center;
+			display: flex;
+			align-items: flex-start;
+			flex-direction: column;
+			width: 100%;
+			max-width: 1170px;
+			margin: 0 auto;
+			text-align: left;
+			position: relative;
+			z-index: 3;
+		}
+
+		.top h1 {
+			position: relative;
+			font-size: 48px;
+			font-weight: 700;
+			line-height: 28px;
+			margin: 40px 0;
+
+			/* font: 800 48px/56px 'Nunito Sans', Helvetica, sans-serif; */
+			color: #fff;
+			letter-spacing: 2px;
+
+		}
+
+		
+
+		.top_info .button-wrapper {
+			text-align: left;
+			width: 100%;
+		}
+
+		.top .red-btn {
+			min-width: 270px;
+		}
+
+		.btn-large {
+    padding: 14px 30px;
+}
+	</style>
 </head>
 
 <body>
@@ -102,7 +184,7 @@
 									<li><a href="../services/open-source.html">Open Source</a></li>
 									<li><a href="../services/custom-development.html">Custom Development</a></li>
 									<li><a href="../services/tinyml.html">TinyML</a></li>
-									
+
 								</ul>
 							</li>
 
@@ -112,7 +194,7 @@
 										</a></li>
 									<li><a href="../industries/smart -buildings.html">Smart Buildings
 										</a></li>
-										<li><a href="../industries/agriculture.html">Agriculture
+									<li><a href="../industries/agriculture.html">Agriculture
 										</a></li>
 									<li><a href="../industries/retail.html">Retail
 										</a></li>
@@ -137,14 +219,131 @@
 			</div>
 		</div>
 	</header>
-    <!-- Header section end  -->
-    <section class="page-top-section set-bg" data-setbg="../img/page-top-bg/1.jpg">
+	<!-- Header section end  -->
+	<section>
+		<div class="top-wrap">
+			<div class="top">
+				<img class="top_block_bg-image" src="https://www.finoit.com/wp-content/themes/finoit/assets/layouts/img/head/iot.svg?x85990"
+					alt="Custom Software Development Services">
+				<div class="top_block_bg-image-overlay"
+					style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.16) 0%,rgba(0, 0, 0, 0.24) 100%);">
+				</div>
+				<div class="top_info">
+					<h1>Custom Development</h1>
+					<p>Get top quality development services oriented to your business growth. </p>
+					
+					<div class="hw-btn-warp">
+						<a title="Watch Video" style=""
+							class="video vedioplay hw-btn btn-empty-white btn-large btn-icon-video font-medium mlr10 ebg-common-event">
+							<span>
+								Watch Video
+							</span></a>
+						<a title="Get Pricing/Info" style=""
+							class="getPriceInfo hw-btn btn-solid-terminal-red btn-large font-medium mlr10 ebg-common-event work-prompt-popup"
+							href="javascript:void(0);"><span>
+								Get Pricing/Info
+							</span>
+						</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- <section class="page-top-section set-bg" data-setbg="../img/page-top-bg/1.jpg">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
 					<h2>Healthcare</h2>
-					<p>IoTBoard enables to control various aspects of an IoT system, device management, data collection, data processing, visualization, predictive analytics and more, it is a complete IoT Solution. </p>
+					<p>IoTBoard enables to control various aspects of an IoT system, device management, data collection,
+						data processing, visualization, predictive analytics and more, it is a complete IoT Solution.
+					</p>
 					<a href="" class="site-btn">Contact us</a>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+
+	<section class="video-section offering-section spad  set-bg" data-setbg="img/pagebanner-gray.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="offer-text">
+						<h2>What We Offer?</h2>
+
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/device-integration.png" alt="">
+						</div>
+						<h3>Device integration and connectivity </h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/remote-monitoring.png" alt="">
+
+						</div>
+						<h3>Remote monitoring and Support</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/platform-integration.png" alt="">
+						</div>
+						<h3>Platform integration</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/application-development.png" alt="">
+						</div>
+						<h3>Application development </h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/advanced-analytics.png" alt="">
+						</div>
+						<h3>Advanced analytics</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+					<div class="offering-inner">
+						<div class="help-icon">
+							<img src="./img/icons/device-integration.png" alt="">
+						</div>
+						<h3>On Cloud development</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipi-scing elit. Quisque orci purus, sodales in est
+							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -162,10 +361,14 @@
 							quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et
 							commodo interdum. </p>
 						<div class="footer-social">
-							<a href="https://www.facebook.com/thinkitivetech" target="blank"><i class="fa fa-facebook"></i></a>
-							<a href="https://twitter.com/thinkitivetech" target="blank"><i class="fa fa-twitter"></i></a>
-							<a href="https://www.linkedin.com/company/thinkitive" target="blank"><i class="fa fa-linkedin"></i></a>
-							<a href="https://www.instagram.com/thinkitivetech/" target="blank"><i class="fa fa-instagram"></i></a>
+							<a href="https://www.facebook.com/thinkitivetech" target="blank"><i
+									class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com/thinkitivetech" target="blank"><i
+									class="fa fa-twitter"></i></a>
+							<a href="https://www.linkedin.com/company/thinkitive" target="blank"><i
+									class="fa fa-linkedin"></i></a>
+							<a href="https://www.instagram.com/thinkitivetech/" target="blank"><i
+									class="fa fa-instagram"></i></a>
 						</div>
 					</div>
 				</div>
@@ -173,7 +376,7 @@
 					<div class="footer-widget">
 						<h2 class="fw-title"> Resources</h2>
 						<ul>
-                            <li><a href="natural-resources.html">Natural Resources</a></li>
+							<li><a href="natural-resources.html">Natural Resources</a></li>
 							<li><a href="gas-and-oil.html">Oil & Gas</a></li>
 							<li><a href="data-center.html">Data Center</a></li>
 							<li><a href="manufacturing .html">Manufacturing </a></li>
@@ -186,7 +389,7 @@
 					<div class="footer-widget">
 						<h2 class="fw-title">Our Industries</h2>
 						<ul>
-                            <li><a href="natural-resources.html">Natural Resources</a></li>
+							<li><a href="natural-resources.html">Natural Resources</a></li>
 							<li><a href="gas-and-oil.html">Oil & Gas</a></li>
 							<li><a href="data-center.html">Data Center</a></li>
 							<li><a href="manufacturing .html">Manufacturing </a></li>
@@ -230,7 +433,7 @@
 							<!-- Link back to Thinkitive can't be removed. Template is licensed under CC BY 3.0. -->
 							Copyright &copy;<script>
 								document.write(new Date().getFullYear());
-							</script> All rights reserved  by <a href="https://thinkitive.com/"
+							</script> All rights reserved by <a href="https://thinkitive.com/"
 								target="_blank">Thinkitive</a>
 							<!-- Link back to Thinkitive can't be removed. Template is licensed under CC BY 3.0. -->
 						</div>

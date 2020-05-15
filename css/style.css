@@ -475,17 +475,28 @@ ol {
 }
 
 .header-info-left ul li {
-  color: #ccc;
+
+  color: #c8c8c8;
   display: inline-block;
   margin-right: 33px;
   padding-right: 33px;
-  border-right: 1px solid #0b1b3a;
+  /* border-right: 1px solid #0b1b3a; */
   font-family: roboto, sans-serif;
   font-size: 14px;
 }
 
+.header-info-left ul li::before {
+  content: '|';
+  color: #c8c8c8;
+  position: absolute;
+  /* right: 18px; */
+  /* top: 4px; */
+  left: 140px;
+
+}
+
 .header-info-right ul li {
-  color: #ccc;
+  color: #c8c8c8;
   display: inline-block;
   /* margin-right: 33px; */
   padding-right: 5px;
@@ -2547,14 +2558,16 @@ ul.social-icons .instagram a:hover {
   .box .title {
     font-size: 48px;
   }
+
   .box .top-title {
     font-size: 30px;
+  }
 }
-}
- .box .title {
+
+.box .title {
   font-size: 52px;
   line-height: 1.38;
-  color: #fff!important;
+  color: #fff !important;
   overflow: hidden;
   margin: 0;
   padding-top: 9px;
@@ -2562,6 +2575,7 @@ ul.social-icons .instagram a:hover {
   padding-bottom: 0;
   color: inherit;
 }
+
 .box .top-title {
   font-size: 24px;
   color: #fff;
@@ -2570,6 +2584,7 @@ ul.social-icons .instagram a:hover {
   margin: 20px 0 0;
   overflow: hidden;
 }
+
 .box .hw-btn-warp {
   margin-left: -10px;
   margin-right: -10px;
@@ -2582,7 +2597,7 @@ ul.social-icons .instagram a:hover {
 
 @media (max-width: 750px) {
   .hw-btn-warp {
-      padding-top:0
+    padding-top: 0
   }
 }
 
@@ -2608,8 +2623,8 @@ ul.social-icons .instagram a:hover {
 
 @media (max-width: 992px) {
   .hw-btn {
-      font-size:14px;
-      padding: 9px 15px
+    font-size: 14px;
+    padding: 9px 15px
   }
 }
 
@@ -2633,20 +2648,20 @@ ul.social-icons .instagram a:hover {
 
 @media (max-width: 750px) {
   .hw-btn {
-      font-size:12px;
-      padding: 11px 15px;
-      margin-top: 15px;
-      margin-right: 5px;
-      margin-left: 5px
+    font-size: 12px;
+    padding: 11px 15px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 5px
   }
 
   .mr20-wap {
-      margin-right: 10px;
-      margin-left: 0
+    margin-right: 10px;
+    margin-left: 0
   }
 
   .btn-large {
-      padding: 11px 15px
+    padding: 11px 15px
   }
 }
 
@@ -2658,8 +2673,8 @@ ul.social-icons .instagram a:hover {
 
 @media (min-width: 992px) {
   .btn-solid-red:hover {
-      border:2px solid #23a392;
-      background: #23a392
+    border: 2px solid #23a392;
+    background: #23a392
   }
 }
 
@@ -2671,8 +2686,8 @@ ul.social-icons .instagram a:hover {
 
 @media (min-width: 992px) {
   .btn-solid-terminal-red:hover {
-      border:2px solid #23a392;
-      background: #23a392
+    border: 2px solid #23a392;
+    background: #23a392
   }
 }
 
@@ -2683,20 +2698,20 @@ ul.social-icons .instagram a:hover {
 
 @media (min-width: 992px) {
   .btn-empty-terminal-red:hover {
-      color:#3fbcac;
-      border: 2px solid #3fbcac
+    color: #3fbcac;
+    border: 2px solid #3fbcac
   }
 }
 
 .btn-empty-white {
-  color: #fff;
+  color: #fff !important;
   border: 2px solid #fff
 }
 
 @media (min-width: 992px) {
   .btn-empty-white:hover {
-      border:2px solid #3fbcac;
-      color: #fff;
+    border: 2px solid #3fbcac;
+    color: #fff;
   }
 }
 
@@ -2707,7 +2722,7 @@ ul.social-icons .instagram a:hover {
 
 @media (min-width: 992px) {
   .btn-empty-black:hover {
-      border:2px solid #3fbcac
+    border: 2px solid #3fbcac
   }
 }
 
@@ -2715,6 +2730,3 @@ ul.social-icons .instagram a:hover {
 .icon-video:before {
   content: "\e614"
 }
-
-
-
