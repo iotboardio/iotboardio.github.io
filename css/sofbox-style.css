@@ -226,7 +226,7 @@ header { position: fixed; background: #ffffff; display: inline-block; width: 100
 header .container-fluid { padding: 0 100px; }
 header .navbar { padding: 0; }
 header .navbar .navbar-brand { padding: 0; }
-header .navbar .navbar-brand img { height: 60px; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+header .navbar .navbar-brand img { height: 40px; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 header .navbar .navbar-nav { margin-top: 0; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 header .navbar .navbar-nav>li { margin: 0 30px 0 0; position: relative; }
 header .navbar .navbar-nav>li:last-child { margin-right: 0; }
@@ -238,7 +238,7 @@ header .button, header .button-line { margin-top: 0; margin-left: 15px; }
 
 /* Header sticky */
 header.menu-sticky {position: fixed; padding: 10px 0; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); background:#ffffff; }
-header.menu-sticky .navbar .navbar-brand img { height: 50px; }
+header.menu-sticky .navbar .navbar-brand img { height: 40px; }
 
 header .navbar ul li { list-style: none; margin-right: 30px; position: relative; transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; display: inline-block; vertical-align: middle; }
 header li .search-box input[type="search"] { height: 40px; font-size: 18px; display: inline-block; border: none; border-radius: 0; outline: none; padding: 15px 40px 15px 15px; width: 0px; position: absolute; top: -9px; right: 0; background: none; transition: width 0.4s cubic-bezier(0, 0.795, 0, 1); cursor: pointer; z-index: 11; margin: -10px 0 0 0; }
