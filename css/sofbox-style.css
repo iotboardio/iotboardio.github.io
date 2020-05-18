@@ -2048,6 +2048,9 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 
 .title-box h2 {
   margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #323232;
 }
 
 .title-box-space,
