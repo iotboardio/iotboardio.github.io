@@ -81,7 +81,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 /* HTML Tags */
 a {
-  color: #a37cfc;
+  color: #3fbcac;
   outline: none;
 }
 
@@ -117,7 +117,7 @@ hr {
 blockquote {
   background: #eff1fe;
   padding: 15px 30px;
-  border-left: 5px solid #a37cfc;
+  border-left: 5px solid #3fbcac;
   margin-bottom: 30px;
   border-radius: 4px;
 }
@@ -140,7 +140,7 @@ blockquote .blockquote-footer {
 }
 
 blockquote .blockquote-footer cite {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 body {
@@ -189,7 +189,7 @@ footer.footer-one ul li span.archiveCount {
 }
 
 .blog-content .page-links a:hover {
-  background: #a37cfc;
+  background: #3fbcac;
   color: #ffffff;
 }
 
@@ -304,7 +304,7 @@ input[type=search]:focus,
 input[type=password]:focus,
 textarea:focus,
 select:focus {
-  border-color: #a37cfc;
+  border-color: #3fbcac;
   box-shadow: none;
   outline: none;
 }
@@ -348,7 +348,7 @@ input[type=email]:-ms-input-placeholder {
 input[type=submit],
 .contact-form .cfield input[type=submit] {
   color: #ffffff;
-  background: #a37cfc;
+  background: #3fbcac;
   cursor: pointer;
   margin-bottom: 0;
   height: auto;
@@ -648,7 +648,7 @@ ul.iq-list {
 }
 
 #back-to-top .top:hover {
-  background: #a37cfc;
+  background: #3fbcac;
   color: #ffffff;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
@@ -860,13 +860,13 @@ header .navbar .navbar-nav .nav-item a:focus,
 header .navbar .navbar-nav .nav-item a.active,
 header .navbar .navbar-nav .nav-item a.active:focus,
 header .navbar .navbar-nav .nav-item a.active:hover {
-  color: #a37cfc;
+  color: #3fbcac;
   background: none;
   box-shadow: none;
 }
 
 header .navbar .navbar-nav .nav-item a::before {
-  background: #a37cfc;
+  background: #3fbcac;
   bottom: 0;
   content: "";
   height: 2px;
@@ -1010,7 +1010,7 @@ header .navbar ul li .sub-menu li i:before {
 }
 
 header .navbar ul li .sub-menu li:hover>a {
-  background: #a37cfc;
+  background: #3fbcac;
   color: #ffffff;
 }
 
@@ -1033,7 +1033,7 @@ header .navbar ul li.current-menu-item a,
 header .navbar ul li.current-menu-parent a,
 header .navbar ul li.current-menu-parent i,
 header .navbar ul li.current-menu-item i {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 header .navbar .sub-main .blue-btn.button {
@@ -1048,7 +1048,7 @@ header .navbar .sub-main ul.shop_list li .cart_count #mini-cart-count:before {
   border-radius: 90px;
   z-index: -1;
   right: 0;
-  background: #a37cfc;
+  background: #3fbcac;
 }
 
 header .navbar .sub-main ul.shop_list li .cart_count #mini-cart-count {
@@ -1155,7 +1155,7 @@ header .dropdown-toggle::after {
 /* Toggler  Button */
 header .navbar-toggler {
   padding: 2px 10px;
-  background: #a37cfc;
+  background: #3fbcac;
 }
 
 header button:focus {
@@ -1278,12 +1278,12 @@ header #menu-btn.is-active .line:nth-child(3) {
 }
 
 .button-link {
-  color: #a37cfc;
+  color: #3fbcac;
   font-weight: bold;
 }
 
 .button-link:hover {
-  color: #a37cfc;
+  color: #3fbcac;
   text-decoration: none;
 }
 
@@ -1303,7 +1303,7 @@ header #menu-btn.is-active .line:nth-child(3) {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  background: #a37cfc;
+  background: #3fbcac;
   border-radius: 4px;
   cursor: pointer;
   z-index: 4;
@@ -1374,12 +1374,12 @@ header #menu-btn.is-active .line:nth-child(3) {
 }
 
 .white-btn.button {
-  color: #a37cfc;
+  color: #3fbcac;
   background: #ffffff;
 }
 
 .white-btn.button:focus {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .blue-btn.button {
@@ -1492,7 +1492,7 @@ header #menu-btn.is-active .line:nth-child(3) {
 .search-form input[type=email]:focus,
 .search-form input[type=search]:focus,
 .search-form input[type=password]:focus {
-  border: 1px solid #a37cfc;
+  border: 1px solid #3fbcac;
 }
 
 .search-form .search-submit {
@@ -1503,7 +1503,7 @@ header #menu-btn.is-active .line:nth-child(3) {
   cursor: pointer;
   padding: 6px 15px;
   font-size: 18px;
-  background: #a37cfc;
+  background: #3fbcac;
   border: none;
   outline: none;
   box-shadow: none;
@@ -1544,7 +1544,7 @@ header #menu-btn.is-active .line:nth-child(3) {
 }
 
 .widget ul li a:hover:before {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .widget ul li a {
@@ -1555,12 +1555,12 @@ header #menu-btn.is-active .line:nth-child(3) {
 }
 
 .widget ul li a:hover {
-  color: #a37cfc;
+  color: #3fbcac;
   text-decoration: none;
 }
 
 .widget ul li a:hover:before {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .iq-widget-menu .iq-post li a:before {
@@ -1599,7 +1599,7 @@ footer ul.wp-tag-cloud li {
 
 footer ul.wp-tag-cloud li a {
   color: #ffffff !important;
-  background: #a37cfc;
+  background: #3fbcac;
   border-radius: 4px;
 }
 
@@ -1678,7 +1678,7 @@ article.hentry .iq-blog-box .iq-blog-detail .blog-content .widget_tag_cloud ul l
 }
 
 .share ul li a:hover {
-  background: #a37cfc;
+  background: #3fbcac;
   color: #fff
 }
 
@@ -1788,8 +1788,8 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
   z-index: 2;
   color: #fff;
   text-decoration: none;
-  background-color: #a37cfc;
-  border-color: #a37cfc;
+  background-color: #3fbcac;
+  border-color: #3fbcac;
 }
 
 .page-numbers li .page-numbers:focus {
@@ -1812,8 +1812,8 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
   -ms-transition: all 0.5s ease-out 0s;
   -o-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s;
-  background: #a37cfc;
-  border-color: #a37cfc;
+  background: #3fbcac;
+  border-color: #3fbcac;
 }
 
 
@@ -1900,7 +1900,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 }
 
 .owl-carousel .owl-nav i:hover {
-  background: #a37cfc;
+  background: #3fbcac;
   color: #ffffff;
 }
 
@@ -1943,14 +1943,14 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 }
 
 .owl-carousel .owl-dots .owl-dot:hover {
-  background: #a37cfc;
-  border: 1px solid #a37cfc;
+  background: #3fbcac;
+  border: 1px solid #3fbcac;
 }
 
 .owl-carousel .owl-dots .owl-dot.active,
 .owl-dots .owl-dot.active:nth-child(n+3) {
-  background: #a37cfc;
-  border: 1px solid #a37cfc;
+  background: #3fbcac;
+  border: 1px solid #3fbcac;
 }
 
 .owl-dots .owl-dot:nth-child(n+4) {
@@ -2104,7 +2104,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 }
 
 .iq-team .iq-team-info .title:hover {
-  color: #a37cfc
+  color: #3fbcac
 }
 
 .iq-team .iq-team-info {
@@ -2166,7 +2166,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 }
 
 .iq-team .share ul li a:hover {
-  background: #a37cfc;
+  background: #3fbcac;
 }
 
 .iq-team .iq-team-img {
@@ -2201,7 +2201,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
   -ms-transform: skewY(-5deg);
   -webkit-transform: skewY(-5deg);
   transform: skewY(-5deg);
-  background: #a37cfc;
+  background: #3fbcac;
 }
 
 .iq-team:hover .consult-effect:before {
@@ -2278,7 +2278,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
   height: 45px;
   text-align: center;
   color: white;
-  background: #a37cfc;
+  background: #3fbcac;
   outline: none;
   z-index: 100000;
   -webkit-transition: all 0.3s;
@@ -2345,13 +2345,13 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 }
 
 .slideouticons .iconswrapper ul li a:hover {
-  background: #a37cfc;
+  background: #3fbcac;
   color: white;
 }
 
 .slideouticons input:checked~label.mainlabel {
   background: #ffffff;
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .slideouticons input:checked~.iconswrapper {
@@ -2447,7 +2447,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 }
 
 .consulting-blog .blog-details a h5:hover {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .consulting-blog .blog-button a i {
@@ -2462,12 +2462,12 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 
 .consulting-blog .blog-details ul.list-inline li a:hover {
   text-decoration: none;
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .consulting-blog .blog-details ul.list-inline li a i,
 .consulting-blog .blog-details ul.list-inline li i {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .consulting-blog .list-inline-item:not(:last-child) {
@@ -2475,7 +2475,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 }
 
 .consulting-blog .blog-button:hover {
-  background: #a37cfc;
+  background: #3fbcac;
 }
 
 .consulting-blog .blog-button {
@@ -2527,7 +2527,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
   -ms-transform: skewY(-5deg);
   -webkit-transform: skewY(-5deg);
   transform: skewY(-6deg);
-  background: #a37cfc;
+  background: #3fbcac;
 }
 
 .consulting-blog:hover .consult-effect:before {
@@ -2549,7 +2549,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
 
 .consulting-blog .blog-categories li:hover,
 .consulting-blog:hover .blog-categories li {
-  background: #a37cfc;
+  background: #3fbcac;
   -webkit-transition: all 0.5s ease-out 0s;
   -moz-transition: all 0.5s ease-out 0s;
   -ms-transition: all 0.5s ease-out 0s;
@@ -2585,7 +2585,7 @@ footer .menu li a {
 }
 
 footer .menu li a:hover {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 footer .iq-contact li {
@@ -2788,7 +2788,7 @@ footer.footer-one .sub-btn button {
   padding: 24px 30px;
   border: none;
   cursor: pointer;
-  background-color: #a37cfc;
+  background-color: #3fbcac;
 }
 
 footer.footer-one .sub-btn button:hover,
@@ -2846,7 +2846,7 @@ footer.footer-one .info-share li a {
 
 footer.footer-one input[type=email]:hover,
 footer.footer-one input[type=email]:focus {
-  border-color: #a37cfc;
+  border-color: #3fbcac;
   padding: 0 125px 0 15px;
 }
 
@@ -3129,7 +3129,7 @@ footer .copyright-space {
   display: block;
   right: 115%;
   top: 50%;
-  color: #a37cfc;
+  color: #3fbcac;
   transform: translateY(-50%);
   padding: 20px 15px;
   font-size: 60px;
@@ -3141,7 +3141,7 @@ footer .copyright-space {
   display: block;
   left: 115%;
   top: 50%;
-  color: #a37cfc;
+  color: #3fbcac;
   transform: translateY(-50%);
   padding: 20px 15px;
   font-size: 60px;
@@ -3296,7 +3296,7 @@ footer .copyright-space {
   width: 100%;
   z-index: 0;
   background-image: -moz-linear-gradient(0deg, rgb(109, 115, 239) 0%, rgb(163, 120, 252) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(109, 115, 239) 0%, rgb(163, 120, 252) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(206, 184, 42) 0%, rgb(63, 188, 172) 100%);
   background-image: -ms-linear-gradient(0deg, rgb(109, 115, 239) 0%, rgb(163, 120, 252) 100%);
   display: block !important;
 }
@@ -3361,7 +3361,7 @@ footer .copyright-space {
   bottom: 0;
   content: "";
   width: 0;
-  background: #a37cfc;
+  background: #3fbcac;
   transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -3384,7 +3384,7 @@ footer .copyright-space {
 
 .sofbox-services i {
   font-size: 40px;
-  color: #a37cfc;
+  color: #3fbcac;
   z-index: 1;
   margin-bottom: 15px;
   line-height: 50px;
@@ -3454,7 +3454,7 @@ footer .copyright-space {
 }
 
 .video-btn .video-btn {
-  background: #a37cfc;
+  background: #3fbcac;
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -3588,7 +3588,7 @@ div.wpcf7-aborted {
 .sofbox-contact input:hover,
 .sofbox-contact input[type=text]:hover,
 .sofbox-contact textarea:hover {
-  border: 1px solid #a37cfc;
+  border: 1px solid #3fbcac;
 }
 
 .sofbox-contact .button {
@@ -3641,7 +3641,7 @@ div.wpcf7-acceptance-missing,
 
 .contact-form .cfield input:focus,
 .contact-form .cfield.textarea textarea:focus {
-  border: 1px solid #a37cfc;
+  border: 1px solid #3fbcac;
   box-shadow: none;
   outline: none;
 }
@@ -3916,8 +3916,8 @@ Testimonial-info side widget
 
 .testimonail-widget-menu .owl-carousel .owl-dots .owl-dot.active,
 .testimonail-widget-menu .owl-carousel .owl-dots .owl-dot:hover {
-  background: #a37cfc;
-  border: 1px solid #a37cfc;
+  background: #3fbcac;
+  border: 1px solid #3fbcac;
 }
 
 .testimonail-widget-menu .owl-carousel .owl-dots {
@@ -3971,7 +3971,7 @@ Recent News side widget
 .sidebar-service-left .widget_nav_menu ul.menu li.current-menu-item a,
 .sidebar-service-left .widget_nav_menu ul.menu li:hover a {
   color: #ffffff;
-  background: #a37cfc;
+  background: #3fbcac;
 }
 
 .sidebar-service-left .widget_nav_menu ul.menu li {
@@ -4014,7 +4014,7 @@ Categories side widget
 }
 
 .download-item li i {
-  background: #a37cfc;
+  background: #3fbcac;
   padding: 15px;
   color: #ffffff;
   font-size: 24px;
@@ -4027,7 +4027,7 @@ Categories side widget
 }
 
 .widget.get-file a:hover {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .widget.get-file a {
@@ -4089,7 +4089,7 @@ Portfolio style-one
   text-align: center;
   border-radius: 4px;
   background: #ffffff;
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .iq-portfolio .portfolio-link {
@@ -4217,7 +4217,7 @@ Portfolio style-one
   -ms-transform: skewY(-2deg);
   -webkit-transform: skewY(-2deg);
   transform: skewY(-2deg);
-  background: #a37cfc;
+  background: #3fbcac;
   content: "";
   z-index: 1;
   transition: all 0.5s ease-in-out;
@@ -4266,7 +4266,7 @@ Portfolio style-one
 }
 
 .iq-portfolio-content .details-box a:hover .text-hover {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .iq-columns-2 .iq-portfolio .iq-portfolio-content .consult-details .consult-effect:before {
@@ -4314,7 +4314,7 @@ Portfolio style-two
 }
 
 .iq-portfolio.style-two .iq-portfolio-content .details-box a i {
-  background: #a37cfc;
+  background: #3fbcac;
 }
 
 .iq-portfolio.style-two .iq-portfolio-content {
@@ -4372,7 +4372,7 @@ Sofbox tab
 
 .Sofbox-tab .nav-pills .nav-link:hover .active-title,
 .Sofbox-tab .nav-pills .nav-link.active .active-title {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .Sofbox-tab .nav-pills .nav-link .saas-works-box,
@@ -4441,7 +4441,7 @@ Blog
 }
 
 .iq-blog-detail .iq-blog-meta li a:hover {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .iq-blog-detail .iq-blog-meta li {
@@ -4472,7 +4472,7 @@ Blog
   width: 45px;
   height: 45px;
   line-height: 45px;
-  background: #a37cfc;
+  background: #3fbcac;
   display: block;
   color: #ffffff;
   text-align: center;
@@ -4482,7 +4482,7 @@ Blog
 .social-team.color ul li a {
   position: relative;
   background: transparent;
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .social-team.color ul li a:hover {
@@ -4504,7 +4504,7 @@ Blog
   height: 45px;
   z-index: -1;
   line-height: 45px;
-  color: #a37cfc;
+  color: #3fbcac;
   position: absolute;
   left: 0;
   display: inline-block;
@@ -5014,7 +5014,7 @@ Service-box Style-3
 }
 
 .sox-services.service-pattern.blue-hover:after {
-  background-image: radial-gradient(#a37cfc 1px, transparent 1px);
+  background-image: radial-gradient(#3fbcac 1px, transparent 1px);
 }
 
 .color-palette.blue-hover:before,
@@ -5512,8 +5512,8 @@ PopUp Images Effect  Right
 }
 
 .our-testimonial.owl-carousel .owl-dots .owl-dot.active {
-  background: #a37cfc;
-  border: 1px solid #a37cfc;
+  background: #3fbcac;
+  border: 1px solid #3fbcac;
 }
 
 .our-testimonial.owl-carousel .owl-dots {
@@ -5525,7 +5525,7 @@ PopUp Images Effect  Right
 
 .our-testimonial.owl-carousel .owl-dots .owl-dot {
   background: transparent;
-  border: 1px solid #a37cfc;
+  border: 1px solid #3fbcac;
 }
 
 .our-testimonial .iq-testimonial p {
@@ -5640,7 +5640,7 @@ PopUp Images Effect  Right
 .fancy-icon .media .fancy-img i {
   font-size: 40px;
   line-height: 80px;
-  color: #a37cfc
+  color: #3fbcac
 }
 
 .fancy-icon .media .fancy-img {
@@ -5973,7 +5973,7 @@ PopUp Images Effect  Right
   content: '';
   position: absolute;
   bottom: 0;
-  background: #6f73f0;
+  background: #3fbcac;
   left: 0;
   height: 4px;
   width: 100%;
@@ -6090,7 +6090,7 @@ border effect
 .title-saas::before {
   content: "";
   position: absolute;
-  background: #a37cfc;
+  background: #3fbcac;
   width: 2px;
   height: 3px;
   left: 0;
@@ -6985,7 +6985,7 @@ Advance-Feature
   top: 0;
   width: 20px;
   height: 20px;
-  border: 2px solid #a37cfc;
+  border: 2px solid #3fbcac;
   background: #fff;
   border-radius: 90px;
 }
@@ -6995,7 +6995,7 @@ Advance-Feature
   content: '';
   width: 4px;
   height: 4px;
-  background: #a37cfc;
+  background: #3fbcac;
   position: absolute;
   top: 8px;
   left: 8px;
@@ -7461,7 +7461,7 @@ Blog
 }
 
 .iq-blog-box.sofbox-blog .blog-title .entry-title a:hover {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .iq-widget-menu .iq-post li a.date-widget {
@@ -7721,7 +7721,7 @@ contact us social
 }
 
 .team-social ul li a:hover {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .team-social ul li a i {
@@ -7815,7 +7815,7 @@ contact us social
 }
 
 .iq-breadcrumb-one ol li a {
-  color: #a37cfc;
+  color: #3fbcac;
   text-decoration: none;
 }
 
@@ -7826,7 +7826,7 @@ contact us social
 
 .iq-breadcrumb-one .breadcrumb-item+.breadcrumb-item::before {
   content: ">";
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .iq-breadcrumb-one .breadcrumb {
@@ -7835,7 +7835,7 @@ contact us social
 }
 
 .iq-breadcrumb-one .breadcrumb-item.active {
-  color: #a37cfc;
+  color: #3fbcac;
   position: relative;
 }
 
@@ -8079,18 +8079,18 @@ contact us social
 
 .woocommerce-message,
 .woocommerce-info {
-  border-top-color: #a37cfc;
+  border-top-color: #3fbcac;
   line-height: 2.8em;
   background: #f5f7fb;
 }
 
 .woocommerce-message::before,
 .woocommerce-info::before {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .woocommerce .woocommerce-message .button {
-  background: #a37cfc;
+  background: #3fbcac;
   color: #ffffff;
   font-weight: 500;
 }
@@ -8141,7 +8141,7 @@ contact us social
 .woocommerce span.onsale,
 .woocommerce ul.products li.product .onsale {
   color: #fff;
-  background: #a37cfc;
+  background: #3fbcac;
   text-transform: uppercase;
   padding: 5px 10px;
   text-align: center;
@@ -8283,7 +8283,7 @@ contact us social
 
 .yith-wcwl-add-to-wishlist .yith-wcwl-add-button.hide a:before,
 .yith-wcwl-add-to-wishlist .yith-wcwl-add-button a:hover:before {
-  color: #a37cfc;
+  color: #3fbcac;
   text-decoration: none;
 }
 
@@ -8305,14 +8305,14 @@ contact us social
 }
 
 .woocommerce ul li.product .iq-product-block .product-caption h3 a:hover {
-  color: #a37cfc;
+  color: #3fbcac;
   text-decoration: none;
 }
 
 .woocommerce ul.products li.product .iq-product-block .product-caption .price {
   margin: 0;
   padding: 0;
-  color: #a37cfc;
+  color: #3fbcac;
   font-size: 16px;
 }
 
@@ -8322,7 +8322,7 @@ contact us social
 
 .woocommerce div.product p.price,
 .woocommerce div.product span.price {
-  color: #a37cfc;
+  color: #3fbcac;
   font-weight: 400;
   margin: 15px 0;
 }
@@ -8390,8 +8390,8 @@ contact us social
 .woocommerce nav.woocommerce-pagination ul li a:hover,
 .woocommerce nav.woocommerce-pagination ul li span.current {
   color: #fff;
-  background-color: #a37cfc;
-  border-color: #a37cfc;
+  background-color: #3fbcac;
+  border-color: #3fbcac;
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li a {
@@ -8430,9 +8430,9 @@ contact us social
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
-  background: #a37cfc;
+  background: #3fbcac;
   color: #ffffff;
-  border-color: #a37cfc;
+  border-color: #3fbcac;
 }
 
 .woocommerce-Tabs-panel h2 {
@@ -8549,7 +8549,7 @@ contact us social
 
 .select2-container--default .select2-results__option--highlighted[aria-selected],
 .select2-container--default .select2-results__option--highlighted[data-selected] {
-  background: #a37cfc;
+  background: #3fbcac;
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
@@ -8566,7 +8566,7 @@ contact us social
 }
 
 .order-total {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .woocommerce-input-wrapper {
@@ -8625,7 +8625,7 @@ contact us social
   line-height: 28px;
   border: none;
   position: relative;
-  background: #a37cfc;
+  background: #3fbcac;
   font-family: 'Now';
   display: inline-block;
   -webkit-border-radius: 4px;
@@ -8690,7 +8690,7 @@ input[type=checkbox] {
 
 .woocommerce-MyAccount-navigation li a {
   padding: 10px 15px;
-  color: #a37cfc;
+  color: #3fbcac;
   display: inline-block;
   width: 100%;
 }
@@ -8699,7 +8699,7 @@ input[type=checkbox] {
 .woocommerce-MyAccount-navigation li.is-active a {
   color: #ffffff;
   text-decoration: none;
-  background: #a37cfc;
+  background: #3fbcac;
 }
 
 .woocommerce-MyAccount-navigation li a:before {
@@ -9209,7 +9209,7 @@ input[type=checkbox] {
 }
 
 .custom-tab.verticaltab3 .nav.nav-pills[aria-orientation="vertical"] .nav-link {
-  border-left: 4px solid #a37cfc;
+  border-left: 4px solid #3fbcac;
   padding: 15px 25px;
   border-radius: 0px;
   text-align: left;
@@ -9241,7 +9241,7 @@ input[type=checkbox] {
 }
 
 .custom-tab.verticaltab3 .nav.nav-pills[aria-orientation="vertical"] .nav-link:hover h4 {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .custom-tab.verticaltab3 .nav.nav-pills[aria-orientation="vertical"] .nav-link.active {
@@ -10597,7 +10597,7 @@ Our Services Tab
 .our-services-tab .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active>a,
 .our-services-tab .vc_tta-color-white.vc_tta-style-classic .vc_tta-tab.vc_active>a,
 .our-services-tab .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a:hover {
-  color: #a37cfc !important;
+  color: #3fbcac !important;
 }
 
 .our-services-tab .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a {
@@ -10624,7 +10624,7 @@ Our Services Tab
   -ms-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   height: 3px;
-  background: #a37cfc;
+  background: #3fbcac;
   content: "";
   position: absolute;
   right: 0;
@@ -10662,7 +10662,7 @@ Our Services Tab
   display: inline-block;
   width: 100%;
   height: 3px;
-  background: #a37cfc;
+  background: #3fbcac;
   content: "";
   position: absolute;
   left: 0;
@@ -11137,11 +11137,11 @@ blog post
 }
 
 .post-details .post-img .post-blog .blog-box ul li a i {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .post-details .post-img .post-blog a.new-link:hover h5 {
-  color: #a37cfc;
+  color: #3fbcac;
 }
 
 .post-details .post-blog {
