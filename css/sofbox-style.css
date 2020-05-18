@@ -11215,3 +11215,14 @@ blog post
 #rev_slider_1_1 .nav-dir-horizontal {
   margin-top: 50px;
 }
+
+
+.industries-img {
+  margin-top: 20px;
+}
+
+.industries-img:hover img{
+  /* filter: grayscale(0.5); */
+  filter: brightness(0) invert(1);
+
+}
