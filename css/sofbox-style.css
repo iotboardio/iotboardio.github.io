@@ -4957,6 +4957,22 @@ Service-box process Style-2
   background: #ffffff;
 }
 
+.sox-services .industries-img img {
+  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.sox-services:hover img {
+  filter: brightness(0) invert(1);
+
+}
+
+
+
 /*---------------------------------------------------------------------
 Service-box Style-3
 -----------------------------------------------------------------------*/
@@ -11219,10 +11235,4 @@ blog post
 
 .industries-img {
   margin-top: 20px;
-}
-
-.industries-img:hover img{
-  /* filter: grayscale(0.5); */
-  filter: brightness(0) invert(1);
-
 }
