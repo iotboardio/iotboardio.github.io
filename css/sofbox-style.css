@@ -5817,7 +5817,6 @@ PopUp Images Effect  Right
 .box-effect.shadow-effect.selected {
   /* box-shadow: 0 44px 98px 0 rgba(0, 0, 0, .12); */
   box-shadow: 0 17px 25px rgba(0, 0, 0, 0.13);
-
   transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
