@@ -1760,7 +1760,7 @@ Heading Title
 /*----------------------------------------------------------------------
  Form
 -----------------------------------------------------------------------*/
-input,
+/* input,
 input.form-control {
   background: #fffff;
   color: #d7d3d3;
@@ -1773,7 +1773,7 @@ input.form-control {
   -moz-border-radius: 5px;
   border-radius: 5px;
   width: 100%;
-}
+} */
 
 input[type="checkbox"],
 input.form-control[type="checkbox"] {
