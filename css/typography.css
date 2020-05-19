@@ -1558,7 +1558,7 @@ General
   color: #fff;
   text-shadow: none;
 }
-
+/* 
 body {
   font-family: 'Muli', sans-serif;
   font-weight: normal;
@@ -1566,7 +1566,7 @@ body {
   font-size: 16px;
   line-height: 2em;
   color: #666666;
-}
+} */
 
 a:focus {
   text-decoration: none !important;
@@ -1583,7 +1583,7 @@ button {
   outline: medium none !important;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -1594,7 +1594,7 @@ h6 {
   font-weight: 700;
   color: #000000;
   margin: 0px;
-}
+} */
 
 h1 a,
 h2 a,
