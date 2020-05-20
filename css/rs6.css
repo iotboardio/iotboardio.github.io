@@ -103,7 +103,7 @@ rs-sbg-px { pointer-events: none }
 
 .debugtimline_txt {
 	color:#fff;
-	font-weight: 400;
+	font-weight: 600;
 	font-size:7px;
 	position:absolute;	
 	left:10px;
@@ -195,7 +195,7 @@ rs-module [class*=" fa-"]:before,
 {
     font-family: FontAwesome;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
    
     speak: none;
     display: inline-block;
@@ -982,7 +982,7 @@ rs-dotted.threexthreewhite		{	background:url(../assets/gridtile_3x3_white.png)}
 	color: #FFF;  
 	font-size: 20px;
 	line-height: 60px;
-	font-weight: 400;
+	font-weight: 600;
 	font-style: normal;
 	font-family: Raleway;	
 	text-decoration: none;
