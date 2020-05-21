@@ -12246,6 +12246,12 @@ Testimonial
 .iq-banner {
   position: relative;
   overflow: hidden;
+  width: 100%;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .iq-banner:before {
@@ -12641,3 +12647,4 @@ Text color
   box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.1);
   padding: 30px;
 }
+
