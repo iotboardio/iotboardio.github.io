@@ -2046,12 +2046,12 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
   margin-bottom: 0px
 }
 
-.title-box h2 {
+/* .title-box h2 {
   margin-bottom: 15px;
   font-size: 32px;
   font-weight: 600;
   color: #323232;
-}
+} */
 
 .title-box-space,
 .title-box.text-left.title-box-space {
@@ -10471,6 +10471,118 @@ Flip box End
 /*---------------------------------------------------------------------
  Banner
 -----------------------------------------------------------------------*/
+.headerblock {
+  background-image: url(../images/3rd-landing-page.jpg);
+  padding-top: 41%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.headerblock .txt-wrap {
+  position: absolute;
+  color: #fff !important;
+  max-width: 600px;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  /* left: 10%; */
+}
+
+.headerblock .heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff !important;
+  line-height: 64px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.headerblock .subheading {
+  font-size: 24px;
+  opacity: 0.9;
+  line-height: 40px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.hero-btn {
+  max-width: 234px;
+  height: 52px;
+  line-height: 52px;
+  /* margin: 0 auto; */
+}
+
+.btn-stl--red {
+  font-weight: 700;
+  border: none;
+  background: #e9d028;
+  color: #fff;
+  transition: .3s all;
+  text-transform: uppercase;
+}
+
+.btn-stl {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .headerblock .txt-wrap {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .headerblock .heading {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .headerblock .subheading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .headerblock .txt-wrap {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerblock {
+    padding-top: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .headerblock {
+    padding: 0;
+    height: 100vh;
+    background-size: inherit;
+    text-align: center;
+  }
+
+  .headerblock .txt-wrap {
+    width: 100%;
+    left: 0;
+    padding: 0 15px;
+  }
+
+  .hero-btn {
+    max-width: 234px;
+    height: 52px;
+    line-height: 52px;
+    margin: 0 auto;
+  }
+
+}
+
+.iq-banner {
+  background-image: url(../images/3rd-landing-page.jpg);
+}
+
 .iq-banner-bot-shape {
   position: relative;
   background-position: bottom center !important;
@@ -10482,7 +10594,7 @@ Flip box End
   width: 100%;
   left: 0;
   bottom: 0;
-  background-image: url(../images/hr-b-shape.png) !important;
+  background-image: url(../images/5th-landing-page.jpg) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   height: 167px;
@@ -12648,3 +12760,108 @@ Text color
   padding: 30px;
 }
 
+/* ==================================================== */
+
+.heading {
+  /* margin-top: 80px; */
+  font-size: 32px;
+  font-weight: bold;
+  color: #437cd3;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .page-sec .heading {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+.icon-sprite.exp-one {
+  background-position: -52px -45px;
+  width: 27px;
+  height: 35px;
+}
+
+.sec-two {
+  padding: 80px 0;
+}
+
+.tech-sec {
+  padding: 80px 0;
+}
+
+.sec-two .icon-wrap {
+  width: 68px;
+  height: 68px;
+  box-shadow: 1px 1px 5px 1px #eaeaea;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 68px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.sec-two .expertise-wrapper {
+  padding: 60px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  align-content: start;
+  justify-content: start;
+}
+
+.page-sec p {
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 0.9;
+  font-weight: normal;
+}
+
+.sec-two .inner-block-box {
+  padding-top: 25px;
+  /* padding-bottom: 25px; */
+  margin-bottom: 40px;
+  border-radius: 5px;
+  transition: all .3s ease-in 0s;
+  /* text-align: center; */
+  box-shadow: 0 0 10px #e4dfdf;
+  background-color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.sec-two h3 {
+  font-size: 24px;
+  color: #444;
+  margin: 15px 0;
+}
+
+.overview-block-ptb .expertise-wrapper {
+  padding: 60px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  align-content: start;
+  justify-content: start;
+}
+
+.subheading {
+  font-size: 20px;
+  color: #444;
+  margin: 15px 0;
+}
+
+.iot-sol-sec .subheading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.client-sec {
+  padding: 80px 0;
+}
+.our-partners {
+  padding: 80px 0;
+}
