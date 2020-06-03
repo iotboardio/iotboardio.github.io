@@ -12865,3 +12865,15 @@ Text color
 .our-partners {
   padding: 80px 0;
 }
+
+.iot-sol-sec .image {
+  margin: 0 auto;
+  text-align: center;
+}
+.iot-sol-sec .image img {
+  margin: 0;
+  padding: 12px;
+  border: 3px solid #0091ea;
+  border-radius: 50%;
+  overflow: hidden;
+}
