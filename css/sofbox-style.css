@@ -4868,6 +4868,16 @@ color pallet Style-2
 /*---------------------------------------------------------------------
 Service-box process Style-2
 -----------------------------------------------------------------------*/
+.section_features {
+  padding: 40px 0 60px;
+}
+
+.section_industries {
+  padding: 40px 0 80px;
+}
+.expertise-wrapper-2 {
+  padding: 40px 0 0;
+ }
 .sox-services {
   border-radius: 4px;
   min-height: 160px;
@@ -12870,7 +12880,7 @@ Text color
   /* margin-top: 80px; */
   font-size: 32px;
   font-weight: bold;
-  color: #437cd3;
+  color: #353535;
   line-height: 40px;
   margin-bottom: 40px;
 }
