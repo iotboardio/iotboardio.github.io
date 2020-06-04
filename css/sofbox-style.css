@@ -10505,7 +10505,111 @@ Flip box End
   margin-bottom: 40px;
   color: #fff;
 }
+/* banner v2 */ 
+.headerblock-2  {
+  background-image: url(../images/5th-landing-page.jpg);
+  padding-top: 41%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
 
+.headerblock-2 .txt-wrap {
+  position: absolute;
+  color: #fff !important;
+  max-width: 600px;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  /* left: 10%; */
+}
+
+.headerblock-2 .heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff !important;
+  line-height: 64px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.headerblock-2 .subheading {
+  font-size: 24px;
+  opacity: 0.9;
+  line-height: 40px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+/* banner v3 */ 
+.headerblock-3  {
+  background-image: url(../images/6th-landing-page.jpg);
+  padding-top: 41%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.headerblock-3 .txt-wrap {
+  position: absolute;
+  color: #fff !important;
+  max-width: 600px;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  /* left: 10%; */
+}
+
+.headerblock-3 .heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff !important;
+  line-height: 64px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.headerblock-3 .subheading {
+  font-size: 24px;
+  opacity: 0.9;
+  line-height: 40px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+/* banner v4 */ 
+.headerblock-4  {
+  background-image: url(../images/banner-bg.png);
+  padding-top: 41%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.headerblock-4 .txt-wrap {
+  position: absolute;
+  color: #fff !important;
+  max-width: 600px;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  /* left: 10%; */
+}
+
+.headerblock-4 .heading {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff !important;
+  line-height: 64px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.headerblock-4 .subheading {
+  font-size: 24px;
+  opacity: 0.9;
+  line-height: 40px;
+  margin-bottom: 40px;
+  color: #fff;
+}
 .hero-btn {
   max-width: 234px;
   height: 52px;
