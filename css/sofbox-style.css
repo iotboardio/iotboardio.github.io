@@ -13365,7 +13365,7 @@ Text color
 }
 
 .jobguru-video-area {
-  background: url(https://www.sevenstarwebsolutions.com/wp-content/uploads/2019/03/experts-Developer-bg.jpg) no-repeat fixed 0 0/cover;
+  background: url(../images/tech-bg.png) no-repeat fixed 0 0/cover;
   position: relative;
   z-index: 1;
   padding: 100px 0px;
@@ -13431,3 +13431,34 @@ Text color
 .cpbilty-srvc:hover {
   border: 2px solid #87c232;
 }
+
+@media (max-width: 767px) {
+  .col-xs-6:nth-child(even) {
+    padding-left: 7.5px;
+}
+.sox-services {
+  border-radius: 12px;
+  min-height: 160px;
+  /* margin: 0px 0 30px; */
+  padding: 20px;
+  z-index: 0;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: relative;
+}
+.sox-services .sox-icon h5 {
+  font-size: 16px;
+}
+.sox-icon {
+  margin: 0 auto;
+  text-align: center;
+}
+}
+
+@media (max-width: 575px) {
+  .col-xs-4, .col-xs-6 {
+    width: 50%!important;
+}
+}
+
