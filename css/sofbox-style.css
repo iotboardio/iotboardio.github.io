@@ -10511,7 +10511,7 @@ Flip box End
  Banner
 -----------------------------------------------------------------------*/
 .headerblock {
-  background-image: url(../images/3rd-landing-page.jpg);
+  background-image: url(../images/2nd-landing-page.jpg);
   padding-top: 41%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12996,7 +12996,7 @@ Text color
 }
 
 .subheading {
-  font-size: 20px;
+  font-size: 24px;
   color: #444;
   margin: 15px 0;
 }
@@ -13004,7 +13004,7 @@ Text color
 .iot-sol-sec .subheading {
   margin-top: 0;
   margin-bottom: 20px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .client-sec {
