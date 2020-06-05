@@ -4576,10 +4576,30 @@ list
   text-align: center !important;
   height: 45px !important;
 }
+/*---------------------------------------------------------------------
+contact_section
+-----------------------------------------------------------------------*/
+.contact_section {
+  padding: 80px 0;
+}
+.color-palette .circle-icon i {
+  font-size: 40px;
+}
+.flaticon::before {
+  margin: 0;
+  font-size: 40px;
+  line-height: 80px;
+}
+
+.mp-section {
+  padding: 80px 0;
+}
 
 /*---------------------------------------------------------------------
 color pallet Style-1
 -----------------------------------------------------------------------*/
+contact_section
+
 .color-palette:hover {
   background: transparent;
 }
@@ -11523,11 +11543,11 @@ i.flaticon {
   display: block;
 }
 
-.flaticon::before {
+/* .flaticon::before {
   margin: 0;
   font-size: 80px;
   line-height: 80px;
-}
+} */
 
 .iq-feature-box {
   padding: 45px 15px;
