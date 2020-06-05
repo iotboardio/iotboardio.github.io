@@ -10530,7 +10530,7 @@ Flip box End
 
 .headerblock .heading {
   font-size: 48px;
-  font-weight: 700;
+  /* font-weight: 700; */
   color: #fff !important;
   line-height: 64px;
   margin-top: 0;
