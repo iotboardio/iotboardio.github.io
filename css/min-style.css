@@ -13368,7 +13368,7 @@ Text color
   background: url(../images/tech-bg.png) no-repeat fixed 0 0/cover;
   position: relative;
   z-index: 1;
-  padding: 100px 0px;
+  padding: 80px 0px;
   height: 350px;
 }
 .video1-container {
@@ -13383,11 +13383,16 @@ Text color
   line-height: 52px;
   text-align: center;
 }
+.jobguru-video-area p {
+font-size: 16px;
+color: #fff;
+margin-bottom: 20px;
+}
 
 @media (max-width: 767px){
   .jobguru-video-area{
      padding: 80px 0px;
-    height: 421px;
+    height: 550px;
     
   }
  
@@ -13400,7 +13405,7 @@ Text color
 }
 @media (min-width: 1366px) {
   .jobguru-video-area {
-    height: 350px;
+    height: 450px;
 }
 }
 
