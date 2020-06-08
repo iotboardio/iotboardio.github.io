@@ -1294,6 +1294,7 @@ header #menu-btn.is-active .line:nth-child(3) {
 .title-breadcrumb {
   color: #fff;
 }
+
 /*----------------------------------------------------------------------
                                 Buttons
 -----------------------------------------------------------------------*/
@@ -11556,12 +11557,14 @@ i.flaticon {
 .iq-feature-box {
   padding: 45px 15px;
   text-align: center;
+  background-color: #fff;
   transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
+  height: 100%;
 }
 
 .iq-feature-box a.readmore {
@@ -11695,6 +11698,11 @@ i.flaticon {
 /*************************************
 Feature 1 
 **************************************/
+.iq-feature {
+  padding: 80px 0;
+}
+
+
 .iq-feature1 .iq-blog {
   top: 0px;
   position: relative;
@@ -13099,7 +13107,7 @@ Text color
   color: #fff;
   line-height: 1.2;
   padding-top: 13px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .blog-banner .txt-container p {
@@ -13576,10 +13584,14 @@ Text color
 
 .blue-bg p {
   font-size: 16px;
-    line-height: 28px;
-    opacity: 0.9;
-    font-weight: normal;
-    max-width: 900px;
-    margin: 0 auto 40px auto;
+  line-height: 28px;
+  opacity: 0.9;
+  font-weight: normal;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
 }
+
 /* ============================================ */
+.iq-products {
+  padding: 80px 0;
+}
