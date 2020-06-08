@@ -1252,7 +1252,7 @@ header #menu-btn.is-active .line:nth-child(3) {
                           Background Overlay Color
 -----------------------------------------------------------------------*/
 .iq-bg-over {
-  background: #eff1fe;
+  background: #0b3155;
 }
 
 .breadcrumb-bg {
@@ -1291,6 +1291,9 @@ header #menu-btn.is-active .line:nth-child(3) {
   margin-left: 5px;
 }
 
+.title-breadcrumb {
+  color: #fff;
+}
 /*----------------------------------------------------------------------
                                 Buttons
 -----------------------------------------------------------------------*/
