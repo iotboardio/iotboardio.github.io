@@ -13546,7 +13546,7 @@ Text color
   height: 60px;
   line-height: 60px;
   text-align: center;
-  color: #e86b03;
+  color: #3fbcac;
   border-radius: 10px;
   background: #fff;
   -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
@@ -13673,4 +13673,7 @@ Text color
   font-weight: 600;
   transition-timing-function: ease-in-out;
   transition-duration: .3s
+}
+.btn:hover {
+  background: #000;
 }
