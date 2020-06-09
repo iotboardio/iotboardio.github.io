@@ -13519,6 +13519,9 @@ Text color
     margin: 0 auto;
     text-align: center;
   }
+  .sox-services.service-pattern:after {
+    right: 0;
+  }
 }
 
 @media (max-width: 575px) {
