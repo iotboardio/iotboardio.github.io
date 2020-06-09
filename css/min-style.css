@@ -11692,7 +11692,7 @@ i.flaticon {
 
 .iq-font-white {
   color: #ffffff;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 /*************************************
@@ -13413,7 +13413,8 @@ Text color
 }
 
 .jobguru-video-area {
-  background: url(../images/tech-bg.png) no-repeat fixed 0 0/cover;
+  /* background: url(../images/tech-bg.png) no-repeat 0 0/cover; */
+  background: #0b3155;
   position: relative;
   z-index: 1;
   padding: 80px 0px;
@@ -13526,7 +13527,7 @@ Text color
 
 /* new app development section css */
 .new-app-development1 {
-  background-color: #f9fcfe;
+  background-color: #fff;
   padding: 80px 0;
   width: 100%;
   overflow: auto;
@@ -13547,7 +13548,7 @@ Text color
   line-height: 60px;
   text-align: center;
   color: #3fbcac;
-  border-radius: 10px;
+  border-radius: 50px;
   background: #fff;
   -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
@@ -13609,6 +13610,7 @@ Text color
   animation-name: fadeIn;
   padding: 70px 0;
 }
+
 /* @media (min-width: 1366px) {
   .parallax {
     height: 300px;
@@ -13618,6 +13620,7 @@ Text color
 .opacity-extra-medium {
   opacity: .5;
 }
+
 .opacity-extra-medium {
   height: 100%;
   width: 100%;
@@ -13625,6 +13628,7 @@ Text color
   left: 0;
   position: absolute;
 }
+
 .bg-black {
   background-color: #3fbcac;
 }
@@ -13632,19 +13636,23 @@ Text color
 .extra-small-screen {
   height: 150px;
 }
+
 .display-table {
-  display: table!important;
+  display: table !important;
 }
+
 .center-col {
   float: none;
   margin-left: auto;
   margin-right: auto;
 }
+
 .vertical-align-middle {
   vertical-align: middle;
 }
+
 .display-table-cell {
-  display: table-cell!important;
+  display: table-cell !important;
 }
 
 .text-deep-pink {
@@ -13674,6 +13682,7 @@ Text color
   transition-timing-function: ease-in-out;
   transition-duration: .3s
 }
+
 .btn:hover {
   background: #000;
 }
@@ -13681,8 +13690,23 @@ Text color
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none;
+}
 
 svg:not(:root) {
   overflow: hidden;
-  }
+}
+/* ============================================ */
+.pattern-1 {
+  background-image: url(../images/pattern1.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.greybg {
+  background-color: #f6f6f6;
+}
+section.padding {
+  padding: 80px 0;
+}
