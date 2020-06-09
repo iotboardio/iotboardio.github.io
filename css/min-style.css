@@ -13677,3 +13677,12 @@ Text color
 .btn:hover {
   background: #000;
 }
+
+
+img {
+  vertical-align: middle;
+  border-style: none; }
+
+svg:not(:root) {
+  overflow: hidden;
+  }
