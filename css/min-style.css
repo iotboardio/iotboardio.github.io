@@ -13500,6 +13500,10 @@ Text color
     min-height: 160px;
     /* margin: 0px 0 30px; */
     padding: 20px;
+    border-radius: 8px;
+    border: solid 1px #dfdfdf;
+    background-color: #fff;
+    padding: 25px 20px 25px 20px;
     z-index: 0;
     text-align: center;
     margin: 0 auto;
