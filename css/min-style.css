@@ -11670,7 +11670,7 @@ i.flaticon {
 .blue-bg {
   /* background: rgba(36, 107, 173, 1); */
   background: -moz-linear-gradient(-45deg, rgba(36, 107, 173, 1) 0%, rgba(0, 200, 200, 1) 100%);
-  background: #0b3155;
+  background: #39485b;
   /* background: -webkit-linear-gradient(-45deg, rgba(36, 107, 173, 1) 0%, rgba(0, 200, 200, 1) 100%); */
   background: -o-linear-gradient(-45deg, rgba(36, 107, 173, 1) 0%, rgba(0, 200, 200, 1) 100%);
   background: -ms-linear-gradient(-45deg, rgba(36, 107, 173, 1) 0%, rgba(0, 200, 200, 1) 100%);
@@ -13637,7 +13637,7 @@ Text color
 }
 
 .bg-black {
-  background-color: #3fbcac;
+  background-color: #39485b;
 }
 
 .extra-small-screen {
