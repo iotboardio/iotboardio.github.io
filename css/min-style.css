@@ -11660,7 +11660,7 @@ i.flaticon {
 }
 
 .grey-bg {
-  background: #f5f7fb;
+  background: #fff;
 }
 
 /* .blue-bg {
@@ -11706,7 +11706,7 @@ Feature 1
 .iq-feature1 .iq-blog {
   top: 0px;
   position: relative;
-  background: #fff;
+  background: #f3f3f4;
   padding: 30px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -11717,7 +11717,7 @@ Feature 1
   border-bottom: 2px solid rgba(2, 216, 113, 0);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 .iq-feature1 .iq-blog .content-blog {
@@ -13716,4 +13716,10 @@ svg:not(:root) {
 }
 section.padding {
   padding: 80px 0;
+}
+/* =========================== */
+@media (min-width: 992px) {
+   .space-lg-3 {
+    padding-bottom: 8rem!important;
+}
 }
