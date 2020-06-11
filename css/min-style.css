@@ -4635,7 +4635,7 @@ contact_section .color-palette:hover {
 
 .color-palette:before,
 .sox-services:before {
-  border-radius: 4px;
+  border-radius: 10px;
   content: "";
   width: 100%;
   height: 100%;
@@ -4947,6 +4947,8 @@ Service-box process Style-2
   -webkit-transition: all 0.5s ease-in-out;
 }
 
+.sox-services .text 
+
 .sox-services.org-hover .service-number {
   background: rgba(255, 121, 109, 0.4);
 }
@@ -4990,7 +4992,9 @@ Service-box process Style-2
 .sox-services:hover .text-hover {
   color: #ffffff !important;
 }
-
+.sox-services:hover .service__text {
+  color: #8899a1 !important;
+}
 .sox-services:hover .service-number {
   background: #ffffff;
 }
@@ -5073,7 +5077,7 @@ Service-box Style-3
 
 .color-palette.blue-hover:before,
 .sox-services.blue-hover:before {
-  background: #377dff;
+  background: #393939;
 }
 
 .color-palette.blue-hover .circle-icon,
@@ -6040,9 +6044,10 @@ PopUp Images Effect  Right
  Box-effect style one( Feature box Two)
 -----------------------------------------------------------------------*/
 .box-effect-two {
-  padding: 30px;
+  padding: 30px 20px;
   position: relative;
   overflow: hidden;
+  height: 100%;
   border-radius: 12px;
   top: 0;
   transition: all 0.5s ease-in-out;
@@ -13722,4 +13727,53 @@ section.padding {
    .space-lg-3 {
     padding-bottom: 8rem!important;
 }
+}
+/* =================================================== */
+.idustries__boxs {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    /* margin-bottom: 15px; */
+    height: calc(100% - 15px);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    /* box-shadow: 0 16px 20px rgba(195,190,190,0.4); */
+}
+
+.card2 {
+  background: #fff;
+  /* border: 1px solid #dbdbdb; */
+  box-sizing: border-box;
+  padding: 30px;
+  transition: all .2s ease;
+  box-shadow: 0 0.8rem 1rem #d2d2d2;
+  /* box-shadow: 0 4px 14px rgba(70,97,138,.2); */
+  border-radius: 8px;
+}
+
+/* .service__section .row .hover-bg:hover .card2 {
+  background: #333;
+} */
+.card-header2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  height: 64px;
+}
+.card-header2 img {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 48px;
+  height: 48px;
+}
+
+.card-header2 h3 {
+  /* font-family: Open Sans,sans-serif; */
+  font-size: 20px;
+  line-height: 31px;
+  /* font-weight: 700; */
 }

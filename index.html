@@ -33,6 +33,79 @@
 		})();
 	</script>
 	<!--End of Tawk.to Script-->
+
+	<style>
+		.solutions-sec {
+			padding: 80px 0;
+		}
+
+		.card-program {
+			position: relative;
+			/* width: 256px; */
+			height: 200px;
+			padding: 24px 16px;
+			margin-bottom: 26px;
+			overflow: hidden;
+			cursor: pointer;
+		}
+
+		.card {
+			background: #fff;
+			border: 1px solid #dbdbdb;
+			box-sizing: border-box;
+			box-shadow: 0 4px 14px rgba(70, 97, 138, .2);
+			border-radius: 8px;
+		}
+
+
+		.card-program a {
+			text-decoration: none;
+			color: #2f3c61;
+		}
+
+		.card-program h3 {
+			/* font-family: Open Sans, sans-serif; */
+			font-size: 21px;
+			line-height: 29px;
+			/* font-weight: 700; */
+			margin-bottom: 20px;
+		}
+
+		.card-program p {
+			font-family: Open Sans, sans-serif;
+			font-size: 13px;
+			line-height: 18px;
+		}
+
+		.card-program p {
+			font-weight: 400;
+			height: 39px;
+			padding-right: 44px;
+			margin-bottom: 38px;
+		}
+
+		.card-program .circle {
+			position: absolute;
+			right: -25px;
+			bottom: -25px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50%;
+			width: 98px;
+			height: 98px;
+			background-image: -webkit-linear-gradient(0deg, rgb(206, 184, 42) 0%, rgb(63, 188, 172) 100%);
+			/* background-image: -webkit-linear-gradient(0deg, rgba(206, 184, 42, 0.49) 0%, rgba(63, 188, 172, 0.57) 100%); */
+			/* background: linear-gradient(322.02deg, #fc4a1a -50.3%, #f7b733 163.96%); */
+			transition: transform .3s ease, box-shadow .3s ease-in-out;
+			cursor: pointer;
+		}
+
+		.card-program:hover .circle {
+			transform: scale(1.05);
+			box-shadow: 0 0 15px 20px rgba(242, 220, 93, 0.459);
+		}
+	</style>
 </head>
 
 <body>
@@ -88,9 +161,14 @@
 										<a class="dropdown-item" href="thingsboard.html">Thingsboard</a>
 										<a class="dropdown-item" href="costom-iot-solutions.html">Custom IoT Solutions
 										</a>
+										<a class="dropdown-item" href="">Azure IoT Solution</a>
+										<a class="dropdown-item" href="">Azure IoT Solution</a>
 										<a class="dropdown-item" href="tinyml.html">TinyML</a>
 
 									</div>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#iq-service">Features</a>
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1" role="button"
@@ -110,12 +188,10 @@
 										<!-- <a class="dropdown-item" href="healthcare.html">Healthcare</a> -->
 									</div>
 								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#iq-service">Features</a>
-								</li>
-								<li class="nav-item">
+
+								<!-- <li class="nav-item">
 									<a class="nav-link" href="https://blog.thinkitive.com/category/iot/">Blog</a>
-								</li>
+								</li> -->
 								<li class="nav-item">
 									<a class="nav-link" href="contact-us.html">Contact</a>
 								</li>
@@ -126,7 +202,7 @@
 							<ul class="shop_list">
 								<li class="button-btn list-inline-item">
 									<nav aria-label="breadcrumb">
-										<div class="blue-btn button"><a href="#">Get Started</a></div>
+										<div class="blue-btn button"><a href="#">Request Demo</a></div>
 									</nav>
 								</li>
 
@@ -153,8 +229,8 @@
 						data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
 						data-dim="w:869px,869px,437px,231px;h:610px,610px,307px,162px;" data-frame_0="sX:0.9;sY:0.9;"
 						data-frame_1="st:2060;sp:1000;sR:2060;" data-frame_999="o:0;st:w;sR:5940;"
-						style="z-index:11;font-family:Roboto;"><img src="images/header-img/71-iot.png" alt="images" width="829"
-							height="582" data-no-retina>
+						style="z-index:11;font-family:Roboto;"><img src="images/header-img/71-iot.png" alt="images"
+							width="829" height="582" data-no-retina>
 					</rs-layer>
 					<!--
 		-->
@@ -191,7 +267,8 @@
 						data-text="w:normal;s:16,16,18,14;l:28,28,28,26;a:left,left,center,center;"
 						data-frame_0="y:100%;" data-frame_0_mask="u:t;" data-frame_1="st:950;sp:1200;sR:950;"
 						data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:6850;" style="z-index:14;">
-						IoTBoard is a customizable internet of things platform, <br> it can be customised for many use cases
+						IoTBoard is a customizable internet of things platform, <br> it can be customised for many use
+						cases
 						in various industries.
 					</rs-layer>
 					<!--
@@ -244,16 +321,17 @@
 			</rs-slides>
 			<rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
 		</rs-module>
-		
+
 	</rs-module-wrap>
 	<!-- END REVOLUTION SLIDER -->
 	<!-- Main Content -->
 
-	<section id="iq-service" class="section_features">
+
+	<section class="solutions-sec">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 headingsec text-center">
-					<h2 class="heading text-center">Key features</h2>
+					<h2 class="heading text-center">Solutions</h2>
 					<svg xmlns="http://www.w3.org/2000/svg" width="144" height="3" viewBox="0 0 144 3">
 						<path id="ks-1-Subtraction_4" data-name="Subtraction 4"
 							d="M3298-2038.758h-70.281l2.47-3H3298v3Zm-76.187,0H3154v-3h70.282l-2.47,3Z"
@@ -264,20 +342,128 @@
 						necessary features for any IoT system.</p>
 				</div>
 			</div>
-			<div class="row expertise-wrapper-2">
-				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+			<div class="row iq-mt-30">
+				<div class="col-lg-4 col-sm-4 col-xs-6">
+					<div class="card card-program"><a href="iot-aws.html" class="">
+							<h3>AWS IoT Solution</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							</p>
+							<div class="circle"><img src="images/arrow-right.svg" alt="Go to" class="arrow">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4 col-xs-6">
+					<div class="card card-program"><a href="thingsboard.html" class="">
+							<h3>ThingsBoard IoT Solution</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							</p>
+							<div class="circle"><img src="images/arrow-right.svg" alt="Go to" class="arrow">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4 col-xs-6">
+					<div class="card card-program"><a href="costom-iot-solutions.html" class="">
+							<h3>Custom IoT Solution
+							</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							</p>
+							<div class="circle"><img src="images/arrow-right.svg" alt="Go to" class="arrow">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4 col-xs-6">
+					<div class="card card-program"><a href="iot-aws.html" class="">
+							<h3>Azure IoT Solution</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							</p>
+							<div class="circle"><img src="images/arrow-right.svg" alt="Go to" class="arrow">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4 col-xs-6">
+					<div class="card card-program"><a href="iot-aws.html" class="">
+							<h3>Kaa IoT Solution</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							</p>
+							<div class="circle"><img src="images/arrow-right.svg" alt="Go to" class="arrow">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4 col-xs-6">
+					<div class="card card-program"><a href="iot-aws.html" class="">
+							<h3>Tiny ML</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							</p>
+							<div class="circle"><img src="images/arrow-right.svg" alt="Go to" class="arrow">
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="iq-service" class="section_features">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 headingsec text-center">
+					<h2 class="heading text-center">Key Features provided by our solutions
+					</h2>
+					<svg xmlns="http://www.w3.org/2000/svg" width="144" height="3" viewBox="0 0 144 3">
+						<path id="ks-1-Subtraction_4" data-name="Subtraction 4"
+							d="M3298-2038.758h-70.281l2.47-3H3298v3Zm-76.187,0H3154v-3h70.282l-2.47,3Z"
+							transform="translate(-3154 2041.758)" fill="#e9d028">
+						</path>
+					</svg>
+					<p class="text-center desc">Our services & IoTBoard platform provies all the fundamental and <br>
+						necessary features for any IoT system.</p>
+				</div>
+			</div>
+			<div class="row iq-mt-30">
+				<div class="col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-20">
 					<div class="box-effect-two  wow fadeInUp text-left feature-box-effect selected">
 						<div class="icon-box">
 							<div class="img-effect mb-4"><img src="images/iot-icon/data-acquisition-icon.png"
 									alt="fancybox">
 							</div>
-							<h5 class="mb-2">Data Acquisition</h5>
+							<h5 class="mb-2">Data Acquisition
+							</h5>
 							<p class="mb-0">Centralized data collection and storage, with ease of access to live &
 								historical data.</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+				<div class="col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-20">
+					<div class="box-effect-two  wow fadeInUp text-left feature-box-effect">
+						<div class="icon-box">
+							<div class="img-effect mb-4"><img src="images/iot-icon/camera-icon.png" alt="fancybox">
+							</div>
+							<h5 class="mb-2">Device Management
+							</h5>
+							<p class="mb-0">Monitor premises within a single interface for IP based cameras.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-20">
+					<div class="box-effect-two  wow fadeInUp text-left feature-box-effect">
+						<div class="icon-box">
+							<div class="img-effect mb-4"><img src="images/iot-icon/intelligent-insights-icon.png"
+									alt="fancybox">
+							</div>
+							<h5 class="mb-2">Data processing and analytics
+							</h5>
+							<p class="mb-0">Find patterns and insights from the stored data by looking at dashboards &
+								graphs.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-20">
 					<div class="box-effect-two  wow fadeInUp text-left feature-box-effect">
 						<div class="icon-box">
 
@@ -291,7 +477,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+				<div class="col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-20">
 					<div class="box-effect-two  wow fadeInUp text-left feature-box-effect">
 						<div class="icon-box">
 							<div class="img-effect mb-4"><img src="images/iot-icon/smat-alarms-icon.png" alt="fancybox">
@@ -302,20 +488,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
-					<div class="box-effect-two  wow fadeInUp text-left feature-box-effect">
-						<div class="icon-box">
-							<div class="img-effect mb-4"><img src="images/iot-icon/intelligent-insights-icon.png"
-									alt="fancybox">
-							</div>
-							<h5 class="mb-2">Intelligent Insights</h5>
-							<p class="mb-0">Find patterns and insights from the stored data by looking at dashboards &
-								graphs.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+
+				<div class="col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-20">
 					<div class="box-effect-two  wow fadeInUp text-left feature-box-effect">
 						<div class="icon-box">
 							<div class="img-effect mb-4"><img src="images/iot-icon/asset-management-icon.png"
@@ -327,12 +501,23 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-sm-20">
+				<div class="col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-20">
 					<div class="box-effect-two  wow fadeInUp text-left feature-box-effect">
 						<div class="icon-box">
 							<div class="img-effect mb-4"><img src="images/iot-icon/camera-icon.png" alt="fancybox">
 							</div>
-							<h5 class="mb-2">Camera Monitoring</h5>
+							<h5 class="mb-2">Multi-tenancy
+							</h5>
+							<p class="mb-0">Monitor premises within a single interface for IP based cameras.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-20">
+					<div class="box-effect-two  wow fadeInUp text-left feature-box-effect">
+						<div class="icon-box">
+							<div class="img-effect mb-4"><img src="images/iot-icon/camera-icon.png" alt="fancybox">
+							</div>
+							<h5 class="mb-2">Security</h5>
 							<p class="mb-0">Monitor premises within a single interface for IP based cameras.</p>
 						</div>
 					</div>
@@ -344,10 +529,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h2 class="iq-tw-6 iq-font-white iq-mb-20 heading-2 "> Our services provide you with the best in the
-						industry IoT development.
+					<h2 class="iq-tw-6 iq-font-white iq-mb-20 heading-2 ">We provide best IoT solutions to every
+						industry and best quality services to make it work in any environment
 					</h2>
-					
+
 					<p>We provide end to end iot development services starting from device programming, integration to
 						visualization and alerting, with on & off prem deployments.
 					</p>
@@ -372,8 +557,114 @@
 					</p>
 				</div>
 			</div>
+			<div class="row iq-mt-30 d-flex justify-content-center">
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12 mb-4 mb-sm-30 hover-bg">
+					<div class="card2 sox-services service-pattern wow fadeInUp text-left blue-hover">
+						<div class="card-header2" style="height: 60px;">
+							<h3 class="w-heading text-hover">IoT Consulting
+							</h3>
+							<img src="images/industries-iot/device-integration-icon.png" alt="What do you get">
+						</div>
+						<p class="service__text">We provide services to integrate devices into custom IoT Platforms or
+							open
+							source IoT platforms. We provide support for off the shelf and custom hardware.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12 mb-4 mb-sm-30 hover-bg">
+					<div class="card2 sox-services service-pattern wow fadeInUp text-left blue-hover">
+						<div class="card-header2" style="height: 60px;">
+							<h3 class="w-heading text-hover">Proof of Concept
+							</h3>
+							<img src="images/industries-iot/device-integration-icon.png" alt="What do you get">
+						</div>
+						<p class="service__text">We provide services to integrate devices into custom IoT Platforms or
+							open
+							source IoT platforms. We provide support for off the shelf and custom hardware.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12 mb-4 mb-sm-30 hover-bg">
+					<div class="card2 sox-services service-pattern wow fadeInUp text-left blue-hover">
+						<div class="card-header2" style="height: 60px;">
+							<h3 class="w-heading text-hover">Device Integration & Connectivity
+							</h3>
+							<img src="images/industries-iot/device-integration-icon.png" alt="What do you get">
+						</div>
+						<p class="service__text">We provide services to integrate devices into custom IoT Platforms or
+							open
+							source IoT platforms. We provide support for off the shelf and custom hardware.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12 mb-4 mb-sm-30 hover-bg">
+					<div class="card2 sox-services service-pattern wow fadeInUp text-left blue-hover">
+						<div class="card-header2" style="height: 60px;">
+							<h3 class="w-heading text-hover">Solution Customization & Development
+							</h3>
+							<img src="images/industries-iot/device-integration-icon.png" alt="What do you get">
+						</div>
+						<p class="service__text">We provide services to integrate devices into custom IoT Platforms or
+							open
+							source IoT platforms. We provide support for off the shelf and custom hardware.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12 mb-4 mb-sm-30 hover-bg">
+					<div class="card2 sox-services service-pattern wow fadeInUp text-left blue-hover">
+						<div class="card-header2" style="height: 60px;">
+							<h3 class="w-heading text-hover">Integration & <br> Implementation
+							</h3>
+							<img src="images/industries-iot/device-integration-icon.png" alt="What do you get">
+						</div>
+						<p class="service__text">We provide services to integrate devices into custom IoT Platforms or
+							open
+							source IoT platforms. We provide support for off the shelf and custom hardware.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12 mb-4 mb-sm-30 hover-bg">
+					<div class="card2 sox-services service-pattern wow fadeInUp text-left blue-hover">
+						<div class="card-header2" style="height: 60px;">
+							<h3 class="w-heading text-hover">Analytics & Insights
+							</h3>
+							<img src="images/industries-iot/device-integration-icon.png" alt="What do you get">
+						</div>
+						<p class="service__text">We provide services to integrate devices into custom IoT Platforms or
+							open
+							source IoT platforms. We provide support for off the shelf and custom hardware.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12 mb-4 mb-sm-30 hover-bg">
+					<div class="card2 sox-services service-pattern wow fadeInUp text-left blue-hover">
+						<div class="card-header2" style="height: 60px;">
+							<h3 class="w-heading text-hover">Support & Managed <br> Services
+							</h3>
+							<img src="images/industries-iot/device-integration-icon.png" alt="What do you get">
+						</div>
+						<p class="service__text">We provide services to integrate devices into custom IoT Platforms or
+							open
+							source IoT platforms. We provide support for off the shelf and custom hardware.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12 mb-4 mb-sm-30 hover-bg m0">
+					<div class="card2 sox-services service-pattern wow fadeInUp text-left blue-hover">
+						<div class="card-header2" style="height: 60px;">
+							<h3 class="w-heading text-hover">DevOps services
+							</h3>
+							<img src="images/industries-iot/device-integration-icon.png" alt="What do you get">
+						</div>
+						<p class="service__text">We provide services to integrate devices into custom IoT Platforms or
+							open
+							source IoT platforms. We provide support for off the shelf and custom hardware.
+						</p>
+					</div>
+				</div>
+			</div>
 
-			<div class="row simple-grid simple-grid--3-6 mb-3">
+			<!-- <div class="row simple-grid simple-grid--3-6 mb-3">
 				<div class="col-12 col-sm-6 col-lg-4 simple-grid__cell">
 					<div class="simple-grid__heading mb-3">
 						<img src="images/industries-iot/device-integration-icon.png" alt="fancybox">
@@ -434,20 +725,23 @@
 						cloud platforms or on premise environments located at the customers premises.
 					</p>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 
-	
+
 
 	<section class="jobguru-video-area section_100">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<h2 class="iq-tw-6 iq-font-white iq-mb-20 heading-2"> We provide device integration services for off the shelf & custom hardware.
+					<h2 class="iq-tw-6 iq-font-white iq-mb-20 heading-2"> We provide device integration services for off
+						the shelf & custom hardware.
 
 					</h2>
-					<p> Lack of platform support for your hardware limits the capability of your hardware to be easily adopted, we provide integration and plugin development services that enable integration of your hardware with popular IoT platforms.
+					<p> Lack of platform support for your hardware limits the capability of your hardware to be easily
+						adopted, we provide integration and plugin development services that enable integration of your
+						hardware with popular IoT platforms.
 					</p>
 					<div class="cta-buttonp">
 						<a href="javascript:void(0)" class="button bt-black iq-mt-10 iq-mr-20">Contact Us
@@ -458,7 +752,7 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<section id="iq-feature" class="pb section_industries">
 		<div class="container">
 			<div class="row">
@@ -474,9 +768,10 @@
 				</div>
 			</div>
 
-			<div class="row expertise-wrapper-2">
-				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-6 mb-4 mb-sm-30">
-					<div class="sox-services service-pattern wow fadeInUp text-left blue-hover" data-wow-delay="0.4s">
+			<div class="row iq-mt-30">
+				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-6 mb-4 mb-sm-30">
+					<div class="idustries__boxs sox-services service-pattern wow fadeInUp text-left green-hover"
+						data-wow-delay="0.4s">
 						<a href="energy-solar.html">
 							<div class="sox-icon">
 								<h5 class="text-hover">Energy & Solar</h5>
@@ -487,8 +782,9 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-6 mb-4 mb-sm-30">
-					<div class="sox-services service-pattern wow fadeInUp text-left org-hover" data-wow-delay="0.4s">
+				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-6 mb-4 mb-sm-30">
+					<div class="idustries__boxs sox-services service-pattern wow fadeInUp text-left org-hover"
+						data-wow-delay="0.4s">
 						<a href="smart-building.html">
 							<div class="sox-icon">
 								<h5 class="text-hover">Smart Buildings</h5>
@@ -499,20 +795,23 @@
 						</a>
 					</div>
 				</div>
-				<!-- <div class="col-sm-6 col-md-4 col-lg-4 col-xs-6 mb-4 mb-sm-30">
-					<div class="sox-services service-pattern wow fadeInUp text-left green-hover" data-wow-delay="0.4s">
-						<a href="agriculture.html">
+				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-6 mb-4 mb-sm-30">
+					<div class="idustries__boxs sox-services service-pattern wow fadeInUp text-left green-hover"
+						data-wow-delay="0.4s">
+						<a href="data-centers.html">
 							<div class="sox-icon">
-								<h5 class="text-hover">Agriculture</h5>
+								<h5 class="text-hover"> Environment Monitoring
+								</h5>
 								<div class="industries-img">
-									<img src="./images/industries-iot/agriculture.png" alt="">
+									<img src="./images/industries-iot/data-science.png" alt="">
 								</div>
 							</div>
 						</a>
 					</div>
-				</div> -->
-				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-6 mb-4 mb-sm-30">
-					<div class="sox-services service-pattern wow fadeInUp text-left blue-hover" data-wow-delay="0.4s">
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-6 mb-4 mb-sm-30">
+					<div class="idustries__boxs sox-services service-pattern wow fadeInUp text-left green-hover"
+						data-wow-delay="0.4s">
 						<a href="retail.html">
 							<div class="sox-icon">
 								<h5 class="text-hover">Retail</h5>
@@ -523,21 +822,35 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-6 mb-4 mb-sm-30">
-					<div class="sox-services service-pattern wow fadeInUp text-left org-hover" data-wow-delay="0.4s">
-						<a href="data-centers.html">
+				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-6 mb-4 mb-sm-30">
+					<div class="idustries__boxs sox-services service-pattern wow fadeInUp text-left green-hover"
+						data-wow-delay="0.4s">
+						<a href="agriculture.html">
 							<div class="sox-icon">
-								<h5 class="text-hover"> Monitoring
-								</h5>
+								<h5 class="text-hover">Healthcare</h5>
 								<div class="industries-img">
-									<img src="./images/industries-iot/data-science.png" alt="">
+									<img src="./images/industries-iot/agriculture.png" alt="">
 								</div>
 							</div>
 						</a>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-6 mb-4 mb-sm-30">
-					<div class="sox-services service-pattern wow fadeInUp text-left green-hover" data-wow-delay="0.4s">
+				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-6 mb-4 mb-sm-30">
+					<div class="idustries__boxs sox-services service-pattern wow fadeInUp text-left green-hover"
+						data-wow-delay="0.4s">
+						<a href="telecom.html">
+							<div class="sox-icon">
+								<h5 class="text-hover">Wearables</h5>
+								<div class="industries-img">
+									<img src="./images/industries-iot/img_telecom-smart.png" alt="">
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-6 mb-4 mb-sm-30">
+					<div class="idustries__boxs sox-services service-pattern wow fadeInUp text-left green-hover"
+						data-wow-delay="0.4s">
 						<a href="transportation.html">
 							<div class="sox-icon">
 								<h5 class="text-hover">Transportation</h5>
@@ -548,20 +861,9 @@
 						</a>
 					</div>
 				</div>
-				<!-- <div class="col-sm-6 col-md-4 col-lg-4 col-xs-6 mb-4 mb-sm-30">
-					<div class="sox-services service-pattern wow fadeInUp text-left blue-hover" data-wow-delay="0.4s">
-						<a href="telecom.html">
-							<div class="sox-icon">
-								<h5 class="text-hover">Telecom</h5>
-								<div class="industries-img">
-									<img src="./images/industries-iot/img_telecom-smart.png" alt="">
-								</div>
-							</div>
-						</a>
-					</div>
-				</div> -->
-				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-6 mb-4 mb-sm-30">
-					<div class="sox-services service-pattern wow fadeInUp text-left org-hover" data-wow-delay="0.4s">
+				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-6 mb-4 mb-sm-30">
+					<div class="idustries__boxs sox-services service-pattern wow fadeInUp text-left green-hover"
+						data-wow-delay="0.4s">
 						<a href="manufacturing.html">
 							<div class="sox-icon">
 								<h5 class="text-hover">Manufacturing</h5>
