@@ -9126,7 +9126,7 @@ input[type=checkbox] {
   line-height: 160px;
 }
 
-.fancy-service-list .fancy-service-detail .iq-img i {
+/* .fancy-service-list .fancy-service-detail .iq-img i {
   color: #ffffff;
   position: absolute;
   height: 37px;
@@ -9137,7 +9137,7 @@ input[type=checkbox] {
   font-size: 16px;
   line-height: 37px;
   background: linear-gradient(to right, rgb(109, 115, 239) 0%, rgb(163, 120, 252, 1) 51%, rgb(109, 115, 239, 0.8) 100%);
-}
+} */
 
 .fancy-service-list .fancy-service-detail .iq-img img {
   width: auto;
