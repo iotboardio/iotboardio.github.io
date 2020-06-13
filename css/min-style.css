@@ -3300,7 +3300,8 @@ footer .copyright-space {
   width: 100%;
   z-index: 0;
   background-image: -moz-linear-gradient(0deg, rgb(109, 115, 239) 0%, rgb(163, 120, 252) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(206, 184, 42) 0%, rgb(63, 188, 172) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(72, 75, 78) 0%, rgb(53, 55, 58) 100%);
+  /* background-image: -webkit-linear-gradient(0deg, rgb(206, 184, 42) 0%, rgb(63, 188, 172) 100%); */
   background-image: -ms-linear-gradient(0deg, rgb(109, 115, 239) 0%, rgb(163, 120, 252) 100%);
   display: block !important;
 }
