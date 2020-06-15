@@ -71,6 +71,10 @@
 			margin-bottom: 20px;
 		}
 
+		.circle img {
+			filter: brightness(0.9) invert(0.1);
+		}
+
 		.card-program p {
 			font-family: Open Sans, sans-serif;
 			font-size: 13px;
@@ -94,7 +98,7 @@
 			border-radius: 50%;
 			width: 98px;
 			height: 98px;
-			background-image: -webkit-linear-gradient(0deg, rgb(206, 184, 42) 0%, rgb(63, 188, 172) 100%);
+			background: linear-gradient(322.02deg, #f1f1f1 -50.3%, #f1f1f1 163.96%);
 			/* background-image: -webkit-linear-gradient(0deg, rgba(206, 184, 42, 0.49) 0%, rgba(63, 188, 172, 0.57) 100%); */
 			/* background: linear-gradient(322.02deg, #fc4a1a -50.3%, #f7b733 163.96%); */
 			transition: transform .3s ease, box-shadow .3s ease-in-out;
@@ -103,7 +107,7 @@
 
 		.card-program:hover .circle {
 			transform: scale(1.05);
-			box-shadow: 0 0 15px 20px rgba(242, 220, 93, 0.459);
+			box-shadow: 0 0 15px 20px rgba(241, 241, 241, 0.459);
 		}
 	</style>
 </head>
@@ -168,7 +172,10 @@
 									</div>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#iq-service">Features</a>
+									<a class="nav-link" href="#iq-feature">Features</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#iq-service">Services</a>
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1" role="button"
@@ -246,15 +253,6 @@
 					<!--
 						
 		-->
-					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-						<h1 class="tp-caption   tp-resizeme" id="slide-24-layer-2" data-x="50" data-y="400"
-							data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;"
-							data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;"
-							data-transform_out="opacity:0;s:300;e:Power3.easeInOut;" data-start="900"
-							data-splitin="none" data-splitout="none" data-responsive_offset="on"
-							style="z-index: 6; white-space: nowrap; font-size: 50px; line-height: 70px; font-weight: 700; color: rgb(255, 255, 255); font-family: Poppins; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-							Email Marketing Software </h1>
-					</div>
 					<rs-layer id="slider-4-slide-4-layer-11" class="now-font" data-type="text" data-color="#1e1e1e"
 						data-rsp_ch="on" data-xy="x:l,l,c,c;xo:139px,139px,-6px,-3px;y:m;yo:-30px,-30px,-199px,-122px;"
 						data-text="w:normal;s:44,44,30,24;l:70,70,44,34;a:left,left,center,center;"
@@ -269,10 +267,8 @@
 						data-text="w:normal;s:16,16,18,14;l:28,28,28,26;a:left,left,center,center;"
 						data-frame_0="y:100%;" data-frame_0_mask="u:t;" data-frame_1="st:950;sp:1200;sR:950;"
 						data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:6850;" style="z-index:14;">
-						IoTBoard is a customizable internet of things platform, <br> it can be customised for many use cases
-						in various industries.
-
-					</rs-layer>
+						Thinkitive Technologies provides IoT Solutions for All industries,<br> customizable for various
+						usecases & white labelling.</rs-layer>
 					<!--
 		-->
 					<rs-layer id="slider-4-slide-4-layer-13" class="rev-btn" data-type="button" data-rsp_ch="on"
@@ -340,8 +336,8 @@
 							transform="translate(-3154 2041.758)" fill="#e9d028">
 						</path>
 					</svg>
-					<p class="text-center desc">Our services & IoTBoard platform provies all the fundamental and <br>
-						necessary features for any IoT system.</p>
+					<!-- <p class="text-center desc">Our services & IoTBoard platform provies all the fundamental and <br>
+						necessary features for any IoT system.</p> -->
 				</div>
 			</div>
 			<div class="row iq-mt-30">
@@ -410,7 +406,7 @@
 		</div>
 	</section>
 
-	<section id="iq-service" class="section_features">
+	<section id="iq-feature" class="section_features">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 headingsec text-center">
@@ -435,7 +431,8 @@
 							</div>
 							<h5 class="mb-2">Data Acquisition
 							</h5>
-							<p class="mb-0">Centralized data collection and storage, with ease of access to live & historical data.
+							<p class="mb-0">Centralized data collection and storage, with ease of access to live &
+								historical data.
 							</p>
 						</div>
 					</div>
@@ -443,7 +440,8 @@
 				<div class="col-sm-12 col-md-6 col-lg-3 mb-4 mb-sm-20">
 					<div class="box-effect-two  wow fadeInUp text-left feature-box-effect">
 						<div class="icon-box">
-							<div class="img-effect mb-4"><img src="images/iot-icon/Device-Integration-Connectivity.png" alt="fancybox">
+							<div class="img-effect mb-4"><img src="images/iot-icon/Device-Integration-Connectivity.png"
+									alt="fancybox">
 							</div>
 							<h5 class="mb-2">Device Management
 							</h5>
@@ -474,7 +472,8 @@
 							</div>
 							<h5 class="mb-2">Dashboard Visualizations
 							</h5>
-							<p class="mb-0">Visualize live real time data to monitor the system parameters for operational efficiency.
+							<p class="mb-0">Visualize live real time data to monitor the system parameters for
+								operational efficiency.
 							</p>
 						</div>
 					</div>
@@ -544,7 +543,7 @@
 			</div>
 		</div>
 	</div>
-	<section class="service__section padding greybg pattern-1" style=" padding: 80px 0;">
+	<!-- <section class="service__section padding greybg pattern-1" style=" padding: 80px 0;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 headingsec text-center">
@@ -666,7 +665,7 @@
 				</div>
 			</div>
 
-			<!-- <div class="row simple-grid simple-grid--3-6 mb-3">
+			<div class="row simple-grid simple-grid--3-6 mb-3">
 				<div class="col-12 col-sm-6 col-lg-4 simple-grid__cell">
 					<div class="simple-grid__heading mb-3">
 						<img src="images/industries-iot/device-integration-icon.png" alt="fancybox">
@@ -727,11 +726,11 @@
 						cloud platforms or on premise environments located at the customers premises.
 					</p>
 				</div>
-			</div> -->
+			</div>
 		</div>
-	</section>
+	</section> -->
 
-	<!-- <section class="commonSection weServeSection ">
+	<section id="iq-service" class="commonSection weServeSection ">
 		<div class="container">
 			<div class="col-lg-12 headingsec text-center">
 				<h2 class="heading text-center">Offerings & Services</h2>
@@ -744,12 +743,11 @@
 				<p class="text-center desc">Customized Solutions with Open Source Software & On Premise Deployments
 				</p>
 			</div>
-			
+
 			<div class="row">
 				<div class="col-md-6">
 					<div class="weServeSection__box  wow fadeInUp">
-						<div class="iq-img"></div>
-						<img src="https://www.codiant.com/assets/images/solutions/manufacturing/field-service-mobile-app.svg" alt="customer-service-solution" class="img-fluid">
+						<img src="images/iot-icon/iot-consulting.png" alt="customer-service-solution" class="img-fluid">
 						<div class="d-block">
 							<h4 class="font-sm">IoT Consulting
 							</h4>
@@ -760,7 +758,8 @@
 				</div>
 				<div class="col-md-6">
 					<div class="weServeSection__box  wow fadeInUp">
-						<img src="https://www.codiant.com/assets/images/solutions/manufacturing/field-service-mobile-app.svg" alt="customer-service-solution" class="img-fluid">
+						<img src="images/iot-icon/proof-of-Concept.png" alt="customer-service-solution"
+							class="img-fluid">
 						<div class="d-block">
 							<h4 class="font-sm">Proof of Concept
 							</h4>
@@ -771,7 +770,8 @@
 				</div>
 				<div class="col-md-6">
 					<div class="weServeSection__box  wow fadeInUp">
-						<img src="https://www.codiant.com/assets/images/solutions/manufacturing/field-service-mobile-app.svg" alt="customer-service-solution" class="img-fluid">
+						<img src="images/iot-icon/Device-Integration-Connectivity.png" alt="customer-service-solution"
+							class="img-fluid">
 						<div class="d-block">
 							<h4 class="font-sm">Device Integration & Connectivity
 							</h4>
@@ -780,9 +780,10 @@
 						</div>
 					</div>
 				</div>
-				 <div class="col-md-6">
+				<div class="col-md-6">
 					<div class="weServeSection__box  wow fadeInUp">
-						<img src="https://www.codiant.com/assets/images/solutions/manufacturing/field-service-mobile-app.svg" alt="customer-service-solution" class="img-fluid">
+						<img src="images/iot-icon/solutio-customization-development.png" alt="customer-service-solution"
+							class="img-fluid">
 						<div class="d-block">
 							<h4 class="font-sm">Solution Customization & Development
 							</h4>
@@ -793,7 +794,8 @@
 				</div>
 				<div class="col-md-6">
 					<div class="weServeSection__box  wow fadeInUp">
-						<img src="https://www.codiant.com/assets/images/solutions/manufacturing/field-service-mobile-app.svg" alt="customer-service-solution" class="img-fluid">
+						<img src="images/iot-icon/device-integration-icon.png" alt="customer-service-solution"
+							class="img-fluid">
 						<div class="d-block">
 							<h4 class="font-sm">Integration &
 								Implementation</h4>
@@ -804,7 +806,8 @@
 				</div>
 				<div class="col-md-6">
 					<div class="weServeSection__box  wow fadeInUp">
-						<img src="https://www.codiant.com/assets/images/solutions/manufacturing/field-service-mobile-app.svg" alt="customer-service-solution" class="img-fluid">
+						<img src="images/iot-icon/analytics-insights.png" alt="customer-service-solution"
+							class="img-fluid">
 						<div class="d-block">
 							<h4 class="font-sm">Analytics & Insights
 							</h4>
@@ -815,7 +818,8 @@
 				</div>
 				<div class="col-md-6">
 					<div class="weServeSection__box  wow fadeInUp">
-						<img src="https://www.codiant.com/assets/images/solutions/manufacturing/field-service-mobile-app.svg" alt="customer-service-solution" class="img-fluid">
+						<img src="images/iot-icon/Managed-services.png" alt="customer-service-solution"
+							class="img-fluid">
 						<div class="d-block">
 							<h4 class="font-sm">Support & Managed
 								Services
@@ -827,7 +831,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="weServeSection__box  wow fadeInUp">
-						<img src="https://www.codiant.com/assets/images/solutions/manufacturing/field-service-mobile-app.svg" alt="customer-service-solution" class="img-fluid">
+						<img src="images/iot-icon/devops.png" alt="customer-service-solution" class="img-fluid">
 						<div class="d-block">
 							<h4 class="font-sm">DevOps services
 
@@ -839,7 +843,7 @@
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 
 	<section class="jobguru-video-area section_100">
 		<div class="container">
@@ -894,7 +898,7 @@
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-4 col-lg-3 col-xs-6 mb-4 mb-sm-30">
-					<div class="idustries__boxs sox-services service-pattern wow fadeInUp text-left org-hover"
+					<div class="idustries__boxs sox-services service-pattern wow fadeInUp text-left  green-hover"
 						data-wow-delay="0.4s">
 						<a href="smart-building.html">
 							<div class="sox-icon">
