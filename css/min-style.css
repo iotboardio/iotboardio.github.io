@@ -11709,7 +11709,7 @@ Feature 1
 }
 
 
-.iq-feature1 .iq-blog {
+/* .iq-feature1 .iq-blog {
   top: 0px;
   position: relative;
   background: #f3f3f4;
@@ -11758,7 +11758,7 @@ Feature 1
   -moz-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.12);
   border-bottom: 2px solid rgb(63, 188, 172);
-}
+} */
 
 
 /*---------------------------------------------------------------------
@@ -14728,6 +14728,9 @@ section.padding {
   left: 0
 }
 
+.tabs-slider--healthcare .tab-list__item:before {
+  background-image: url(/img/solutions/healthcare/list-polygon.svg);
+}
 img {
   max-width: 100%;
   /* image-rendering:-webkit-optimize-contrast; */
@@ -15250,3 +15253,5 @@ hr {
     width: 222px
   }
 }
+
+/* demo banner css  */
