@@ -181,7 +181,7 @@
 @media(max-width:767px) {
 	footer.footer-two .footer-input{display: block; text-align: center;}
 	footer.footer-two .footer-input .button.sign-btn{width: inherit; display: inline-block; margin-top: 30px;}
-	section{padding:80px 0;}
+	/* section{padding:80px 0;} */
 	header ul.shop_list{display: none;}
 	.shop-Product .fancy-icon{border: none;}
 	.title-box h2{font-size: 24px;}
