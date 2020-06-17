@@ -2565,7 +2565,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
  Footer
 -----------------------------------------------------------------------*/
 footer {
-  padding: 75px 0;
+  padding: 75px 0 30px;
 }
 
 footer .iq-subscribe {
@@ -3290,7 +3290,10 @@ footer .copyright-space {
   background: rgb(239, 241, 254, 0.85);
   display: block !important;
 }
-
+.iq-border-top {
+  border-top: 1px solid rgb(178, 177, 177);
+  margin-top: 20px;
+}
 .iq-over-dark-90:before {
   content: "";
   height: 100%;
@@ -3298,7 +3301,7 @@ footer .copyright-space {
   position: absolute;
   top: 1px;
   width: 100%;
-  z-index: 0;
+  z-index: -1 !important;
   background-image: -moz-linear-gradient(0deg, rgb(109, 115, 239) 0%, rgb(163, 120, 252) 100%);
   background-image: -webkit-linear-gradient(0deg, rgb(72, 75, 78) 0%, rgb(53, 55, 58) 100%);
   /* background-image: -webkit-linear-gradient(0deg, rgb(206, 184, 42) 0%, rgb(63, 188, 172) 100%); */
@@ -10694,7 +10697,7 @@ Flip box End
 .btn-stl--red {
   font-weight: 700;
   border: none;
-  background: #3fbcac26;
+  background: #3fbcac;
   color: #fff;
   transition: .3s all;
   text-transform: uppercase;
@@ -13670,7 +13673,7 @@ Text color
 }
 
 .text-deep-pink {
-  color: #3fbcac26;
+  color: #fff;
   margin-bottom: 30px;
 }
 
