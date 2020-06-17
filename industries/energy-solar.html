@@ -34,69 +34,18 @@
     </script>
     <!--End of Tawk.to Script-->
 
-    <style>
-        section.service-section-padding {
-            padding: 90px 0 80px;
-        }
-
-        .services-icon-desc-inner .services-icon-desc-box {
-            background: 0 0;
-            padding: 35px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            position: relative;
-            transition: all .2s ease;
-            background: #fff;
-            box-shadow: 0 0 4px 0 rgba(54, 68, 75, .1), 0 2px 6px 0 rgba(54, 68, 75, .1)
-        }
-
-        .services-icon-desc-box:hover {
-            box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, .1);
-            background: #fff;
-        }
-
-        .services-icon-desc-inner .services-icon-desc-box img {
-            max-width: 48px;
-            max-height: 64px;
-            padding-bottom: 15px;
-        }
-
-        .services-icon-desc-inner .services-icon-desc-box h5 {
-            padding-bottom: 15px;
-            line-height: 26px;
-            /* color: #333; */
-            font-size: 20px;
-            font-weight: 500;
-        }
-
-        .services-icon-desc-inner .services-icon-desc-box p {
-            line-height: 25px;
-            /* color: #333; */
-            font-size: 16px;
-            font-weight: 400;
-        }
-    </style>
 </head>
 
 <body>
     <!-- loading -->
-    <div id="loading">
+    <!-- <div id="loading">
         <div id="loading-center">
             <div class="loader">
-                <img src="../images/IOT-loader.gif" alt="">
-                <!-- <div class="cube">
-					<div class="sides">
-						<div class="top"></div>
-						<div class="right"></div>
-						<div class="bottom"></div>
-						<div class="left"></div>
-						<div class="front"></div>
-						<div class="back"></div>
-					</div>
-				</div> -->
+                <img src="images/IOT-loader.gif" alt="">
+               
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- loading End -->
     <!--================================= -->
     <!-- Header -->
@@ -105,7 +54,7 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<nav class="navbar navbar-expand-lg navbar-light">
-						<a class="navbar-brand" href="..index.html">
+						<a class="navbar-brand" href="../index.html">
 							<img class="img-fluid" src="../images/logo/IOT-350x180.png" alt="img">
 						</a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -127,18 +76,21 @@
 										Solutions
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="iot-aws.html">IoT on AWS</a>
-										<a class="dropdown-item" href="thingsboard.html">Thingsboard IoT Solution</a>
-										<a class="dropdown-item" href="costom-iot-solutions.html">Custom IoT Solution
+										<a class="dropdown-item" href="../solution/iot-aws.html">IoT on AWS</a>
+										<a class="dropdown-item" href="../solution/thingsboard.html">Thingsboard IoT Solution</a>
+										<a class="dropdown-item" href="../solution/costom-iot-solutions.html">Custom IoT Solution
 										</a>
-										<a class="dropdown-item" href="azure-iot-solution.html">Azure IoT Solution</a>
-										<a class="dropdown-item" href="kaa-iot-solution.html">Kaa IoT Solution</a>
-										<a class="dropdown-item" href="tinyml.html">TinyML</a>
+										<a class="dropdown-item" href="../solution/azure-iot-solution.html">Azure IoT Solution</a>
+										<a class="dropdown-item" href="../solution/kaa-iot-solution.html">Kaa IoT Solution</a>
+										<a class="dropdown-item" href="../solution/tinyml.html">TinyML</a>
 
 									</div>
 								</li>
 								<!-- <li class="nav-item">
-									<a class="nav-link" href="#iq-service">Features</a>
+									<a class="nav-link" href="#iq-feature">Features</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#iq-service">Services</a>
 								</li> -->
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1" role="button"
@@ -146,18 +98,18 @@
 										Industries
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown-1">
-										<a class="dropdown-item" href="energy-solar.html">Energy &amp; Solar</a>
-										<a class="dropdown-item" href="smart-building.html">Smart Buildings</a>
-										<a class="dropdown-item" href="monitoring.html">Environment Monitoring
+										<a class="dropdown-item" href="../industries/energy-solar.html">Energy &amp; Solar</a>
+										<a class="dropdown-item" href="../industries/">Smart Buildings</a>
+										<a class="dropdown-item" href="../industries/monitoring.html">Environment Monitoring
 										</a>
-										<a class="dropdown-item" href="retail.html">Retail</a>
-										<a class="dropdown-item" href="healthcare.html">Healthcare</a>
-										
-										<a class="dropdown-item" href="wearables.html">Wearables</a>
-										<a class="dropdown-item" href="transportation.html">Transportation</a>
-										<!-- <a class="dropdown-item" href="telecom.html">Telecom</a> -->
-										<a class="dropdown-item" href="manufacturing.html">Manufacturing</a>
-										
+										<a class="dropdown-item" href="../industries/retail.html">Retail</a>
+										<a class="dropdown-item" href="../industries/healthcare.html">Healthcare</a>
+
+										<a class="dropdown-item" href="../industries/wearables.html">Wearables</a>
+										<a class="dropdown-item" href="../industries/transportation.html">Transportation</a>
+										<!-- <a class="dropdown-item" href="../industries/telecom.html">Telecom</a> -->
+										<a class="dropdown-item" href="../industries/manufacturing.html">Manufacturing</a>
+
 									</div>
 								</li>
 
@@ -188,20 +140,19 @@
     <!-- Header End -->
     <!-- START sofbox8 REVOLUTION SLIDER 6.1.3 -->
     <div class="solution solution-retail">
-        <div class="solution__banner banner--wearables">
+        <div class="solution__banner banner--energy-solar">
             <div class="banner__content">
                 <div class="banner__column column--left">
-                    <h4 class="banner__tag tag--retail">WEARABLES
+                    <h4 class="banner__tag tag--retail">SMART ENERGY
                     </h4>
-                    <h1 class="solution__header">IoT Applications for Smart Wearables
-                    </h1>
+                    <h1 class="solution__header">IoT Smart Energy and Smart Grid Solutions</h1>
                     <div class="banner__button">
                         <a class="b-button--rounded-blue action-button" href="/contact-us">Contact us</a>
                     </div>
                 </div>
                 <div class="banner__column column--right">
                     <div class="banner__column banner__what-you-can-do">
-                        <img src="../images/industry-img/Wearables-1-icons.jpg" alt="what you can do with Kaa">
+                        <img src="../images/industry-img/Energy-Solar-1-icons.jpg" alt="what you can do with Kaa">
                     </div>
                 </div>
             </div>
@@ -364,13 +315,16 @@
                         </div>
                         <img class="bottom-screen-images-banner__img" src="../images/bottom-screen-banner-img.png"
                             width="425">
-                      
+                        <button
+                            class="b-button b-button--rounded-blue bottom-screen-images-banner__button bottom-screen-images-banner__button--lower"
+                            onclick="location.href='/free-trial'">Sign up</button>
                     </div>
                 </div>
             </div>
         </section>
 
     </div>
+
     <!-- Footer Start -->
     <footer id="iq-contact" class="iq-footer footer-shap footer-one iq-over-dark-90 position-relative">
         <div class="container">
@@ -388,7 +342,7 @@
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-sm-6 ">
                     <div class="logo">
-                        <a href="..index.html"><img class="img-fluid mb-3" src="../images/logo/iotboard-w-logo.png"
+                        <a href="../index.html"><img class="img-fluid mb-3" src="../images/logo/iotboard-w-logo.png"
                                 alt="img"></a>
                         <div class="iq-font-black mt-2 text-white">
                             IoTBoard is a customizable internet of things platform. We provide customizations to it and
