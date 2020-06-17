@@ -14094,51 +14094,33 @@ section.padding {
 }
 
 .solution .solution__banner.banner--energy-solar {
-  background-image: url("../images/subpage-banner-energy.jpg")
+  background-image: url("../images/industries-iot/1sample.jpg")
 }
 
 .solution .solution__banner.banner--smart-building {
-  background-image: url("../images/industries-iot/Smart-Building-2.jpg")
+  background-image: url("../images/industries-iot/2sample-20-opacity.jpg")
 }
 
 .solution .solution__banner.banner--monitoring {
-  background-image: url("../images/industries-iot/Environmental-Monitoring1.jpg")
+  background-image: url("../images/industries-iot/2sample-30-opacity.jpg")
 }
 
 .solution .solution__banner.banner--healthcare {
-  background-image: url("../images/industries-iot/health_care-2.jpg")
+  background-image: url("../images/industries-iot/2sample-blue-20-opacity.jpg")
 }
 
 .solution .solution__banner.banner--manufacturing {
-  background-image: url("../images/industries-iot/manufacturing-1.jpg")
+  background-image: url("../images/industries-iot/2sample-blue-30-opacity.jpg")
 }
 
 .solution .solution__banner.banner--transportation {
-  background-image: url("../images/industries-iot/Transportation-1.jpg")
+  background-image: url("../images/industries-iot/2sample-blue-40-opacity.jpg")
 }
 
-.solution .solution__banner.banner--smart-city {
-  background-image: url("/img/solutions/smart-city/banner.png")
-}
-
-.solution .solution__banner.banner--smart-energy {
-  background-image: url("/img/solutions/smart-energy/banner.png")
-}
-
-
-.solution .solution__banner.banner--sport {
-  background-image: url("/img/solutions/sport/banner.png")
-}
 
 .solution .solution__banner.banner--wearables {
-  background-image: url("../images/industries-iot/Wearables-3.jpg")
+  background-image: url("../images/industries-iot/2sample-blue-30-opacity.jpg")
 }
-
-.solution .solution__banner.banner--telecom {
-  background-image: url("/img/solutions/telecom/banner.png")
-}
-
-
 
 .solution .solution-content {
   max-width: 1170px;
