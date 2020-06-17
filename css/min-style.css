@@ -14101,8 +14101,8 @@ section.padding {
   background-image: url("../images/industries-iot/Smart-Building-2.jpg")
 }
 
-.solution .solution__banner.banner--consumer-electronics {
-  background-image: url("/img/solutions/consumer-electronics/banner.png")
+.solution .solution__banner.banner--monitoring {
+  background-image: url("../images/industries-iot/Environmental-Monitoring1.jpg")
 }
 
 .solution .solution__banner.banner--healthcare {
@@ -14797,7 +14797,7 @@ screen and (-ms-high-contrast:active) {
   font-family: 'Now', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 44px;
+  font-size: 40px;
   line-height: 1.2;
   color: #045996;
   margin-bottom: 24px;
