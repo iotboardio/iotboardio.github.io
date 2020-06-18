@@ -13844,8 +13844,38 @@ section.padding {
 
 /* ================================================ */
 .solution .solution__banner.banner--retail {
-  background-image: url(../images/industries-header/retail-Industry.jpg);
+  background-image: url("../images/industries-header/retail-Industry.jpg");
 }
+
+.solution .solution__banner.banner--energy-solar {
+  background-image: url("../images/industries-header/energy2.jpg")
+}
+
+.solution .solution__banner.banner--smart-building {
+  background-image: url("../images/industries-header/building2.jpg")
+}
+
+.solution .solution__banner.banner--monitoring {
+  background-image: url("../images/industries-header/monitoring3.jpg")
+}
+
+.solution .solution__banner.banner--healthcare {
+  background-image: url("../images/industries-header/healthcare-1.jpg")
+}
+
+.solution .solution__banner.banner--manufacturing {
+  background-image: url("../images/industries-header/manufacturing1.jpg")
+}
+
+.solution .solution__banner.banner--transportation {
+  background-image: url("../images/industries-iot/2sample-blue-40-opacity.jpg")
+}
+
+
+.solution .solution__banner.banner--wearables {
+  background-image: url("../images/industries-iot/2sample-blue-30-opacity.jpg")
+}
+
 
 .solution .solution__banner {
   background-size: cover;
@@ -14099,34 +14129,6 @@ section.padding {
   }
 }
 
-.solution .solution__banner.banner--energy-solar {
-  background-image: url("../images/industries-header/energy2.jpg")
-}
-
-.solution .solution__banner.banner--smart-building {
-  background-image: url("../images/industries-header/building2.jpg")
-}
-
-.solution .solution__banner.banner--monitoring {
-  background-image: url("../images/industries-header/monitoring3.jpg")
-}
-
-.solution .solution__banner.banner--healthcare {
-  background-image: url("../images/industries-header/healthcare-1.jpg")
-}
-
-.solution .solution__banner.banner--manufacturing {
-  background-image: url("../images/industries-header/manufacturing1.jpg")
-}
-
-.solution .solution__banner.banner--transportation {
-  background-image: url("../images/industries-iot/2sample-blue-40-opacity.jpg")
-}
-
-
-.solution .solution__banner.banner--wearables {
-  background-image: url("../images/industries-iot/2sample-blue-30-opacity.jpg")
-}
 
 .solution .solution-content {
   max-width: 1170px;
