@@ -1300,7 +1300,7 @@ header #menu-btn.is-active .line:nth-child(3) {
 -----------------------------------------------------------------------*/
 .button {
   color: #ffffff;
-  padding: 10px 30px;
+  padding: 8px 30px;
   border: none;
   position: relative;
   display: inline-block;
@@ -1368,12 +1368,13 @@ header #menu-btn.is-active .line:nth-child(3) {
 }
 
 .button:hover {
-  background: #1e1e1e;
+  background-color: #206158;
+  border-color: #00967d;
 }
 
 .white-btn.button:hover,
 .blue-btn.button:hover {
-  background: #1e1e1e;
+  background-color: #206158;
   color: #ffffff;
 }
 
@@ -3290,10 +3291,12 @@ footer .copyright-space {
   background: rgb(239, 241, 254, 0.85);
   display: block !important;
 }
+
 .iq-border-top {
   border-top: 1px solid rgb(178, 177, 177);
   margin-top: 20px;
 }
+
 .iq-over-dark-90:before {
   content: "";
   height: 100%;
@@ -13841,7 +13844,7 @@ section.padding {
 
 /* ================================================ */
 .solution .solution__banner.banner--retail {
-  background-image: url(../images/industries-iot/Retail-2.jpg);
+  background-image: url(../images/industries-header/retail-Industry.jpg);
 }
 
 .solution .solution__banner {
@@ -14097,23 +14100,23 @@ section.padding {
 }
 
 .solution .solution__banner.banner--energy-solar {
-  background-image: url("../images/industries-iot/1sample.jpg")
+  background-image: url("../images/industries-header/energy2.jpg")
 }
 
 .solution .solution__banner.banner--smart-building {
-  background-image: url("../images/industries-iot/2sample-20-opacity.jpg")
+  background-image: url("../images/industries-header/building2.jpg")
 }
 
 .solution .solution__banner.banner--monitoring {
-  background-image: url("../images/industries-iot/2sample-30-opacity.jpg")
+  background-image: url("../images/industries-header/monitoring3.jpg")
 }
 
 .solution .solution__banner.banner--healthcare {
-  background-image: url("../images/industries-iot/2sample-blue-20-opacity.jpg")
+  background-image: url("../images/industries-header/healthcare-1.jpg")
 }
 
 .solution .solution__banner.banner--manufacturing {
-  background-image: url("../images/industries-iot/2sample-blue-30-opacity.jpg")
+  background-image: url("../images/industries-header/manufacturing1.jpg")
 }
 
 .solution .solution__banner.banner--transportation {
@@ -14716,6 +14719,7 @@ section.padding {
 .tabs-slider--healthcare .tab-list__item:before {
   background-image: url(/img/solutions/healthcare/list-polygon.svg);
 }
+
 img {
   max-width: 100%;
   /* image-rendering:-webkit-optimize-contrast; */
@@ -14826,7 +14830,7 @@ hr {
   font-size: 18px;
   line-height: 1.3;
   font-weight: 500;
-  background-color: #50a7e6;
+  background-color: #3fbcac;
   border-radius: 4px;
   padding: 10px 24px;
   -webkit-transition: opacity .3s ease-out;
@@ -14836,7 +14840,8 @@ hr {
 
 .b-button--rounded--grey:hover,
 .b-button--rounded-blue:hover {
-  background-color: #045996;
+  background-color: #00a387;
+  border-color: #00967d;
   color: #fff
 }
 
@@ -15130,6 +15135,7 @@ hr {
     flex-direction: column
   }
 }
+
 /* 
 .bottom-screen-images-banner__text {
   font-family: Rubik, sans-serif;
@@ -15238,6 +15244,7 @@ hr {
     width: 222px
   }
 }
+
 /*---------------------------------------------------------------------
 index solutions section css
 -----------------------------------------------------------------------*/
@@ -15316,4 +15323,5 @@ index solutions section css
   transform: scale(1.05);
   box-shadow: 0 0 15px 20px rgba(241, 241, 241, 0.459);
 }
+
 /* ========================================================= */
