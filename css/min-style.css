@@ -13316,9 +13316,12 @@ Text color
 
 @media (max-width: 767px) {
   .jobguru-video-area {
-    padding: 80px 0px;
+    padding: 60px 0px;
     height: 550px;
 
+  }
+  .jobguru-video-area h2 {
+    line-height: 48px;
   }
 
 }
