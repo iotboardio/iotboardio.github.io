@@ -1823,7 +1823,7 @@ input:focus,
 input.form-control:focus,
 textarea.form-control:hover,
 textarea.form-control:focus {
-  border-color: #ff9068;
+  border-color:#3fbcac;
   outline: 0;
   box-shadow: none;
 }
