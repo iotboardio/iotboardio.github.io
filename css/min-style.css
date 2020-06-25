@@ -257,7 +257,7 @@ textarea {
   padding: 0 15px;
   height: 48px;
   line-height: 48px;
-  background: #ffffff;
+  background: #efeff1;
   border: 1px solid #eff1fe;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -13321,6 +13321,7 @@ Text color
     height: 550px;
 
   }
+
   .jobguru-video-area h2 {
     line-height: 48px;
   }
@@ -15125,37 +15126,124 @@ index solutions section css
   transform: scale(1.05);
   box-shadow: 0 0 15px 20px rgba(241, 241, 241, 0.459);
 }
+
 .bg-gray-light {
-  background-color: rgba(232,234,238,.5);
+  background-color: rgba(232, 234, 238, .5);
 }
+
 /* ========================================================= */
 /*----------------
 Section padding 
 ----------------*/
 
-.overview-block-ptb { padding: 100px 0; }
-.overview-block-pt {padding: 100px 0 0;}
-.overview-block-pb { padding: 0 0 100px; }
+.overview-block-ptb {
+  padding: 100px 0;
+}
+
+.overview-block-pt {
+  padding: 100px 0 0;
+}
+
+.overview-block-pb {
+  padding: 0 0 100px;
+}
 
 
 /* Banner 11 */
-.iq-banner-11 {position: relative;overflow: hidden;}
-.iq-banner-11 .container-fluid {padding: 0 90px;}
-.iq-banner-11 .banner-text { z-index: 9; position: relative; margin-top: 8%; margin-bottom: 100px; }
-.iq-banner-11 .banner-text h1 { font-size: 64px; line-height: normal; }
-.iq-banner-11 .banner-img { width: 110%; }
-.iq-banner-11 .iq-video { background: #fff; display: inline-block; width: 60px; height: 60px; text-align: center; font-size: 29px; color: #4ac4f3; float: left; border-radius: 100%; line-height: 2.1; z-index: 9; position: relative; }
+.iq-banner-11 {
+  position: relative;
+  overflow: hidden;
+}
+
+.iq-banner-11 .container-fluid {
+  padding: 0 90px;
+}
+
+.iq-banner-11 .banner-text {
+  z-index: 9;
+  position: relative;
+  margin-top: 8%;
+  margin-bottom: 100px;
+}
+
+.iq-banner-11 .banner-text h1 {
+  font-size: 64px;
+  line-height: normal;
+}
+
+.iq-banner-11 .banner-img {
+  width: 110%;
+}
+
+.iq-banner-11 .iq-video {
+  background: #fff;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 29px;
+  color: #4ac4f3;
+  float: left;
+  border-radius: 100%;
+  line-height: 2.1;
+  z-index: 9;
+  position: relative;
+}
 
 .align-self-center {
-  -ms-flex-item-align: center!important;
-  align-self: center!important;
+  -ms-flex-item-align: center !important;
+  align-self: center !important;
 }
 
 .iq-banner-11 .banner-text h1 {
   font-size: 48px;
-    /* font-weight: 700; */
-    color: #303030 !important;
-    line-height: 64px;
-    margin-top: 0;
-    margin-bottom: 20px;
+  /* font-weight: 700; */
+  color: #303030 !important;
+  line-height: 64px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* ======================================== */
+.subscribe-form {
+  display: grid;
+}
+
+.subscribe-form .button2 {
+  width: 190px;
+}
+
+.subscribe-form input {
+  width: 380px;
+}
+
+
+@media(max-width:767px) {
+
+  .subscribe-form {
+    /* display: grid; */
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .overview-block-pt {
+    padding: 80px 0 10px;
+  }
+
+  .subscribe-form input {
+    width: 350px;
+  }
+
+  .sec-two {
+    padding: 40px 0;
+  }
+
+  .iq-banner-11 .container-fluid {
+    padding: 20px;
+  }
+
+  .iq-banner-11 .banner-text h1 {
+    font-size: 32px;
+    line-height: 30px;
+  }
 }
