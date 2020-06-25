@@ -5423,10 +5423,11 @@ PopUp Images Effect  Right
   z-index: -2;
 }
 
+
 .iq-objects.style-two.left-top .iq-objects-02 img {
   position: absolute;
   left: -300px;
-  top: 0;
+  top: 300px;
   z-index: -2;
   -webkit-animation: bounces 2s infinite alternate;
   max-width: 130%;
@@ -15124,5 +15125,37 @@ index solutions section css
   transform: scale(1.05);
   box-shadow: 0 0 15px 20px rgba(241, 241, 241, 0.459);
 }
-
+.bg-gray-light {
+  background-color: rgba(232,234,238,.5);
+}
 /* ========================================================= */
+/*----------------
+Section padding 
+----------------*/
+
+.overview-block-ptb { padding: 100px 0; }
+.overview-block-pt {padding: 100px 0 0;}
+.overview-block-pb { padding: 0 0 100px; }
+
+
+/* Banner 11 */
+.iq-banner-11 {position: relative;overflow: hidden;}
+.iq-banner-11 .container-fluid {padding: 0 90px;}
+.iq-banner-11 .banner-text { z-index: 9; position: relative; margin-top: 8%; margin-bottom: 100px; }
+.iq-banner-11 .banner-text h1 { font-size: 64px; line-height: normal; }
+.iq-banner-11 .banner-img { width: 110%; }
+.iq-banner-11 .iq-video { background: #fff; display: inline-block; width: 60px; height: 60px; text-align: center; font-size: 29px; color: #4ac4f3; float: left; border-radius: 100%; line-height: 2.1; z-index: 9; position: relative; }
+
+.align-self-center {
+  -ms-flex-item-align: center!important;
+  align-self: center!important;
+}
+
+.iq-banner-11 .banner-text h1 {
+  font-size: 48px;
+    /* font-weight: 700; */
+    color: #303030 !important;
+    line-height: 64px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
