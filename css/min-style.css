@@ -2586,7 +2586,7 @@ footer .menu li {
 }
 
 footer .menu li a {
-  color: #8e989f;
+  color: #e6e6e6;
 }
 
 footer .menu li a:hover {
@@ -15246,4 +15246,31 @@ Section padding
     font-size: 32px;
     line-height: 30px;
   }
+}
+
+/* ==================================================== */
+.count-flag {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.count-flag h4 {
+  padding-left: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.footer-addre-content p {
+  color: #e6e6e6;
+}
+
+.footer-addre-content a {
+  color: #e6e6e6;
+}
+
+.footer-addre-content a:hover {
+  color: #3fbcac;
+}
+
+.footer-addre-content a {
+  color: #e6e6e6;
 }
