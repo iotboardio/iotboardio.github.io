@@ -285,7 +285,7 @@ input.form-control {
   font-size: 14px;
   height: 50px;
   padding-left: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -294,7 +294,7 @@ input.form-control {
 
 input[type="checkbox"],
 input.form-control[type="checkbox"] {
-  margin-top: 0.5rem;
+  margin-top: 0;
   background: #fff;
   height: auto;
   border: 1px solid #6f73f0;
@@ -1778,7 +1778,7 @@ input.form-control {
 
 input[type="checkbox"],
 input.form-control[type="checkbox"] {
-  margin-top: 0.5rem;
+  margin-top: 0;
   background: #fff;
   height: auto;
   border: 1px solid #ff9068;
