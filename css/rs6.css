@@ -205,7 +205,9 @@ rs-module [class*=" fa-"]:before,
     text-align: center;
     font-variant: normal;
     text-transform: none;
-    line-height: inherit;
+	line-height: inherit;
+	border-color: #eee;
+	color: #eee;
     margin-left: 0;
 }
 
