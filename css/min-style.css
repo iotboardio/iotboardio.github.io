@@ -12971,6 +12971,14 @@ Text color
     font-size: 26px;
     line-height: 36px;
   }
+  .heading {
+    font-size: 24px !important;
+  }
+  .heading-2 {
+    font-size: 24px !important;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
 }
 
 .icon-sprite.exp-one {
@@ -13324,7 +13332,10 @@ Text color
   }
 
   .jobguru-video-area h2 {
-    line-height: 48px;
+    line-height: 40px;
+    font-size: 24px;
+    margin-bottom: 20px;
+
   }
 
 }
