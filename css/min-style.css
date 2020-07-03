@@ -1314,6 +1314,20 @@ header #menu-btn.is-active .line:nth-child(3) {
   z-index: 4;
 }
 
+.button2 {
+  color: #333333;
+  padding: 8px 48px;
+  border: none;
+  position: relative;
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: #fbde19;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 4;
+}
 .button-gradient:hover,
 .button-gradient:focus {
   background-position: right center;
@@ -1355,7 +1369,7 @@ header #menu-btn.is-active .line:nth-child(3) {
   -moz-border-radius: 4px;
   border-radius: 4px;
   border-radius: 4px;
-  padding: 10px 30px;
+  padding: 10px 48px;
   border: none;
   position: relative;
   display: inline-block;
@@ -1372,7 +1386,10 @@ header #menu-btn.is-active .line:nth-child(3) {
   background-color: #206158;
   border-color: #00967d;
 }
-
+.button2:hover {
+  background-color: #fcfcfc;
+  /* border-color: #00967d; */
+}
 .white-btn.button:hover,
 .blue-btn.button:hover {
   background-color: #206158;
@@ -1855,7 +1872,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
   position: absolute;
   text-align: center;
   text-indent: inherit;
-  top: -25px;
+  /* top: -25px; */
   left: -8%;
   width: auto;
   cursor: pointer;
@@ -1874,7 +1891,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
   position: absolute;
   text-align: center;
   text-indent: inherit;
-  top: -25px;
+  /* top: -25px; */
   right: -8%;
   width: auto;
   cursor: pointer;
@@ -3892,6 +3909,11 @@ overview page
   .iq-masonry.iq-columns-5 .iq-masonry-item {
     width: 100%
   }
+  .owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+    width: 200px;
+    margin: 0 auto;
+}
 }
 
 
@@ -11684,7 +11706,7 @@ i.flaticon {
 .blue-bg {
   /* background: rgba(36, 107, 173, 1); */
   background: -moz-linear-gradient(-45deg, rgba(36, 107, 173, 1) 0%, rgba(0, 200, 200, 1) 100%);
-  background: #39485b;
+  background: #3fbcac;
   /* background: -webkit-linear-gradient(-45deg, rgba(36, 107, 173, 1) 0%, rgba(0, 200, 200, 1) 100%); */
   background: -o-linear-gradient(-45deg, rgba(36, 107, 173, 1) 0%, rgba(0, 200, 200, 1) 100%);
   background: -ms-linear-gradient(-45deg, rgba(36, 107, 173, 1) 0%, rgba(0, 200, 200, 1) 100%);
@@ -12971,9 +12993,11 @@ Text color
     font-size: 26px;
     line-height: 36px;
   }
+
   .heading {
     font-size: 24px !important;
   }
+
   .heading-2 {
     font-size: 24px !important;
     line-height: 32px;
@@ -15271,6 +15295,7 @@ Section padding
   color: #fff;
   font-size: 18px;
 }
+
 .footer-addre-content p {
   color: #e6e6e6;
 }
@@ -15289,7 +15314,54 @@ Section padding
 
 .ma-bt {
   margin-top: -135px;
-} 
+}
+
 .mp-section {
   padding: 50px 0 0;
+}
+
+/*---------------------------------------------------------------------
+                           Our clients
+-----------------------------------------------------------------------*/
+/* .iq-our-clients { border-top: 1px solid #ededed; } */
+.iq-our-clients .owl-carousel .owl-nav {
+  margin-top: -20px;
+}
+
+.grey-bg {
+  background: #f5f7fb;
+}
+
+.iq-ptb-50 {
+  padding: 50px 0 !important;
+}
+
+/*---------------------------------------------------------------------
+                          Loved By Our Customers
+-----------------------------------------------------------------------*/
+
+
+
+.owl-carousel .owl-nav i {
+  font-size: 24px;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  line-height: 42px;
+  padding-left: 0px;
+  display: inline-block;
+  color: #fff;
+  background: #e7e7e7;
+  font-weight: normal;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.owl-carousel .owl-nav i:hover {
+  background: #2b588a;
+  color: #fff;
 }
