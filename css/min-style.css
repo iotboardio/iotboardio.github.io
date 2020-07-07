@@ -15367,3 +15367,46 @@ Section padding
   background: #2b588a;
   color: #fff;
 }
+
+/*---------------------------------------------------------------------
+                          404 page css
+-----------------------------------------------------------------------*/
+.error_page {
+  padding: 100px 0;
+}
+.error_page .error_image {
+  float: left;
+  width: 100%;
+}
+.error_page .error_image img {
+  /* height: 500px; */
+  width: 500px;
+}
+.error_text h1 {
+  font-size: 48px;
+  line-height: 120px;
+  line-height: 1.6;
+  margin-top: 0px;
+}
+.bace_home_button {
+  margin-top: 20px;
+}
+.bace_home_button a{
+  color: #ffffff;
+    padding: 8px 30px;
+    border: none;
+    position: relative;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #3fbcac;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 4;
+
+}
+.bace_home_button a.button:hover {
+  background-color: #206158;
+  border-color: #00967d;
+}
