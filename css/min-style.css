@@ -2696,7 +2696,7 @@ footer.footer-one.footer-shap .container:after {
   bottom: 0;
   height: 238px;
   left: 0;
-  z-index: 0;
+  z-index: -1;
   width: 100%;
   content: "";
   background: url(../images/home-2/footer.png)no-repeat;
@@ -2927,7 +2927,15 @@ footer.footer-one .widget ul.menu li a {
 footer.footer-one .copyright {
   color: #ffffff;
 }
-
+.iq-copyright {
+  float: left;
+}
+.list-inline  {
+  text-align: right;
+}
+.list-inline-item a {
+  color: #fff;
+}
 .iq-bg-dark {
   position: relative;
 }
@@ -3322,7 +3330,7 @@ footer .copyright-space {
   position: absolute;
   top: 1px;
   width: 100%;
-  z-index: -1 !important;
+  z-index: -1;
   background-image: -moz-linear-gradient(0deg, rgb(109, 115, 239) 0%, rgb(163, 120, 252) 100%);
   background-image: -webkit-linear-gradient(0deg, #273443 0%, #273443 100%);
   /* background-image: -webkit-linear-gradient(0deg, rgb(72, 75, 78) 0%, rgb(53, 55, 58) 100%); */
