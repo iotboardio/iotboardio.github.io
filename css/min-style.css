@@ -15410,3 +15410,41 @@ Section padding
   background-color: #206158;
   border-color: #00967d;
 }
+/*---------------------------------------------------------------------
+                          Privecy _term Conditionb
+-----------------------------------------------------------------------*/
+.common_section {
+  padding: 60px 0px;
+}
+.wrap-in {
+  border: 1px solid #ececec;
+}
+.wrap-in .content {
+  padding: 30px;
+}
+.wrap-in .page-head {
+  border-bottom: 1px solid #ececec;
+  padding: 20px 30px;
+}
+.wrap-in .page-head .center-heading h1 {
+  font-size: 32px;
+  margin: 0;
+  /* font-family: "WorkSans-SemiBold"; */
+}
+
+.wrap-in .content h2 {
+  /* font-family: "WorkSans-SemiBold"; */
+  margin: 25px 0 10px;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+@media (max-width: 1680px) {
+.wrap-in .page-head {
+    padding: 15px 15px;
+}
+.wrap-in .content {
+  padding: 15px;
+}
+
+}
