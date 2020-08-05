@@ -1786,11 +1786,11 @@ rs-loader.spinner4 .dot2 {
 }
 
 rs-layer iframe {
-	visibility: hidden
+	visibility: visible;
 }
 
 rs-layer.rs-ii-o iframe {
-	visibility: visible
+	visibility: visible;
 }
 
 rs-layer input[type=date],
