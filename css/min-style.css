@@ -5895,6 +5895,9 @@ contact_section .color-palette:hover {
     -webkit-animation-name: MOVE-BG;
     animation-name: MOVE-BG
 }
+h5.contect-header {
+    font-size: 18px !important;
+}
 
 @-webkit-keyframes MOVE-BG {
     from {
