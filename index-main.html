@@ -9,18 +9,6 @@
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="images/favicon.ico" />
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
-	<!-- REVOLUTION STYLE SHEETS -->
-	<link rel="stylesheet" href="/css/rs6.css">
-	<!-- Typography CSS -->
-	<link rel="stylesheet" href="/css/typography.css">
-	<!-- Style -->
-	<link rel="stylesheet" href="/css/min-style.css">
-	<!-- Responsive -->
-	<link rel="stylesheet" href="/css/responsive.css">
 
 	<!-- Primary Meta Tags -->
 	<meta name="title" content="IoT Solutions - IoT Cloud Services Provider | IoTBoard Thinkitive">
@@ -75,7 +63,17 @@
 
 
 
+	<!-- Bootstrap CSS -->
 
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<!-- REVOLUTION STYLE SHEETS -->
+	<link rel="stylesheet" href="/css/rs6.css">
+	<!-- Typography CSS -->
+	<link rel="stylesheet" href="/css/typography.css">
+	<!-- Style -->
+	<link rel="stylesheet" href="/css/min-style.css">
+	<!-- Responsive -->
+	<link rel="stylesheet" href="/css/responsive.css">
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
 		var Tawk_API = Tawk_API || {},
@@ -92,95 +90,42 @@
 	</script>
 	<!--End of Tawk.to Script-->
 
+
+
 	<style>
-		.hero {
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: top -5.8889rem center;
-			padding-top: 8.125vw;
-			padding-bottom: 16rem;
-			position: relative;
+		h1.custom-heading {
+
+			font-size: 52px !important;
+			line-height: 75px !important;
+
+
 		}
 
-		.hero .section-bg {
-			width: 100%;
-			top: -22.8889rem;
-			left: 0;
-			z-index: -1;
-			position: absolute;
-			background-repeat: no-repeat;
-			background-position: center bottom;
-			background-size: 100%;
-			height: 140%;
-			max-width: initial;
+		@media screen and (max-width: 767px) {
+			h1.custom-heading {
+
+				font-size: 32px !important;
+				line-height: 45px !important;
+
+			}
 		}
 
-		.f-row .justify-between {
-			justify-content: space-between !important;
+		.client-sect {
+			background-color: #f5f8fa
 		}
 
-		.f-row {
-			display: flex;
+		.client-sect img {
+			height: 100px;
+			float: left;
+			margin-right: 20px;
+			padding-right: 20px;
+			border-right: 2px solid #f7f7f7;
 		}
 
-		.hero .hero-content-col {
-			padding-right: 15px;
-		}
-
-		.hero .hero-title {
-			margin-top: 3.2222rem;
-		}
-
-		.hero.in-view .hero-title .h1 {
-			transform: translateY(0);
-			opacity: 1;
-		}
-
-		.hero .hero-title .h1 {
-			font-size: 4.4444rem;
-			font-weight: 600;
-			line-height: 1.13;
-			margin: 0;
-			transform: translateY(300px);
-			opacity: 0;
-			transition: all 0.6s ease 0.8s;
-			margin-bottom: 15px;
-			color: #2b2b2b;
-		}
-
-		.main {
-			box-sizing: border-box;
-			display: inline-grid;
-			grid-auto-columns: auto;
-			grid-template-rows: auto;
-			position: relative;
-			height: inherit;
-			width: inherit;
-		}
-
-		.hero-title .h4 {
-			font-size: 1.2222rem;
-			font-weight: bold;
-			line-height: 1;
-			margin: 0;
-			color: #2b2b2b;
-			transform: translateY(300px);
-			/* opacity: 0; */
-			transition: all 0.6s ease 0.9s;
-			white-space: nowrap;
-		}
-
-		.hero.in-view .hero-title .h4 {
-			transform: translateY(0);
-			opacity: 1;
-		}
-		.client-image {
-			filter: grayscale(100%);
-    opacity: .5;
-    transition: all ease .4s;
+		.client-sect img:last-child {
+			border-right: none;
 		}
 	</style>
-
 </head>
 
 <body>
@@ -293,45 +238,203 @@
 		</div>
 	</header>
 
-	<section id="hero-home" class="hero in-view">
-		<div class="section-bg"
-			style="background-image: url('https://taazaa.com/wp-content/uploads/2019/11/homepage-header-bg-1.svg')">
-		</div>
-		<div class="container">
-			<div class="row  f-row justify-between">
-				<div class="col-lg-6 hero-content-col">
-					<div class="hero-title">
-						<div class="h1">IoT Solutions for All <span> Industries</span> </div>
-						<h5>Thinkitive Technologies provides IoT Solutions for All industries,
-							customizable
-							for various
-							usecases & white labelling.</h5>
-						<div class="h4"></div>
-						<div class="horizontal-line"></div>
-					</div>
-				</div>
-				<div class="col-lg-6 hero-image-col">
-					<img src="./images/Group_7-1.svg" alt="">
-				</div>
-			</div>
-
-			<div class="row pt-3">
-				<div class="col-12 d-flex align-items-center justify-content-lg-between flex-column flex-lg-row">
-					<img class="py-2 client-image" src="images/clients/consoleshark-1.png">
-					<img class="py-2 client-image" src="images/clients/wire-rgb-2.png">
-					<img class="py-2 client-image" src="images/clients/data-access-3.png">
-					<img class="py-2 client-image" src="images/clients/tscp-barcodes-biglogo-4.png">
-					<img class="py-2 client-image" src="images/clients/viaanix-5-1.png">
-				</div>
-			</div>
-
-	</section>
-
 
 	<!-- Header End -->
+	<!-- START sofbox8 REVOLUTION SLIDER 6.1.3 -->
+	<p class="rs-p-wp-fix"></p>
+	<rs-module-wrap id="rev_slider_4_1_wrapper" data-alias="sofbox-8" data-source="gallery"
+		style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+		<rs-module id="rev_slider_4_1" style="display:none;" data-version="6.1.3">
+			<rs-slides>
+				<rs-slide data-key="rs-4" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+					<img src="images/transparent.png" alt="transparant-bg" data-bg="p:right center;" class="rev-slidebg"
+						data-no-retina>
+					<!---->
 
+
+					<!-- <rs-layer id="slider-3-slide-3-layer-7" data-type="text" data-color="#313131" data-rsp_ch="on"
+						data-xy="xo:49px,49px,-82px,-76px;yo:380px,380px,182px,113px;"
+						data-text="w:normal;s:16,16,20,12;l:45,45,24,14;a:center;"
+						data-dim="w:45px,45px,21px,12px;h:45px,45px,21px,12px;"
+						data-padding="t:0,0,10,6;r:0,0,10,6;b:0,0,10,6;l:0,0,10,6;"
+						data-border="bor:90px,90px,90px,90px;" data-frame_0="sX:0.9;sY:0.9;"
+						data-frame_1="st:3030;sp:1000;sR:3030;" data-frame_999="o:0;st:w;sR:4970;"
+						data-frame_hover="c:#1fcc40;bgc:#313131;bor:90px,90px,90px,90px;"
+						style="z-index:12;background-color:#3fbcac;font-family:Roboto;cursor:pointer;">
+						<a href="https://facebook.com/thinkitivetech" target="_blank"
+							class="social-icon si-small si-borderless si-facebook">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+
+					</rs-layer>
+
+					<rs-layer id="slider-3-slide-3-layer-8" data-type="text" data-color="#313131" data-rsp_ch="on"
+						data-xy="xo:49px,49px,-115px,-80px;yo:322px,322px,241px,148px;"
+						data-text="w:normal;s:16,16,20,12;l:45,45,24,14;a: center;"
+						data-dim="w:45px,45px,21px,12px;h:45px,45px,21px,12px;"
+						data-padding="t:0,0,10,6;r:0,0,10,6;b:0,0,10,6;l:0,0,10,6;"
+						data-border="bor:90px,90px,90px,90px;" data-frame_0="sX:0.9;sY:0.9;"
+						data-frame_1="st:3010;sp:1000;sR:3010;" data-frame_999="o:0;st:w;sR:4990;"
+						data-frame_hover="c:#fff;bgc:#313131;bor:90px,90px,90px,90px;"
+						style="z-index:10;background-color:#3fbcac;font-family:Roboto;cursor:pointer;">
+						<a href="https://www.linkedin.com/company/thinkitive" target="_blank"
+							class="social-icon si-small si-borderless si-linkedin">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</a>
+					</rs-layer>
+
+					<rs-layer id="slider-3-slide-3-layer-9" data-type="text" data-color="#313131" data-rsp_ch="on"
+						data-xy="xo:49px,49px,-89px,-68px;yo:260px,260px,116px,72px;"
+						data-text="w:normal;s:16,16,20,12;l:45,45,24,14;a:center;"
+						data-dim="w:45px,45px,21px,12px;h:45px,45px,21px,12px;"
+						data-padding="t:0,0,10,6;r:0,0,10,6;b:0,0,10,6;l:0,0,10,6;"
+						data-border="bor:90px,90px,90px,90px;" data-frame_0="sX:0.9;sY:0.9;"
+						data-frame_1="st:3030;sp:1000;sR:3030;" data-frame_999="o:0;st:w;sR:4970;"
+						data-frame_hover="c:#fff;bgc:#313131;bor:90px,90px,90px,90px;"
+						style="z-index:11;background-color:#3fbcac;font-family:Roboto;cursor:pointer;">
+						<a href="https://twitter.com/thinkitivetech" target="_blank"
+							class="social-icon si-small si-borderless si-twitter" style="border-color: rgb(0, 0, 0);">
+							<i class="fa fa-twitter" style="border-color: #b1b2b2;" aria-hidden="true"></i>
+						</a>
+					</rs-layer> -->
+
+					<!-- <rs-layer id="slider-3-slide-3-layer-10" data-type="text" data-color="#1e1e1e" data-rsp_ch="on"
+						data-xy="xo:15px,15px,-96px,-100px;yo:424px,424px,341px,215px;"
+						data-text="w:normal;s:16,16,16,9;l:25,25,24,14;" data-btrans="rZ:-90;"
+						data-frame_0="sX:0.9;sY:0.9;" data-frame_1="st:3060;sp:1000;sR:3060;"
+						data-frame_999="o:0;st:w;sR:4940;" style="z-index:13;font-family:Poppins;">Follow us on:
+					</rs-layer> -->
+					<rs-layer id="slider-4-slide-4-layer-2" data-type="image" data-rsp_ch="on"
+						data-xy="x:l,l,c,c;xo:804px,804px,33px,26px;y:t,t,m,m;yo:186px,186px,201px,162px;"
+						data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+						data-dim="w:869px,869px,437px,231px;h:610px,610px,307px,162px;" data-frame_0="sX:0.9;sY:0.9;"
+						data-frame_1="st:2060;sp:1000;sR:2060;" data-frame_999="o:0;st:w;sR:5940;"
+						style="z-index:11;font-family:Roboto;"><img src="images/header-img/Sample-1st-final.png"
+							alt="images" width="829" height="582" data-no-retina>
+					</rs-layer>
+					<!--
+		-->
+					<rs-layer id="slider-4-slide-4-layer-8" data-type="image" data-rsp_ch="on"
+						data-xy="xo:537px,537px,340px,209px;yo:-23px,-23px,-99px,-61px;"
+						data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+						data-dim="w:1200px,1200px,520px,320px;h:864px,864px,419px,258px;" data-frame_0="x:50,50,24,14;"
+						data-frame_1="sp:1000;" data-frame_999="o:0;st:w;" style="z-index:8;font-family:Roboto;"><img
+							src="images/Untitled-11.png" alt="images" width="1200" height="864" data-no-retina>
+					</rs-layer>
+					<!---->
+					<rs-layer id="slider-3-slide-3-layer-11" class="now-font" data-type="text" data-color="#1e1e1e"
+						data-rsp_ch="on" data-xy="x:l,l,c,c;xo:170px,170px,-7px,-4px;y:m;yo:-80px,-80px,-153px,-144px;"
+						data-text="w:normal;s:46,46,30,24;l:80,80,44,34;a:left,left,center,center;"
+						data-frame_0="y:100%;" data-frame_0_mask="u:t;" data-frame_1="st:750;sp:1200;sR:750;"
+						data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:7050;"
+						style="z-index:14;font-family:Poppins;">
+						<h1 class="custom-heading">IoT Solutions for All <br> Industries</h1>
+					</rs-layer>
+
+					<rs-layer id="slider-3-slide-3-layer-12" data-type="text" data-color="#8e989f" data-rsp_ch="on"
+						data-xy="x:l,l,c,c;xo:170px,170px,9px,8px;y:m;yo:40px,40px,-62px,-67px;"
+						data-text="w:normal;s:16,16,18,14;l:28,28,28,24;a:left,left,center,center;"
+						data-frame_0="y:100%;" data-frame_0_mask="u:t;" data-frame_1="st:980;sp:1200;sR:980;"
+						data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:6820;" style="z-index:15;">
+						<p>Thinkitive Technologies provides IoT Solutions for All industries,<br> customizable for
+							various
+							usecases & white labelling.</p>
+					</rs-layer>
+
+					<rs-layer id="slider-3-slide-3-layer-13" class="rev-btn" data-type="button" data-rsp_ch="on"
+						data-xy="x:l,l,c,c;xo:130px,130px,0,1px;y:t,t,m,m;yo:515px,515px,4px,-2px;"
+						data-text="w:normal;s:16,16,14,14;l:40,40,18,26;" data-dim="minh:0px,0px,none,none;"
+						data-padding="t:4,4,12,8;r:25;b:4,4,12,8;l:25;" data-border="bor:4px,4px,4px,4px;"
+						data-frame_0="y:100%;" data-frame_0_mask="u:t;" data-frame_1="st:1320;sp:1200;sR:1320;"
+						data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:6480;" data-frame_hover="" style="z-index:16;
+						border-color: #1fcc40;
+						color: #1b2b54;">
+						<!-- <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js">
+						</script>
+						<script>
+							hbspt.forms.create({
+								portalId: "8079821",
+								formId: "c608dff9-9d64-493e-9fc8-5d8650fec04f"
+							});
+						</script> -->
+						<div class="col-lg-12 col-sm-12 text-center  hidden-xs d-none d-sm-none d-md-block"
+							style="width: 350px;">
+							<!-- <input type="Email"style="width: 300px; margin: 0 0 20px; border"> -->
+							<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js">
+							</script>
+							<script>
+								hbspt.forms.create({
+									portalId: "8079821",
+									formId: "c608dff9-9d64-493e-9fc8-5d8650fec04f"
+								});
+							</script>
+
+							<!-- <a class="button sign-btn" width="125" height="50"
+								style="display: table-caption; padding: 14px 25px;" href=""></a> -->
+
+						</div>
+
+					</rs-layer>
+
+
+					<!---->
+
+
+					<rs-layer id="slider-4-slide-4-layer-18" data-type="image" data-rsp_ch="on"
+						data-xy="xo:729px,729px,162px,112px;yo:366px,366px,485px,359px;"
+						data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+						data-dim="w:304px,304px,147px,90px;h:479px,479px,232px,143px;" data-frame_0="y:100%;"
+						data-frame_0_mask="u:t;" data-frame_1="st:2720;sp:1200;sR:2720;" data-frame_1_mask="u:t;"
+						data-frame_999="o:0;st:w;sR:5080;" data-loop_0="y:-10px;"
+						data-loop_999="y:10px;sp:3000;e:Sine.easeInOut;yym:t;" style="z-index:12;font-family:Roboto;">
+						<img src="images/header-img/48-min-2.png" alt="images" width="304" height="479" data-no-retina>
+					</rs-layer>
+					<!--
+		-->
+					<rs-layer id="slider-4-slide-4-layer-19" data-type="image" data-rsp_ch="on"
+						data-xy="xo:812px,812px,605px,373px;yo:128px,128px,324px,199px;"
+						data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+						data-dim="w:157px,157px,75px,46px;h:153px,153px,73px,45px;" data-frame_0="sX:0.9;sY:0.9;"
+						data-frame_1="st:2770;sp:1000;sR:2770;" data-frame_999="o:0;st:w;sR:5230;"
+						style="z-index:10;font-family:Roboto;"><img src="images/56.png" alt="images" width="157"
+							height="153" data-no-retina>
+					</rs-layer>
+					<!--
+		-->
+					<rs-layer id="slider-4-slide-4-layer-20" data-type="image" data-rsp_ch="on"
+						data-xy="xo:-425px,-425px,-175px,-101px;yo:123px,123px,109px,197px;"
+						data-text="w:normal;s:20,20,9,5;l:0,0,12,7;"
+						data-dim="w:476px,476px,230px,141px;h:381px,381px,184px,113px;" data-frame_0="y:100%;"
+						data-frame_0_mask="u:t;" data-frame_1="st:2540;sp:1200;sR:2540;" data-frame_1_mask="u:t;"
+						data-frame_999="o:0;st:w;sR:5260;" data-loop_0="y:-60px;"
+						data-loop_999="y:60px;sp:10000;e:Sine.easeInOut;yym:t;" style="z-index:9;font-family:Roboto;">
+						<img src="images/04-min.png" alt="images" width="790" height="633" data-no-retina>
+					</rs-layer>
+					<!--
+		-->
+
+
+				</rs-slide>
+			</rs-slides>
+			<rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+		</rs-module>
+
+	</rs-module-wrap>
+	<!-- END REVOLUTION SLIDER -->
 	<!-- Main Content -->
-	
+	<section class="client-sect">
+		<div class="container">
+			<div class="row pt-3">
+				<div class="col-12 d-flex align-items-center justify-content-lg-between flex-column flex-lg-row">
+					<img class="py-2" src="images/clients/consoleshark-1.png">
+					<img class="py-2" src="images/clients/wire-rgb-2.png">
+					<img class="py-2" src="images/clients/data-access-3.png">
+					<img class="py-2" src="images/clients/tscp-barcodes-biglogo-4.png">
+					<img class="py-2" src="images/clients/viaanix-5-1.png">
+				</div>
+			</div>
+		</div>
+	</section>
 	<!-- <div>
 		<div class="iq-our-clients white-bg iq-ptb-50 grey-bg">
 			<div class="container">
