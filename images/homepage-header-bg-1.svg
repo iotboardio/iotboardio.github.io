@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1004" viewBox="0 0 1600 1004">
+  <defs>
+    <linearGradient id="b" x1="100%" x2="0%" y1="48.702%" y2="58.235%">
+      <stop offset="0%" stop-color="#FFF"></stop>
+      <stop offset="100%" stop-color="#BCBCBC"></stop>
+    </linearGradient>
+    <path id="a" d="M0 939.72c110 83.559 234.667 85.653 374 6.283 209-119.055 218-141.066 489-119.055 271 22.01 389-27.724 496-136.66 71.333-72.624 151.667-115.947 241-129.97V19H0v920.72z"></path>
+    <mask id="c" width="1600" height="985" x="0" y="0" fill="#fff">
+      <use xlink:href="#a"></use>
+    </mask>
+    <linearGradient id="d" x1="50%" x2="50%" y1="83.468%" y2="0%">
+      <stop offset="0%" stop-color="#F7FAFF"></stop>
+      <stop offset="100%" stop-color="#FFF"></stop>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use stroke="url(#b)" stroke-dasharray="10" stroke-width="2" mask="url(#c)" opacity=".6" xlink:href="#a"></use>
+    <path fill="url(#d)" d="M0 920.72c110 83.559 234.667 85.653 374 6.283 209-119.055 218-141.066 489-119.055 271 22.01 389-27.724 496-136.66 71.333-72.624 151.667-115.947 241-129.97V0H0v920.72z"></path>
+    <g transform="translate(166 318)">
+      <circle cx="10.5" cy="7.5" r="7.5" fill="#FF9B9E"></circle>
+      <circle cx="7.5" cy="9.5" r="7.5" stroke="#FF232A"></circle>
+    </g>
+    <g transform="translate(162 562)">
+      <circle cx="7" cy="5" r="5" fill="#00B060" stroke="#FFF" stroke-width="2"></circle>
+      <circle cx="4" cy="7" r="4" stroke="#006F3D"></circle>
+    </g>
+    <g transform="translate(1485 733)">
+      <circle cx="48" cy="43" r="43" fill="#FF9B9E"></circle>
+      <circle cx="36.5" cy="60.5" r="36.5" stroke="#FF232A"></circle>
+    </g>
+    <g transform="translate(1543 249)">
+      <circle cx="10" cy="8" r="8" fill="#C2D4F5"></circle>
+      <circle cx="7.5" cy="10.5" r="7.5" stroke="#6949F3"></circle>
+    </g>
+    <g transform="translate(427 267)">
+      <circle cx="5" cy="5" r="5" fill="#6949F3"></circle>
+      <circle cx="7.5" cy="7.5" r="4.5" stroke="#311964"></circle>
+    </g>
+  </g>
+</svg>
