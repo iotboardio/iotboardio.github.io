@@ -9,18 +9,6 @@
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="images/favicon.ico" />
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
-	<!-- REVOLUTION STYLE SHEETS -->
-	<link rel="stylesheet" href="/css/rs6.css">
-	<!-- Typography CSS -->
-	<link rel="stylesheet" href="/css/typography.css">
-	<!-- Style -->
-	<link rel="stylesheet" href="/css/min-style.css">
-	<!-- Responsive -->
-	<link rel="stylesheet" href="/css/responsive.css">
 
 	<!-- Primary Meta Tags -->
 	<meta name="title" content="IoT Solutions - IoT Cloud Services Provider | IoTBoard Thinkitive">
@@ -75,7 +63,17 @@
 
 
 
+	<!-- Bootstrap CSS -->
 
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<!-- REVOLUTION STYLE SHEETS -->
+	<link rel="stylesheet" href="/css/rs6.css">
+	<!-- Typography CSS -->
+	<link rel="stylesheet" href="/css/typography.css">
+	<!-- Style -->
+	<link rel="stylesheet" href="/css/min-style.css">
+	<!-- Responsive -->
+	<link rel="stylesheet" href="/css/responsive.css">
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
 		var Tawk_API = Tawk_API || {},
@@ -92,95 +90,57 @@
 	</script>
 	<!--End of Tawk.to Script-->
 
+
+
 	<style>
-		.hero {
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: top -5.8889rem center;
-			padding-top: 8.125vw;
-			padding-bottom: 8rem;
-			position: relative;
+		h1.custom-heading {
+
+			font-size: 52px !important;
+			line-height: 75px !important;
+
+
 		}
 
-		.hero .section-bg {
-			width: 100%;
-			top: -22.8889rem;
-			left: 0;
-			z-index: -1;
-			position: absolute;
-			background-repeat: no-repeat;
-			background-position: center bottom;
-			background-size: 100%;
-			height: 140%;
-			max-width: initial;
+		@media screen and (max-width: 767px) {
+			h1.custom-heading {
+
+				font-size: 32px !important;
+				line-height: 45px !important;
+
+			}
 		}
 
-		.f-row .justify-between {
-			justify-content: space-between !important;
+		.client-sect {
+			background-color: #f5f8fa
 		}
 
-		.f-row {
-			display: flex;
+		.client-sect img {
+			height: 100px;
+			float: left;
+			margin-right: 20px;
+			padding-right: 20px;
+			border-right: 2px solid #f7f7f7;
 		}
 
-		.hero .hero-content-col {
-			padding-right: 15px;
+		.client-sect img:last-child {
+			border-right: none;
 		}
-
-		.hero .hero-title {
-			margin-top: 3.2222rem;
-		}
-
-		.hero.in-view .hero-title .h1 {
-			transform: translateY(0);
-			opacity: 1;
-		}
-
-		.hero .hero-title .h1 {
-			font-size: 4.4444rem;
-			font-weight: 600;
-			line-height: 1.13;
-			margin: 0;
-			transform: translateY(300px);
-			opacity: 0;
-			transition: all 0.6s ease 0.8s;
-			margin-bottom: 15px;
-			color: #2b2b2b;
-		}
-
-		.main {
-			box-sizing: border-box;
-			display: inline-grid;
-			grid-auto-columns: auto;
-			grid-template-rows: auto;
-			position: relative;
-			height: inherit;
-			width: inherit;
-		}
-
-		.hero-title .h4 {
-			font-size: 1.2222rem;
-			font-weight: bold;
-			line-height: 1;
-			margin: 0;
-			color: #2b2b2b;
-			transform: translateY(300px);
-			/* opacity: 0; */
-			transition: all 0.6s ease 0.9s;
-			white-space: nowrap;
-		}
-
-		.hero.in-view .hero-title .h4 {
-			transform: translateY(0);
-			opacity: 1;
-		}
-		.client-image {
-			filter: grayscale(100%);
-    opacity: .5;
-    transition: all ease .4s;
-		}
+		
 	</style>
-
+	<style>
+		.top-content-push-all {
+    padding: 10rem 0;
+}
+.grey-circle-home-big {
+    background: #342f36;
+    position: absolute;
+    height: 900px;
+    width: 900px;
+    top: -300px;
+    left: -100px;
+    border-radius: 50%;
+}
+	</style>
 </head>
 
 <body>
@@ -293,62 +253,43 @@
 		</div>
 	</header>
 
-	<section id="hero-home" class="hero in-view">
-		<div class="section-bg"
-			style="background-image: url('https://taazaa.com/wp-content/uploads/2019/11/homepage-header-bg-1.svg')">
+	<section class="top-content-push-all">
+		<div class="homepage-shape-block">
+			<span class="grey-circle-home-big">
+				<span class="grey-yellow-circle-home-big"></span>
+				<span class="grey-blue-circle-home-big"></span>
+			</span>
+			<span class="white-circle-nav-small">
+				<span class="white-yellow-circle-nav-small"></span>
+			</span>
 		</div>
 		<div class="container">
-			<div class="row  f-row justify-between">
-				<div class="col-lg-6 hero-content-col">
-					<div class="hero-title">
-						<div class="h1">IoT Solutions for All <span> Industries</span> </div>
-						<h5>Thinkitive Technologies provides IoT Solutions for All industries,
-							customizable
-							for various
-							usecases & white labelling.</h5>
-						<div class="h4"></div>
-						<div class="horizontal-line"></div>
-					</div>
-					<div class="col-lg-12 col-sm-12 text-center  hidden-xs d-none d-sm-none d-md-block"
-							style="width: 350px;">
-							<!-- <input type="Email"style="width: 300px; margin: 0 0 20px; border"> -->
-							<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js">
-							</script>
-							<script>
-								hbspt.forms.create({
-									portalId: "8079821",
-									formId: "c608dff9-9d64-493e-9fc8-5d8650fec04f"
-								});
-							</script>
-
-							<!-- <a class="button sign-btn" width="125" height="50"
-								style="display: table-caption; padding: 14px 25px;" href=""></a> -->
-
-						</div>
+			<div class="row">
+				<div class="col-md-7 color-change-xs-wb align-self-lg-top mb-3rem">
+					<h1>AI-powered digital skills assessments</h1>
+					<p class="para-big mb-2rem">Start building winning teams with our 2000+ skills, enterprise-ready features, and plug &amp; play ATS integrations.</p>
+				   <a href="/schedule-a-demo"><button class="btn btn-mocha cta-btn-demo">Schedule a demo</button></a> 
 				</div>
-				
-				<div class="col-lg-6 hero-image-col">
-					<img src="./images/Group_7-1.svg" alt="">
+				<div class="col-md-5  align-self-lg-top">              
+					<img src="/Content-New/images/homepage/hero.svg" class="hero-img img-fluid" width="100%" height="100%" alt="AI-powered digital skills assessments">
 				</div>
 			</div>
-
+		</div>
+	</section>
+	<!-- Main Content -->
+	<section class="client-sect">
+		<div class="container">
 			<div class="row pt-3">
 				<div class="col-12 d-flex align-items-center justify-content-lg-between flex-column flex-lg-row">
-					<img class="py-2 client-image" src="images/clients/consoleshark-1.png">
-					<img class="py-2 client-image" src="images/clients/wire-rgb-2.png">
-					<img class="py-2 client-image" src="images/clients/data-access-3.png">
-					<img class="py-2 client-image" src="images/clients/tscp-barcodes-biglogo-4.png">
-					<img class="py-2 client-image" src="images/clients/viaanix-5-1.png">
+					<img class="py-2" src="images/clients/consoleshark-1.png">
+					<img class="py-2" src="images/clients/wire-rgb-2.png">
+					<img class="py-2" src="images/clients/data-access-3.png">
+					<img class="py-2" src="images/clients/tscp-barcodes-biglogo-4.png">
+					<img class="py-2" src="images/clients/viaanix-5-1.png">
 				</div>
 			</div>
-
+		</div>
 	</section>
-
-
-	<!-- Header End -->
-
-	<!-- Main Content -->
-	
 	<!-- <div>
 		<div class="iq-our-clients white-bg iq-ptb-50 grey-bg">
 			<div class="container">
