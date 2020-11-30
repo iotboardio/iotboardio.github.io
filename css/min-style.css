@@ -1217,7 +1217,26 @@ header #menu-btn.is-active .line:nth-child(3) {
     cursor: pointer;
     z-index: 4
 }
-
+.btn-reachout {
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: none;
+    width: 150px;
+    padding: 12px 0;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background: #ffc800;
+    margin-top: 2rem;
+}
+.btn-reachout:hover, .btn-reachout:focus {
+    color: #ffc800;
+    box-shadow: 0 0 0 34px #fff inset;
+    background: transparent;
+}
 .button2:hover {
     background-color: #206158;
     border-color: #00967d
@@ -5895,6 +5914,7 @@ contact_section .color-palette:hover {
     -webkit-animation-name: MOVE-BG;
     animation-name: MOVE-BG
 }
+
 .contect-header {
     font-size: 18px !important;
     text-transform: uppercase;
@@ -11113,10 +11133,12 @@ i.flaticon {
 }
 
 .blue-bg {
-    background: -moz-linear-gradient(-45deg, #246bad 0, #00c8c8 100%);
+    background-image: linear-gradient(to right, #01bf81, #41c3d3);
+    padding: 60px 0 !important;
+    /* background: -moz-linear-gradient(-45deg, #246bad 0, #00c8c8 100%);
     background: #0091bd;
     background: -o-linear-gradient(-45deg, #246bad 0, #00c8c8 100%);
-    background: -ms-linear-gradient(-45deg, #246bad 0, #00c8c8 100%)
+    background: -ms-linear-gradient(-45deg, #246bad 0, #00c8c8 100%) */
 }
 
 .dark-bg {
