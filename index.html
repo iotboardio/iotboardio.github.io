@@ -12,7 +12,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
 	<!-- REVOLUTION STYLE SHEETS -->
 	<link rel="stylesheet" href="/css/rs6.css">
 	<!-- Typography CSS -->
@@ -194,6 +194,119 @@
 			height: 100%;
 		}
 	</style>
+	<!-- header sectin css start -->
+	<style>
+		.what-we-do-section {
+			position: relative;
+		}
+
+		.what-we-do-content .full-with-card-item.no-border {
+			align-content: center;
+		}
+
+		.full-with-card-item.no-border:hover {
+			box-shadow: none;
+			transform: none;
+		}
+
+		.full-with-card-item.no-border {
+			border: none;
+			padding-left: 0;
+		}
+
+
+
+		.what-we-do-content .full-with-card-item {
+			/* border: 2px solid #e6e6e6; */
+			border-radius: 10px;
+			position: relative;
+			padding: 1.5rem 1.5rem 2.5rem;
+		}
+
+		.full-with-card-item {
+			border: 1px solid #edf0f7;
+			padding: 1.6rem 1.6rem 2rem;
+			height: 100%;
+			display: grid;
+			align-content: start;
+			margin: 0 -1px -1px 0;
+			transition: .2s ease;
+		}
+
+		.what-we-do-content .full-with-card-img {
+			margin: 0 0 1rem;
+		}
+
+		.what-we-do-content .full-with-card-img img {
+			width: 5rem;
+		}
+
+		.card-subheadinh-h3 {
+			font-size: 1.2rem;
+			line-height: 1.5;
+			margin: 0 0 .6rem;
+		}
+
+		.arrow-bottom-links {
+			position: absolute;
+			right: 1.5rem;
+			bottom: 1rem;
+			vertical-align: middle;
+			display: flex;
+			transition: .4s ease all;
+		}
+
+		.mar-xs-30 {
+			margin-bottom: 30px;
+		}
+
+		.arrow-bottom-links {
+			position: absolute;
+			right: 1.5rem;
+			bottom: 1rem;
+			vertical-align: middle;
+			display: flex;
+			transition: .4s ease all;
+		}
+
+		.arrow-bottom-links svg {
+			width: 22px;
+			height: 22px;
+		}
+
+		.arrow-bottom-links.link-arrow svg .arrow-polyicon {
+			fill: none;
+			stroke: #a8b0ba;
+			stroke-linecap: round;
+			stroke-linejoin: round;
+			stroke-width: 2px;
+		}
+
+		.full-link-hover {
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			cursor: pointer;
+			z-index: 99;
+		}
+
+		.full-with-card-item:hover {
+			box-shadow: 0 5px 30px 0 rgba(0, 0, 0, .1);
+			transform: scale(.98);
+			transition: .2s ease;
+		}
+
+		.full-with-card-item:hover .full-with-card-item-content h3 {
+			color: #3fbcac;
+		}
+
+		.item-with-icon:hover .arrow-bottom-links {
+			transform: translate(.5rem);
+		}
+	</style>
+
 
 </head>
 
@@ -467,9 +580,119 @@
 		</div>
 	</div> -->
 
-	<section class="solutions-sec">
+	<section class="full-with-card-section what-we-do-section mar-t-b-1" id="what-we-do">
+		<div class="container">
+			<div class="full-with-card-outer what-we-do-content" id="what-we-do-content">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-10 col-lg-4 mar-xs-30">
+
+						<div class="full-with-card-item no-border">
+							<h2 class="heading">Solutions</h2>
+							<svg xmlns="http://www.w3.org/2000/svg" width="144" height="3" viewBox="0 0 144 3">
+								<path id="ks-1-Subtraction_4" data-name="Subtraction 4"
+									d="M3298-2038.758h-70.281l2.47-3H3298v3Zm-76.187,0H3154v-3h70.282l-2.47,3Z"
+									transform="translate(-3154 2041.758)" fill="#e9d028">
+								</path>
+							</svg>
+							<div class="page-heading-outer" id="what-we-do-header">
+								<!-- <h2 class="page-heading">Solutions</h2> -->
+								<p class="page-heading-desc mt-3">IoTBoard solutions help build massive networks of IoT
+									devices.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-4 mar-xs-30">
+						<div class="full-with-card-item item-with-icon">
+
+							<div class="full-with-card-item-content">
+								<h3 class="card-subheadinh-h3">AWS IoT Solution</h3>
+								<p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+							<span class="arrow-bottom-links link-arrow">
+								<svg viewBox="0 0 20 20">
+									<polyline class="arrow-polyicon"
+										points="2 10.25 18 10.25 11 3.25 18 10.25 11.5 16.75"></polyline>
+								</svg>
+							</span>
+							<a href="/solution/iot-aws.html" title="AWS IoT Solution" class="full-link-hover"></a>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-4 mar-xs-30">
+						<div class="full-with-card-item item-with-icon">
+
+							<div class="full-with-card-item-content">
+								<h3 class="card-subheadinh-h3">ThingsBoard IoT Solution</h3>
+								<p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+							<span class="arrow-bottom-links link-arrow">
+								<svg viewBox="0 0 20 20">
+									<polyline class="arrow-polyicon"
+										points="2 10.25 18 10.25 11 3.25 18 10.25 11.5 16.75"></polyline>
+								</svg>
+							</span>
+							<a href="/solution/thingsboard.html" title="ThingsBoard IoT Solution" class="full-link-hover"></a>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-4 mar-xs-30">
+						<div class="full-with-card-item item-with-icon">
+
+							<div class="full-with-card-item-content">
+								<h3 class="card-subheadinh-h3">Custom IoT Solution</h3>
+								<p class="card-description"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+							<span class="arrow-bottom-links link-arrow">
+								<svg viewBox="0 0 20 20">
+									<polyline class="arrow-polyicon"
+										points="2 10.25 18 10.25 11 3.25 18 10.25 11.5 16.75"></polyline>
+								</svg>
+							</span>
+							<a href="/solution/custom-iot-solutions.html" title="Custom IoT Solution" class="full-link-hover"></a>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-4 mar-xs-30">
+						<div class="full-with-card-item item-with-icon">
+
+							<div class="full-with-card-item-content">
+								<h3 class="card-subheadinh-h3">Azure IoT Solution</h3>
+								<p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+							<span class="arrow-bottom-links link-arrow">
+								<svg viewBox="0 0 20 20">
+									<polyline class="arrow-polyicon"
+										points="2 10.25 18 10.25 11 3.25 18 10.25 11.5 16.75"></polyline>
+								</svg>
+							</span>
+							<a href="/solution/azure-iot-solution.html" title="Azure IoT Solution" class="full-link-hover"></a>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-4 mar-xs-30">
+						<div class="full-with-card-item item-with-icon">
+
+							<div class="full-with-card-item-content">
+								<h3 class="card-subheadinh-h3">TinyML For Edge</h3>
+								<p class="card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+							<span class="arrow-bottom-links link-arrow">
+								<svg viewBox="0 0 20 20">
+									<polyline class="arrow-polyicon"
+										points="2 10.25 18 10.25 11 3.25 18 10.25 11.5 16.75"></polyline>
+								</svg>
+							</span>
+							<a href="/solution/tinyml-for-edge.html"
+								title="TinyML For Edge" class="full-link-hover"></a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <section class="solutions-sec">
 		<div class="container">
 			<div class="row">
+
+
 				<div class="col-lg-12 headingsec text-center">
 					<h2 class="heading text-center">Solutions</h2>
 					<svg xmlns="http://www.w3.org/2000/svg" width="144" height="3" viewBox="0 0 144 3">
@@ -522,7 +745,7 @@
 						</a>
 					</div>
 				</div>
-				<!-- <div class="col-sm-6 col-md-4 col-lg-4 col-xs-12">
+				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12">
 					<div class="card card-program wow fadeInUp"><a href="/solution/kaa-iot-solution.html" class="">
 							<h3>Kaa IoT Solution</h3>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -531,7 +754,7 @@
 							</div>
 						</a>
 					</div>
-				</div> -->
+				</div>
 				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12">
 					<div class="card card-program wow fadeInUp"><a href="/solution/tinyml-for-edge.html" class="">
 							<h3>TinyML For Edge</h3>
@@ -545,7 +768,8 @@
 			</div>
 		</div>
 
-	</section>
+	</section> -->
+	
 	<section class="popup-images align-left section_features" id="iq-feature">
 		<div class="container">
 			<div class="row">
