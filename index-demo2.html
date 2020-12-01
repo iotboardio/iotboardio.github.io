@@ -179,51 +179,58 @@
 	<!-- canvas -->
 	<style>
 		canvas {
-  display: block;
-  vertical-align: bottom;
-} /* ---- particles.js container ---- */
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #b61924;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-} /* ---- stats.js ---- */
-.count-particles {
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13e8e9;
-  font-size: 0.8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-}
-.js-count-particles {
-  font-size: 1.1em;
-}
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-.count-particles {
-  border-radius: 0 0 3px 3px;
-}
+			display: block;
+			vertical-align: bottom;
+		}
 
+		/* ---- particles.js container ---- */
+		#particles-js {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background-color: #3fbcac;
+			background-image: url("");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
+		}
+
+		/* ---- stats.js ---- */
+		.count-particles {
+			background: #000022;
+			position: absolute;
+			top: 48px;
+			left: 0;
+			width: 80px;
+			color: #13e8e9;
+			font-size: 0.8em;
+			text-align: left;
+			text-indent: 4px;
+			line-height: 14px;
+			padding-bottom: 2px;
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: bold;
+		}
+
+		.js-count-particles {
+			font-size: 1.1em;
+		}
+
+		#stats,
+		.count-particles {
+			-webkit-user-select: none;
+			margin-top: 5px;
+			margin-left: 5px;
+		}
+
+		#stats {
+			border-radius: 3px 3px 0 0;
+			overflow: hidden;
+		}
+
+		.count-particles {
+			border-radius: 0 0 3px 3px;
+		}
 	</style>
 </head>
 
@@ -340,8 +347,11 @@
 	<section class="homeBanner position-relative overflow-hidden">
 		<div class="img-wrapper position-absolute h-100">
 			<!-- particles.js container -->
-			<div id="particles-js"></div> <!-- stats - count particles -->
-			<div class="count-particles"> <span class="js-count-particles">--</span> particles </div>
+			<div id="particles-js"></div>
+			<!-- stats - count particles -->
+			<!-- <div class="count-particles"> 
+				<span class="js-count-particles"></span> 
+			</div> -->
 		</div>
 		<div class="container d-table h-100">
 			<div class="homeBanner__cnt h-100 d-table-cell align-middle position-relative">
@@ -358,52 +368,24 @@
 					<div class="row pt-3">
 						<div
 							class="col-12 d-flex align-items-center justify-content-lg-between flex-column flex-lg-row">
-							<img class="py-2" src="images/clients/consoleshark-1.png">
-							<img class="py-2" src="images/clients/wire-rgb-2.png">
-							<img class="py-2" src="images/clients/data-access-3.png">
-							<img class="py-2" src="images/clients/tscp-barcodes-biglogo-4.png">
-							<img class="py-2" src="images/clients/viaanix-5-1.png">
+							<img class="py-2 img-fluid" src="images/clients/consoleshark-1.png">
+							<img class="py-2 img-fluid" src="images/clients/wire-rgb-2.png">
+							<img class="py-2 img-fluid" src="images/clients/data-access-3.png">
+							<img class="py-2 img-fluid" src="images/clients/tscp-barcodes-biglogo-4.png">
+							<img class="py-2 img-fluid" src="images/clients/viaanix-5-1.png">
 						</div>
 					</div>
-					<picture>
+					<!-- <picture>
 
 						<img src="https://www.codiant.com/assets/images/home/client_logo.png" class="img-fluid"
 							alt="client-logo">
-					</picture>
+					</picture> -->
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<!-- <div class="homeSection">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7 col-sm-12">
-					<div class="textSection">
-				<div class="type-wrap">
-
-					<h1 id="typed_home">IoT Solutions <br> for All Industries</h1><span class="typed-cursor">|</span>
-				</div>
-				<h4 data-animation="appeared fadeInUp" data-animation-delay="3000"><span>Thinkitive Technologies
-						provides IoT Solutions <br> for All industries, customizable for various <br>
-						usecases & white labelling.</span></h4>
-				<a href="#startPage" class="scrollMouse scrollto"><span class="smInner"><span
-							class="smDot"></span></span></a>
-			</div>
-			<div class="inc5000"></div>
-					
-				</div>
-				<div class="col-md-5 col-sm-12">
-					<div class="develop-image-desktop">
-						<img src="images/iot-world.svg" class="keyboard-image img-responsive" alt="keyboard">
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</div> -->
 	<!-- Main Content -->
-	<section class="client-sect">
+	<!-- <section class="client-sect">
 		<div class="container">
 			<div class="row pt-3">
 				<div class="col-12 d-flex align-items-center justify-content-lg-between flex-column flex-lg-row">
@@ -415,7 +397,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- <div>
 		<div class="iq-our-clients white-bg iq-ptb-50 grey-bg">
 			<div class="container">
@@ -1174,90 +1156,138 @@
 
 	<script src="js/revolution.tools.min.js"></script>
 
+	<script src="js/app.js"></script>
+	<script src="js/particles.js"> </script>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"
-		integrity="sha512-jq8sZI0I9Og0nnZ+CfJRnUzNSDKxr/5Bvha5bn7AHzTnRyxUfpUArMzfH++mwE/hb2efOo1gCAgI+1RMzf8F7g=="
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/1.0.2/particles.js"
-		integrity="sha512-qbKZKYnh+fOSeRrp3tW3dbiFZPTitU530/IQ9xUEPII0KvAV3g5mi7cwNHMt9fGUbPVuGN6L4IAcunPLQeX3BQ=="
-		crossorigin="anonymous">
+	<script>
+		particlesJS("particles-js", {
+			particles: {
+				number: {
+					value: 80,
+					density: {
+						enable: true,
+						value_area: 800
+					}
+				},
+				color: {
+					value: "#ffffff"
+				},
+				shape: {
+					type: "circle",
+					stroke: {
+						width: 0,
+						color: "#000000"
+					},
+					polygon: {
+						nb_sides: 5
+					},
+					image: {
+						src: "img/github.svg",
+						width: 100,
+						height: 100
+					}
+				},
+				opacity: {
+					value: 0.5,
+					random: false,
+					anim: {
+						enable: false,
+						speed: 1,
+						opacity_min: 0.1,
+						sync: false
+					}
+				},
+				size: {
+					value: 3,
+					random: true,
+					anim: {
+						enable: false,
+						speed: 40,
+						size_min: 0.1,
+						sync: false
+					}
+				},
+				line_linked: {
+					enable: true,
+					distance: 150,
+					color: "#ffffff",
+					opacity: 0.4,
+					width: 1
+				},
+				move: {
+					enable: true,
+					speed: 6,
+					direction: "none",
+					random: false,
+					straight: false,
+					out_mode: "out",
+					bounce: false,
+					attract: {
+						enable: false,
+						rotateX: 600,
+						rotateY: 1200
+					}
+				}
+			},
+			interactivity: {
+				detect_on: "canvas",
+				events: {
+					onhover: {
+						enable: true,
+						mode: "repulse"
+					},
+					onclick: {
+						enable: true,
+						mode: "push"
+					},
+					resize: true
+				},
+				modes: {
+					grab: {
+						distance: 400,
+						line_linked: {
+							opacity: 1
+						}
+					},
+					bubble: {
+						distance: 400,
+						size: 40,
+						duration: 2,
+						opacity: 8,
+						speed: 3
+					},
+					repulse: {
+						distance: 200,
+						duration: 0.4
+					},
+					push: {
+						particles_nb: 4
+					},
+					remove: {
+						particles_nb: 2
+					}
+				}
+			},
+			retina_detect: true
+		});
+		var count_particles, stats, update;
+		stats = new Stats();
+		stats.setMode(0);
+		stats.domElement.style.position = "absolute";
+		stats.domElement.style.left = "0px";
+		stats.domElement.style.top = "0px";
+		document.body.appendChild(stats.domElement);
+		count_particles = document.querySelector(".js-count-particles");
+		update = function () {
+			stats.begin();
+			stats.end();
+			if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+				count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+			}
+			requestAnimationFrame(update);
+		};
+		requestAnimationFrame(update);
 	</script>
-
-<script>
-	particlesJS("particles-js", {
-  particles: {
-    number: { value: 80, density: { enable: true, value_area: 800 } },
-    color: { value: "#ffffff" },
-    shape: {
-      type: "circle",
-      stroke: { width: 0, color: "#000000" },
-      polygon: { nb_sides: 5 },
-      image: { src: "img/github.svg", width: 100, height: 100 }
-    },
-    opacity: {
-      value: 0.5,
-      random: false,
-      anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
-    },
-    size: {
-      value: 3,
-      random: true,
-      anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
-    },
-    line_linked: {
-      enable: true,
-      distance: 150,
-      color: "#ffffff",
-      opacity: 0.4,
-      width: 1
-    },
-    move: {
-      enable: true,
-      speed: 6,
-      direction: "none",
-      random: false,
-      straight: false,
-      out_mode: "out",
-      bounce: false,
-      attract: { enable: false, rotateX: 600, rotateY: 1200 }
-    }
-  },
-  interactivity: {
-    detect_on: "canvas",
-    events: {
-      onhover: { enable: true, mode: "repulse" },
-      onclick: { enable: true, mode: "push" },
-      resize: true
-    },
-    modes: {
-      grab: { distance: 400, line_linked: { opacity: 1 } },
-      bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
-      repulse: { distance: 200, duration: 0.4 },
-      push: { particles_nb: 4 },
-      remove: { particles_nb: 2 }
-    }
-  },
-  retina_detect: true
-});
-var count_particles, stats, update;
-stats = new Stats();
-stats.setMode(0);
-stats.domElement.style.position = "absolute";
-stats.domElement.style.left = "0px";
-stats.domElement.style.top = "0px";
-document.body.appendChild(stats.domElement);
-count_particles = document.querySelector(".js-count-particles");
-update = function () {
-  stats.begin();
-  stats.end();
-  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-  }
-  requestAnimationFrame(update);
-};
-requestAnimationFrame(update);
-
-</script>
 
 	<script>
 		function setREVStartSize(t) {
