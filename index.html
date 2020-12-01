@@ -128,7 +128,7 @@
 		}
 	</style>
 	<style>
-		.homeSection {
+		/* .homeSection {
 			position: relative;
 			z-index: 1;
 			background: url("images/homepage-hero-bg.jpg") right top no-repeat;
@@ -141,7 +141,7 @@
 			font-size: 60px;
 			color: #151515;
 			line-height: 60px;
-		}
+		} */
 	</style>
 	<!-- header main -->
 	<style>
@@ -174,6 +174,30 @@
 			right: 0;
 			bottom: 30px;
 			text-align: center;
+		}
+
+		.homeBanner__cnt * {
+			color: #fff;
+		}
+
+		.client-image {
+			transition: all ease .4s;
+			height: 100px;
+			filter: brightness(0) invert(1);
+		}
+
+		@media (max-width: 767.98px) {
+			.homeBanner_logo {
+				margin-top: 25px;
+			}
+
+		}
+
+		@media (max-width: 1199.98px) {
+			.homeBanner_logo {
+				position: static;
+				margin-top: 50px;
+			}
 		}
 	</style>
 	<!-- canvas -->
@@ -358,8 +382,8 @@
 				<div class="text-center">
 					<!-- <span>Experience A New Degree Of Innovation</span> -->
 					<h1>IoT Solutions for All Industries</h1>
-					<p>Thinkitive Technologies provides IoT Solutions for All industries, <br> customizable for various usecases & white labelling. <br
-							class="d-none d-md-block"></p>
+					<p>Thinkitive Technologies provides IoT Solutions for All industries, <br> customizable for various
+						usecases & white labelling. <br class="d-none d-md-block"></p>
 					<a href="https://www.codiant.com/discuss-project" class="btn btn-orange btn-lg ripple-effect">START
 						A PROJECT</a>
 				</div>
@@ -367,11 +391,11 @@
 					<div class="row pt-3">
 						<div
 							class="col-12 d-flex align-items-center justify-content-lg-between flex-column flex-lg-row">
-							<img class="py-2 img-fluid" src="images/clients/consoleshark-1.png">
-							<img class="py-2 img-fluid" src="images/clients/wire-rgb-2.png">
-							<img class="py-2 img-fluid" src="images/clients/data-access-3.png">
-							<img class="py-2 img-fluid" src="images/clients/tscp-barcodes-biglogo-4.png">
-							<img class="py-2 img-fluid" src="images/clients/viaanix-5-1.png">
+							<img class="py-2 img-fluid client-image " src="images/clients/consoleshark-1.png">
+							<img class="py-2 img-fluid client-image" src="images/clients/wire-rgb-2.png">
+							<img class="py-2 img-fluid client-image" src="images/clients/data-access-3.png">
+							<img class="py-2 img-fluid client-image" src="images/clients/tscp-barcodes-biglogo-4.png">
+							<img class="py-2 img-fluid client-image" src="images/clients/viaanix-5-1.png">
 						</div>
 					</div>
 					<!-- <picture>
