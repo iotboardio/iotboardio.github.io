@@ -9,18 +9,6 @@
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="images/favicon.ico" />
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
-	<!-- REVOLUTION STYLE SHEETS -->
-	<link rel="stylesheet" href="/css/rs6.css">
-	<!-- Typography CSS -->
-	<link rel="stylesheet" href="/css/typography.css">
-	<!-- Style -->
-	<link rel="stylesheet" href="/css/min-style.css">
-	<!-- Responsive -->
-	<link rel="stylesheet" href="/css/responsive.css">
 
 	<!-- Primary Meta Tags -->
 	<meta name="title" content="IoT Solutions - IoT Cloud Services Provider | IoTBoard Thinkitive">
@@ -75,7 +63,18 @@
 
 
 
-
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<!-- REVOLUTION STYLE SHEETS -->
+	<link rel="stylesheet" href="/css/rs6.css">
+	<!-- Typography CSS -->
+	<link rel="stylesheet" href="/css/typography.css">
+	<!-- Style -->
+	<link rel="stylesheet" href="/css/min-style.css">
+	<!-- Responsive -->
+	<link rel="stylesheet" href="/css/responsive.css">
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
 		var Tawk_API = Tawk_API || {},
@@ -92,238 +91,140 @@
 	</script>
 	<!--End of Tawk.to Script-->
 
+
+
 	<style>
-		.section-bg {
-			background-image: url("images/homepage-header-bg-1.svg") !important;
-			background-size: cover;
-			background-repeat: no-repeat;
+		h1.custom-heading {
+
+			font-size: 52px !important;
+			line-height: 75px !important;
+
+
 		}
 
-		.hero {
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: top -5.8889rem center;
-			padding-top: 8.125vw;
-			padding-bottom: 8rem;
-			position: relative;
-			/* height: 100vh; */
+		@media screen and (max-width: 767px) {
+			h1.custom-heading {
+
+				font-size: 32px !important;
+				line-height: 45px !important;
+
+			}
 		}
 
-		.hero .section-bg {
-			width: 100%;
-			top: -22.8889rem;
-			left: 0;
-			z-index: -1;
-			position: absolute;
-			background-repeat: no-repeat;
-			background-position: center bottom;
-			background-size: 100%;
-			height: 140%;
-			max-width: initial;
+		.client-sect {
+			background-color: #f5f8fa
 		}
 
-		.f-row .justify-between {
-			justify-content: space-between !important;
-		}
-
-		.f-row {
-			display: flex;
-		}
-
-		.hero .hero-content-col {
-			padding-right: 15px;
-		}
-
-		.hero .hero-title {
-			margin-top: 3.2222rem;
-		}
-
-		.hero.in-view .hero-title .h1 {
-			transform: translateY(0);
-			opacity: 1;
-		}
-
-		.hero .hero-title .h1 {
-			font-size: 4.4444rem;
-			font-weight: 600;
-			line-height: 1.13;
-			margin: 0;
-			transform: translateY(300px);
-			opacity: 0;
-			transition: all 0.6s ease 0.8s;
-			margin-bottom: 15px;
-			color: #2b2b2b;
-		}
-
-		.main {
-			box-sizing: border-box;
-			display: inline-grid;
-			grid-auto-columns: auto;
-			grid-template-rows: auto;
-			position: relative;
-			height: inherit;
-			width: inherit;
-		}
-
-		.hero-title .h4 {
-			font-size: 1.2222rem;
-			font-weight: bold;
-			line-height: 1;
-			margin: 0;
-			color: #2b2b2b;
-			transform: translateY(300px);
-			/* opacity: 0; */
-			transition: all 0.6s ease 0.9s;
-			white-space: nowrap;
-		}
-
-		.hero.in-view .hero-title .h4 {
-			transform: translateY(0);
-			opacity: 1;
-		}
-
-		.client-image {
-			filter: grayscale(100%);
-			opacity: .5;
-			transition: all ease .4s;
+		.client-sect img {
 			height: 100px;
+			float: left;
+			margin-right: 20px;
+			padding-right: 20px;
+			border-right: 2px solid #f7f7f7;
 		}
 
-		.hero-image-col img {
-			width: 100%;
-			height: 100%;
+		.client-sect img:last-child {
+			border-right: none;
 		}
 	</style>
-	<!-- header sectin css start -->
 	<style>
-		.what-we-do-section {
+		.homeSection {
 			position: relative;
+			z-index: 1;
+			background: url("images/homepage-hero-bg.jpg") right top no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			padding: 240px 0 180px;
 		}
 
-		.what-we-do-content .full-with-card-item.no-border {
-			align-content: center;
+		.homeSection .textSection h1 {
+			font-size: 60px;
+			color: #151515;
+			line-height: 60px;
+		}
+	</style>
+	<!-- header main -->
+	<style>
+		.homeBanner {
+			height: 100vh;
 		}
 
-		.full-with-card-item.no-border:hover {
-			box-shadow: none;
-			transform: none;
+		.position-relative {
+			position: relative !important;
 		}
 
-		.full-with-card-item.no-border {
-			border: none;
-			padding-left: 0;
+		.overflow-hidden {
+			overflow: hidden !important;
 		}
 
-
-
-		.what-we-do-content .full-with-card-item {
-			/* border: 2px solid #e6e6e6; */
-			border-radius: 10px;
-			position: relative;
-			padding: 1.5rem 1.5rem 2.5rem;
+		.homeBanner .img-wrapper {
+			top: 0px;
+			width: 100%;
 		}
 
-		.full-with-card-item {
-			border: 1px solid #edf0f7;
-			padding: 1.6rem 1.6rem 2rem;
-			height: 100%;
-			display: grid;
-			align-content: start;
-			margin: 0 -1px -1px 0;
-			transition: .2s ease;
+		.homeBanner__cnt p {
+			font-size: 18px;
+			color: #40C9DC;
+			margin-bottom: 60px;
 		}
 
-		.what-we-do-content .full-with-card-img {
-			margin: 0 0 1rem;
-		}
-
-		.what-we-do-content .full-with-card-img img {
-			width: 5rem;
-		}
-
-		.card-subheadinh-h3 {
-			font-size: 1.2rem;
-			line-height: 1.5;
-			margin: 0 0 .6rem;
-		}
-
-		.arrow-bottom-links {
-			position: absolute;
-			right: 1.5rem;
-			bottom: 1rem;
-			vertical-align: middle;
-			display: flex;
-			transition: .4s ease all;
-		}
-
-		.mar-xs-30 {
-			margin-bottom: 30px;
-		}
-
-		.arrow-bottom-links {
-			position: absolute;
-			right: 1.5rem;
-			bottom: 1rem;
-			vertical-align: middle;
-			display: flex;
-			transition: .4s ease all;
-		}
-
-		.arrow-bottom-links svg {
-			width: 22px;
-			height: 22px;
-		}
-
-		.arrow-bottom-links.link-arrow svg .arrow-polyicon {
-			fill: none;
-			stroke: #a8b0ba;
-			stroke-linecap: round;
-			stroke-linejoin: round;
-			stroke-width: 2px;
-		}
-
-		.full-link-hover {
+		.homeBanner_logo {
 			position: absolute;
 			left: 0;
-			top: 0;
 			right: 0;
-			bottom: 0;
-			cursor: pointer;
-			z-index: 99;
-		}
-
-		.full-with-card-item:hover {
-			box-shadow: 0 5px 30px 0 rgba(0, 0, 0, .1);
-			transform: scale(.98);
-			transition: .2s ease;
-		}
-
-		.full-with-card-item:hover .full-with-card-item-content h3 {
-			color: #3fbcac;
-		}
-
-		.item-with-icon:hover .arrow-bottom-links {
-			transform: translate(.5rem);
+			bottom: 30px;
+			text-align: center;
 		}
 	</style>
+	<!-- canvas -->
 	<style>
-		.weServeSection__box {
-			background: #FFFFFF;
-			box-shadow: 0 10px 34px 0 rgba(0, 0, 0, 0.04);
-			border-radius: 10px;
-			padding: 37.5px 30px 32.5px;
-			margin-bottom: 30px;
-		}
-		.bg_light_grey {
-			background-color: #f0f7ff;
-    padding: 280px 15px;
-    min-height: 500px;
-    -webkit-clip-path: polygon(0 25%, 100% 0, 100% 80%, 0 100%);
-    clip-path: polygon(0 25%, 100% 0, 100% 80%, 0 100%);
-		}
+		canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
 	</style>
-
-
 </head>
 
 <body>
@@ -436,55 +337,85 @@
 		</div>
 	</header>
 
-	<section id="hero-home" class="hero in-view">
-		<div class="section-bg" style="background-image: url('https://iotboard.io/images/homepage-header-bg-1.svg')">
+	<section class="homeBanner position-relative overflow-hidden">
+		<div class="img-wrapper position-absolute h-100">
+			<!-- particles.js container -->
+			<div id="particles-js"></div> <!-- stats - count particles -->
+			<div class="count-particles"> <span class="js-count-particles">--</span> particles </div>
 		</div>
-		<div class="container">
-			<div class="row  f-row justify-between">
-				<div class="col-lg-6 hero-content-col">
-					<div class="hero-title">
-						<h1 class="h1">IoT Solutions for All <span> Industries</span> </h1>
-						<h5 class=" mb-4">Thinkitive Technologies provides IoT Solutions for All industries,
-							customizable
-							for various
-							usecases & white labelling.</h5>
-						<div class="h4"></div>
-						<div class="horizontal-line"></div>
+		<div class="container d-table h-100">
+			<div class="homeBanner__cnt h-100 d-table-cell align-middle position-relative">
+				<div class="text-center">
+					<span>Experience A New Degree Of Innovation</span>
+					<h1>The Ultimate Mobile App<br class="d-none d-xl-block"> &amp; Web Solutions for
+						Every Trade</h1>
+					<p>Accelerate your business growth with our customer-led, insights driven and <br
+							class="d-none d-md-block"> innovative solutions</p>
+					<a href="https://www.codiant.com/discuss-project" class="btn btn-orange btn-lg ripple-effect">START
+						A PROJECT</a>
+				</div>
+				<div class="homeBanner_logo">
+					<div class="row pt-3">
+						<div
+							class="col-12 d-flex align-items-center justify-content-lg-between flex-column flex-lg-row">
+							<img class="py-2" src="images/clients/consoleshark-1.png">
+							<img class="py-2" src="images/clients/wire-rgb-2.png">
+							<img class="py-2" src="images/clients/data-access-3.png">
+							<img class="py-2" src="images/clients/tscp-barcodes-biglogo-4.png">
+							<img class="py-2" src="images/clients/viaanix-5-1.png">
+						</div>
 					</div>
-					<!-- <input type="Email"style="width: 300px; margin: 0 0 20px; border"> -->
-					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js">
-					</script>
-					<script>
-						hbspt.forms.create({
-							portalId: "8079821",
-							formId: "c608dff9-9d64-493e-9fc8-5d8650fec04f"
-						});
-					</script>
+					<picture>
 
-				</div>
-
-				<div class="col-lg-6 hero-image-col">
-					<img src="./images/Page-1.svg" alt="">
+						<img src="https://www.codiant.com/assets/images/home/client_logo.png" class="img-fluid"
+							alt="client-logo">
+					</picture>
 				</div>
 			</div>
-
-			<div class="row" style="padding-top: 3rem;">
-				<div class="col-12 d-flex align-items-center justify-content-lg-between flex-column flex-lg-row">
-					<img class="py-2 client-image" src="images/clients/consoleshark-1.png">
-					<img class="py-2 client-image" src="images/clients/wire-rgb-2.png">
-					<img class="py-2 client-image" src="images/clients/data-access-3.png">
-					<img class="py-2 client-image" src="images/clients/tscp-barcodes-biglogo-4.png">
-					<img class="py-2 client-image" src="images/clients/viaanix-5-1.png">
-				</div>
-			</div>
-
+		</div>
 	</section>
 
+	<!-- <div class="homeSection">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 col-sm-12">
+					<div class="textSection">
+				<div class="type-wrap">
 
-	<!-- Header End -->
-
+					<h1 id="typed_home">IoT Solutions <br> for All Industries</h1><span class="typed-cursor">|</span>
+				</div>
+				<h4 data-animation="appeared fadeInUp" data-animation-delay="3000"><span>Thinkitive Technologies
+						provides IoT Solutions <br> for All industries, customizable for various <br>
+						usecases & white labelling.</span></h4>
+				<a href="#startPage" class="scrollMouse scrollto"><span class="smInner"><span
+							class="smDot"></span></span></a>
+			</div>
+			<div class="inc5000"></div>
+					
+				</div>
+				<div class="col-md-5 col-sm-12">
+					<div class="develop-image-desktop">
+						<img src="images/iot-world.svg" class="keyboard-image img-responsive" alt="keyboard">
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div> -->
 	<!-- Main Content -->
-
+	<section class="client-sect">
+		<div class="container">
+			<div class="row pt-3">
+				<div class="col-12 d-flex align-items-center justify-content-lg-between flex-column flex-lg-row">
+					<img class="py-2" src="images/clients/consoleshark-1.png">
+					<img class="py-2" src="images/clients/wire-rgb-2.png">
+					<img class="py-2" src="images/clients/data-access-3.png">
+					<img class="py-2" src="images/clients/tscp-barcodes-biglogo-4.png">
+					<img class="py-2" src="images/clients/viaanix-5-1.png">
+				</div>
+			</div>
+		</div>
+	</section>
 	<!-- <div>
 		<div class="iq-our-clients white-bg iq-ptb-50 grey-bg">
 			<div class="container">
@@ -596,127 +527,9 @@
 		</div>
 	</div> -->
 
-	<section class="full-with-card-section what-we-do-section mar-t-b-1" id="what-we-do">
-		<div class="container">
-			<div class="full-with-card-outer what-we-do-content" id="what-we-do-content">
-				<div class="row">
-					<div class="col-12 col-sm-12 col-md-10 col-lg-4 mar-xs-30">
-
-						<div class="full-with-card-item no-border">
-							<h2 class="heading">Solutions</h2>
-							<svg xmlns="http://www.w3.org/2000/svg" width="144" height="3" viewBox="0 0 144 3">
-								<path id="ks-1-Subtraction_4" data-name="Subtraction 4"
-									d="M3298-2038.758h-70.281l2.47-3H3298v3Zm-76.187,0H3154v-3h70.282l-2.47,3Z"
-									transform="translate(-3154 2041.758)" fill="#e9d028">
-								</path>
-							</svg>
-							<div class="page-heading-outer" id="what-we-do-header">
-								<!-- <h2 class="page-heading">Solutions</h2> -->
-								<p class="page-heading-desc mt-3">IoTBoard solutions help build massive networks of IoT
-									devices.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-md-4 col-lg-4 mar-xs-30">
-						<div class="full-with-card-item item-with-icon wow fadeInUp">
-
-							<div class="full-with-card-item-content">
-								<h3 class="card-subheadinh-h3">AWS IoT Solution</h3>
-								<p class="card-description">Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry.</p>
-							</div>
-							<span class="arrow-bottom-links link-arrow">
-								<svg viewBox="0 0 20 20">
-									<polyline class="arrow-polyicon"
-										points="2 10.25 18 10.25 11 3.25 18 10.25 11.5 16.75"></polyline>
-								</svg>
-							</span>
-							<a href="/solution/iot-aws.html" title="AWS IoT Solution" class="full-link-hover"></a>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-md-4 col-lg-4 mar-xs-30">
-						<div class="full-with-card-item item-with-icon wow fadeInUp">
-
-							<div class="full-with-card-item-content">
-								<h3 class="card-subheadinh-h3">ThingsBoard IoT Solution</h3>
-								<p class="card-description">Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry.</p>
-							</div>
-							<span class="arrow-bottom-links link-arrow">
-								<svg viewBox="0 0 20 20">
-									<polyline class="arrow-polyicon"
-										points="2 10.25 18 10.25 11 3.25 18 10.25 11.5 16.75"></polyline>
-								</svg>
-							</span>
-							<a href="/solution/thingsboard.html" title="ThingsBoard IoT Solution"
-								class="full-link-hover"></a>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-md-4 col-lg-4 mar-xs-30">
-						<div class="full-with-card-item item-with-icon wow fadeInUp">
-
-							<div class="full-with-card-item-content">
-								<h3 class="card-subheadinh-h3">Custom IoT Solution</h3>
-								<p class="card-description"> Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry.</p>
-							</div>
-							<span class="arrow-bottom-links link-arrow">
-								<svg viewBox="0 0 20 20">
-									<polyline class="arrow-polyicon"
-										points="2 10.25 18 10.25 11 3.25 18 10.25 11.5 16.75"></polyline>
-								</svg>
-							</span>
-							<a href="/solution/custom-iot-solutions.html" title="Custom IoT Solution"
-								class="full-link-hover"></a>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-md-4 col-lg-4 mar-xs-30">
-						<div class="full-with-card-item item-with-icon wow fadeInUp">
-
-							<div class="full-with-card-item-content">
-								<h3 class="card-subheadinh-h3">Azure IoT Solution</h3>
-								<p class="card-description">Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry.</p>
-							</div>
-							<span class="arrow-bottom-links link-arrow">
-								<svg viewBox="0 0 20 20">
-									<polyline class="arrow-polyicon"
-										points="2 10.25 18 10.25 11 3.25 18 10.25 11.5 16.75"></polyline>
-								</svg>
-							</span>
-							<a href="/solution/azure-iot-solution.html" title="Azure IoT Solution"
-								class="full-link-hover"></a>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-md-4 col-lg-4 mar-xs-30">
-						<div class="full-with-card-item item-with-icon wow fadeInUp">
-
-							<div class="full-with-card-item-content">
-								<h3 class="card-subheadinh-h3">TinyML For Edge</h3>
-								<p class="card-description">Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry.</p>
-							</div>
-							<span class="arrow-bottom-links link-arrow">
-								<svg viewBox="0 0 20 20">
-									<polyline class="arrow-polyicon"
-										points="2 10.25 18 10.25 11 3.25 18 10.25 11.5 16.75"></polyline>
-								</svg>
-							</span>
-							<a href="/solution/tinyml-for-edge.html" title="TinyML For Edge"
-								class="full-link-hover"></a>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- <section class="solutions-sec">
+	<section class="solutions-sec">
 		<div class="container">
 			<div class="row">
-
-
 				<div class="col-lg-12 headingsec text-center">
 					<h2 class="heading text-center">Solutions</h2>
 					<svg xmlns="http://www.w3.org/2000/svg" width="144" height="3" viewBox="0 0 144 3">
@@ -769,7 +582,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12">
+				<!-- <div class="col-sm-6 col-md-4 col-lg-4 col-xs-12">
 					<div class="card card-program wow fadeInUp"><a href="/solution/kaa-iot-solution.html" class="">
 							<h3>Kaa IoT Solution</h3>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -778,7 +591,7 @@
 							</div>
 						</a>
 					</div>
-				</div>
+				</div> -->
 				<div class="col-sm-6 col-md-4 col-lg-4 col-xs-12">
 					<div class="card card-program wow fadeInUp"><a href="/solution/tinyml-for-edge.html" class="">
 							<h3>TinyML For Edge</h3>
@@ -792,11 +605,8 @@
 			</div>
 		</div>
 
-	</section> -->
-
-
-
-	<section class="popup-images align-left section_features bg_light_grey" id="iq-feature">
+	</section>
+	<section class="popup-images align-left section_features" id="iq-feature">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 headingsec text-center">
@@ -932,7 +742,7 @@
 					<p>We provide end to end iot development services starting from device programming, integration to
 						visualization and alerting, with on & off prem deployments.
 					</p>
-					<a href="/contact-us.html" class="btn-reachout bt-black iq-mt-10 iq-mr-20">Contact Us
+					<a href="/contact-us.html" class="button2 bt-black iq-mt-10 iq-mr-20">Contact Us
 					</a>
 				</div>
 			</div>
@@ -1363,6 +1173,91 @@
 	<script src="js/rs6.min.js"></script>
 
 	<script src="js/revolution.tools.min.js"></script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"
+		integrity="sha512-jq8sZI0I9Og0nnZ+CfJRnUzNSDKxr/5Bvha5bn7AHzTnRyxUfpUArMzfH++mwE/hb2efOo1gCAgI+1RMzf8F7g=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/1.0.2/particles.js"
+		integrity="sha512-qbKZKYnh+fOSeRrp3tW3dbiFZPTitU530/IQ9xUEPII0KvAV3g5mi7cwNHMt9fGUbPVuGN6L4IAcunPLQeX3BQ=="
+		crossorigin="anonymous">
+	</script>
+
+<script>
+	particlesJS("particles-js", {
+  particles: {
+    number: { value: 80, density: { enable: true, value_area: 800 } },
+    color: { value: "#ffffff" },
+    shape: {
+      type: "circle",
+      stroke: { width: 0, color: "#000000" },
+      polygon: { nb_sides: 5 },
+      image: { src: "img/github.svg", width: 100, height: 100 }
+    },
+    opacity: {
+      value: 0.5,
+      random: false,
+      anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
+    },
+    size: {
+      value: 3,
+      random: true,
+      anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
+    },
+    line_linked: {
+      enable: true,
+      distance: 150,
+      color: "#ffffff",
+      opacity: 0.4,
+      width: 1
+    },
+    move: {
+      enable: true,
+      speed: 6,
+      direction: "none",
+      random: false,
+      straight: false,
+      out_mode: "out",
+      bounce: false,
+      attract: { enable: false, rotateX: 600, rotateY: 1200 }
+    }
+  },
+  interactivity: {
+    detect_on: "canvas",
+    events: {
+      onhover: { enable: true, mode: "repulse" },
+      onclick: { enable: true, mode: "push" },
+      resize: true
+    },
+    modes: {
+      grab: { distance: 400, line_linked: { opacity: 1 } },
+      bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
+      repulse: { distance: 200, duration: 0.4 },
+      push: { particles_nb: 4 },
+      remove: { particles_nb: 2 }
+    }
+  },
+  retina_detect: true
+});
+var count_particles, stats, update;
+stats = new Stats();
+stats.setMode(0);
+stats.domElement.style.position = "absolute";
+stats.domElement.style.left = "0px";
+stats.domElement.style.top = "0px";
+document.body.appendChild(stats.domElement);
+count_particles = document.querySelector(".js-count-particles");
+update = function () {
+  stats.begin();
+  stats.end();
+  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+  }
+  requestAnimationFrame(update);
+};
+requestAnimationFrame(update);
+
+</script>
 
 	<script>
 		function setREVStartSize(t) {
