@@ -180,6 +180,12 @@
 			color: #fff;
 		}
 
+		.homeBanner__cnt h1 {
+			font-size: calc(24px + (42 - 24) * ((100vw - 767px) / (1920 - 767)));
+			margin: 35px 0;
+			font-family: "Montserrat-Bold";
+		}
+
 		.client-image {
 			transition: all ease .4s;
 			height: 100px;
@@ -203,9 +209,15 @@
 			cursor: pointer;
 		}
 
+
 		@media (max-width: 767.98px) {
 			.homeBanner_logo {
 				margin-top: 25px;
+			}
+
+			.homeBanner__cnt h1 {
+				line-height: 30px;
+				padding: 0;
 			}
 
 		}
@@ -214,6 +226,12 @@
 			.homeBanner_logo {
 				position: static;
 				margin-top: 50px;
+			}
+		}
+
+		@media (max-width: 1699px) {
+			.homeBanner__cnt h1 {
+				margin: 20px 0;
 			}
 		}
 	</style>
